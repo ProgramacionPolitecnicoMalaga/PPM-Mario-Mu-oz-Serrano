@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fdf06aa-1fde-4fe7-a283-7fef5d370970" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjercicioTiradas/META-INF/EjercicioTiradas.kotlin_module" beforeDir="false" />
-    </list>
+    <list default="true" id="df315710-41bd-4475-b9c9-23d03943fc1c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,17 +11,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="ProjectId" id="1SuvPfx1Vtq7QRw9aNVAAyHOnWI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1SncikrV30Q1IxrEh30QTRmvGxY" />
   <component name="PropertiesComponent">
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="375" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -40,16 +33,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tiradas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tiradas" />
-      <module name="EjercicioTiradas" />
+    <configuration name="ProgramaProductos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgramaProductos" />
+      <module name="Ejercicio11Productos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tiradas" />
+        <item itemvalue="Application.ProgramaProductos" />
       </list>
     </recent_temporary>
   </component>
@@ -58,23 +51,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9fdf06aa-1fde-4fe7-a283-7fef5d370970" name="Default Changelist" comment="" />
-      <created>1572426272702</created>
+      <changelist id="df315710-41bd-4475-b9c9-23d03943fc1c" name="Default Changelist" comment="" />
+      <created>1572202929395</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572426272702</updated>
+      <updated>1572202929395</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
