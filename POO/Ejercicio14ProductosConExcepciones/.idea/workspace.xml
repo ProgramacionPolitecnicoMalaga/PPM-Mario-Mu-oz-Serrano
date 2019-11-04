@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df315710-41bd-4475-b9c9-23d03943fc1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ejercicio11Productos/LoteDeProductos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicio11Productos/LoteDeProductos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicio11Productos/ProgramaProductos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicio11Productos/ProgramaProductos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoteDeProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoteDeProductos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgramaProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgramaProductos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visual/EjercicioTiradas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/EjercicioTiradas/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +73,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

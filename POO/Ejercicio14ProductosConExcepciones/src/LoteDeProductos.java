@@ -14,7 +14,7 @@ public class LoteDeProductos {
 
     Producto getProductoEnPosicion(int i) throws ProductPositionException{
 
-        if ((i >= 0) && (i <= numeroProductosAlmacenados)) {
+        if ((i >= 0) && (i <= productos.length)) {
             return productos[i];
         }
 
