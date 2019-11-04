@@ -113,6 +113,7 @@
                 </constraints>
                 <properties>
                   <editable value="false"/>
+                  <text value=""/>
                 </properties>
               </component>
               <component id="9811a" class="javax.swing.JLabel" binding="porcentajeCara">

@@ -44,14 +44,17 @@ public class Tiradas {
                 txtMultipleCruz.setText("");
                 imgMultipleCara.setIcon(null);
                 imgMultipleCruz.setIcon(null);
+
                 if (moneda.getTiradaUnica()==cara){
                     imgTirada.setIcon(new ImageIcon(caraImagen));
                     txtResultadoTirada.setText("Salió cara!");
                 }
+
                 if (moneda.getTiradaUnica()==cruz){
                     imgTirada.setIcon(new ImageIcon(cruzImagen));
                     txtResultadoTirada.setText("Salió cruz!");
                 }
+
                 txtCara.setText(String.valueOf(moneda.getCantidadTotalCara()));
                 txtCruz.setText(String.valueOf(moneda.getCantidadTotalCruz()));
                 txtCantidadTotalTiradas.setText(String.valueOf(moneda.getCantidadTotalTiradas()));
@@ -99,7 +102,6 @@ public class Tiradas {
                 txtCantidadTotalTiradas.setText("");
                 txtPorcentajeCara.setText("");
                 txtPorcentajeCruz.setText("");
-
             }
 
         });
