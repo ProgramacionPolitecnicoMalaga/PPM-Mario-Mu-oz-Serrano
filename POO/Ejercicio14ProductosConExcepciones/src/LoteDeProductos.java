@@ -19,7 +19,7 @@ public class LoteDeProductos {
         }
 
         else {
-            throw new ProductPositionException("La posición no es valida. ", numeroProductosAlmacenados);
+            throw new ProductPositionException("La posición no es valida. ", productos.length);
         }
     }
 
