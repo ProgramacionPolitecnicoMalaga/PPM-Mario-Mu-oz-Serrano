@@ -10,14 +10,9 @@ public class Tiradas {
     private JButton tiradaMultipleButton;
     private JButton limpiarButton;
     private JTextField txtCantidadTotalTiradas;
-    private JPanel panelAMD;
     private JTextField txtCruz;
     private JTextField txtPorcentajeCruz;
-    private JLabel PorcentajeCruz;
-    private JLabel Cara;
-    private JLabel Cruz;
     private JTextField txtCara;
-    private JLabel porcentajeCara;
     private JTextField txtPorcentajeCara;
     private JLabel imgTirada;
     private JLabel txtResultadoTirada;
@@ -25,12 +20,11 @@ public class Tiradas {
     private JLabel txtMultipleCara;
     private JLabel imgMultipleCruz;
     private JLabel txtMultipleCruz;
-    private JLabel label;
     private Moneda moneda = new Moneda();
     private static final int cara = 0;
     private static final int cruz = 1;
-    private ImageIcon caraImg = new ImageIcon("Cara.png");
-    private ImageIcon cruzImg = new ImageIcon("Cruz.png");
+    private ImageIcon caraImg = new ImageIcon("cara.png");
+    private ImageIcon cruzImg = new ImageIcon("cruz.png");
     private Image caraImagen = caraImg.getImage();
     private Image cruzImagen = cruzImg.getImage();
 
@@ -44,17 +38,14 @@ public class Tiradas {
                 txtMultipleCruz.setText("");
                 imgMultipleCara.setIcon(null);
                 imgMultipleCruz.setIcon(null);
-
                 if (moneda.getTiradaUnica()==cara){
                     imgTirada.setIcon(new ImageIcon(caraImagen));
                     txtResultadoTirada.setText("Salió cara!");
                 }
-
                 if (moneda.getTiradaUnica()==cruz){
                     imgTirada.setIcon(new ImageIcon(cruzImagen));
                     txtResultadoTirada.setText("Salió cruz!");
                 }
-
                 txtCara.setText(String.valueOf(moneda.getCantidadTotalCara()));
                 txtCruz.setText(String.valueOf(moneda.getCantidadTotalCruz()));
                 txtCantidadTotalTiradas.setText(String.valueOf(moneda.getCantidadTotalTiradas()));
@@ -116,5 +107,4 @@ public class Tiradas {
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
-
 }

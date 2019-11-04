@@ -34,7 +34,7 @@ public class Moneda {
         for (int x=0 ; x<tiradaMultiple.length;x++){
             tiradaMultiple[x] = (int) (Math.random() * 2);
 
-                if(tiradaMultiple[x]==0){
+            if(tiradaMultiple[x]==0){
                 cantidadTotalCara++;
                 cantidadCaraTiradaMultiple++;
             }
@@ -45,6 +45,8 @@ public class Moneda {
             cantidadTotalTiradas++;
         }
     }
+
+
 
     public void reiniciar() {
         cantidadTotalCara=0;

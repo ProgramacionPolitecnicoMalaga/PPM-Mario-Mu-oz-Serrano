@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fdf06aa-1fde-4fe7-a283-7fef5d370970" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Proyecto Cola Excepcion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto Cola Excepcion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjercicioTiradas/Tiradas$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjercicioTiradas/Tiradas$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjercicioTiradas/Tiradas$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjercicioTiradas/Tiradas$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjercicioTiradas/Tiradas$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjercicioTiradas/Tiradas$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjercicioTiradas/Tiradas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjercicioTiradas/Tiradas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiradas.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiradas.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiradas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiradas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hipotenusa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hipotenusa/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9fdf06aa-1fde-4fe7-a283-7fef5d370970" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +16,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
   </component>
   <component name="ProjectId" id="1SuvPfx1Vtq7QRw9aNVAAyHOnWI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="375" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Programación/EjercicioTiradas" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="199" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="362" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proyectos/PPM-David-Fernandez-Flores/Cara_o_Cruz" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,5 +77,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+    </ignored-roots>
   </component>
 </project>

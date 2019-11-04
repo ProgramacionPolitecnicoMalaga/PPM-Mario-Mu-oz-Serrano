@@ -20,7 +20,7 @@ public class Producto {
 
     public String toString(){
         return "\n=======================================\n"
-                + "Nombre: " + nombre + "\nPrecio: " + precio + "€" + "\nValoracion: " + valoracion + "\n";
+                + "Nombre: " + nombre + "\nPrecio: " + precio + "€" + "\nValoración: " + valoracion + "\n";
     }
 
 }
