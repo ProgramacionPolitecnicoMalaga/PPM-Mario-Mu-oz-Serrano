@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fdf06aa-1fde-4fe7-a283-7fef5d370970" name="Default Changelist" comment="" />
+    <list default="true" id="9fdf06aa-1fde-4fe7-a283-7fef5d370970" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/out/production/Ejercicio CSV/csvBuscador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/out/production/Ejercicio CSV/csvBuscador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,14 +20,15 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1SuvPfx1Vtq7QRw9aNVAAyHOnWI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="199" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="362" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proyectos/PPM-David-Fernandez-Flores/Cara_o_Cruz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Programación/EjercicioCarrito" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
