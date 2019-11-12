@@ -55,7 +55,6 @@ public class csvBuscador {
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
-        frame.setMinimumSize(new Dimension(800, 600));
     }
 
     public String buscarProductos(String[] linea){

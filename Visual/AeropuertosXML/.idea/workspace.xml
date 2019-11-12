@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8af6655-02d4-45b2-8e3f-c626d61d8013" name="Default Changelist" comment="" />
+    <list default="true" id="e8af6655-02d4-45b2-8e3f-c626d61d8013" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../EjercicioCarrito/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AeropuertosXML/Aeropuertos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AeropuertosXML/Aeropuertos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/out/production/Ejercicio CSV/csvBuscador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/out/production/Ejercicio CSV/csvBuscador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.form" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioCarrito/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioCarrito/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioCarrito/out/production/EjercicioCarrito/META-INF/EjercicioCarrito.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioTiradas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioTiradas/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +26,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1TTYlZgYwMKsul1A0Ez5GBBFuWL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PPM-Mario-Munoz-Serrano/Visual/EjercicioCarrito" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Programación/Ejercicio15" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -61,10 +76,26 @@
       <workItem from="1573501761740" duration="2052000" />
       <workItem from="1573504283199" duration="313000" />
       <workItem from="1573550785595" duration="387000" />
+      <workItem from="1573551493480" duration="24000" />
+      <workItem from="1573556928799" duration="2463000" />
+      <workItem from="1573577727497" duration="1596000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
