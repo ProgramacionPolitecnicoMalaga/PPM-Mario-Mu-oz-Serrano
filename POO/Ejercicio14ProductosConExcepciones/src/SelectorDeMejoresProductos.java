@@ -1,4 +1,4 @@
 public interface SelectorDeMejoresProductos {
 
-    public LoteDeProductos elegirMejoresProductos(LoteDeProductos lote);
+    LoteDeProductos elegirMejoresProductos(LoteDeProductos lote);
 }

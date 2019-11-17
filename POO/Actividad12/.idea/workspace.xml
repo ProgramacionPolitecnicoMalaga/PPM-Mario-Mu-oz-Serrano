@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df315710-41bd-4475-b9c9-23d03943fc1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectorDeMejoresProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectorDeMejoresProductos.java" afterDir="false" />
-    </list>
+    <list default="true" id="13e9a94b-1b23-4944-9d92-4a5b1c57a10e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Actividad12" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -19,16 +33,11 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="ProjectId" id="1SncikrV30Q1IxrEh30QTRmvGxY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1ThEBUnGdnSUURB9gsjix8SwY7j" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PPM-Mario-Munoz-Serrano/POO/Ejercicio14ProductosConExcepciones" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,16 +52,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ProgramaProductos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProgramaProductos" />
-      <module name="Ejercicio11Productos" />
+    <configuration name="Programa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programa" />
+      <module name="Actividad12" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProgramaProductos" />
+        <item itemvalue="Application.Programa" />
       </list>
     </recent_temporary>
   </component>
@@ -61,30 +70,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="df315710-41bd-4475-b9c9-23d03943fc1c" name="Default Changelist" comment="" />
-      <created>1572202929395</created>
+      <changelist id="13e9a94b-1b23-4944-9d92-4a5b1c57a10e" name="Default Changelist" comment="" />
+      <created>1573903791672</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572202929395</updated>
-      <workItem from="1573909305672" duration="706000" />
-      <workItem from="1573920897123" duration="54000" />
+      <updated>1573903791672</updated>
+      <workItem from="1573903794594" duration="6093000" />
+      <workItem from="1573917491083" duration="3890000" />
+      <workItem from="1573922120942" duration="2089000" />
+      <workItem from="1573938678596" duration="7712000" />
+      <workItem from="1573983337042" duration="1053000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
