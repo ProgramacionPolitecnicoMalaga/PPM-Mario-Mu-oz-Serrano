@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8af6655-02d4-45b2-8e3f-c626d61d8013" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EjercicioCarrito/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/Proyecto Cola Excepcion/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/Proyecto Cola Excepcion/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/Proyecto Cola Excepcion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/Proyecto Cola Excepcion/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AeropuertosXML/Aeropuertos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AeropuertosXML/Aeropuertos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/out/production/Ejercicio CSV/csvBuscador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/out/production/Ejercicio CSV/csvBuscador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.form" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjercicioCarrito/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioCarrito/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjercicioCarrito/out/production/EjercicioCarrito/META-INF/EjercicioCarrito.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjercicioTiradas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioTiradas/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +72,7 @@
       <workItem from="1573551493480" duration="24000" />
       <workItem from="1573556928799" duration="2463000" />
       <workItem from="1573577727497" duration="1596000" />
+      <workItem from="1574094053149" duration="674000" />
     </task>
     <servers />
   </component>
