@@ -40,7 +40,9 @@ public class RankingPilotos extends PilotosVisual{
                 bw.newLine();
             }
             bw.close();
-        } catch (Throwable t) {}
+        } catch (Exception ignored) {
+
+        }
     }
 
      public void generarCarrera() {

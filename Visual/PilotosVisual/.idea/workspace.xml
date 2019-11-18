@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4c79a38-030c-40d9-ac15-24569c7ae158" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AeropuertosXML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AeropuertosXML/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjercicioTiradas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioTiradas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PilotosVisual/Piloto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PilotosVisual/Piloto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PilotosVisual/PilotosVisual$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PilotosVisual/PilotosVisual$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PilotosVisual/RankingPilotos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PilotosVisual/RankingPilotos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Piloto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Piloto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PilotosVisual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PilotosVisual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RankingPilotos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RankingPilotos.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +27,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MapaMundo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -86,6 +78,7 @@
       <workItem from="1573577946292" duration="6760000" />
       <workItem from="1573587434913" duration="5174000" />
       <workItem from="1574097044161" duration="3364000" />
+      <workItem from="1574117994439" duration="255000" />
     </task>
     <servers />
   </component>
@@ -97,7 +90,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
