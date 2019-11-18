@@ -1,5 +1,7 @@
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.ArrayList;
 
 public class RankingPilotos extends PilotosVisual{
@@ -27,7 +29,19 @@ public class RankingPilotos extends PilotosVisual{
         } catch(Exception ex) {
             ex.printStackTrace();
         }
+    }
+
+    public void generarCSV (String nombreArchivo) {
+        try {
+            BufferedWriter bw = new BufferedWriter (new FileWriter(nombreArchivo + ".csv"));
+            for (int i=0;i<rankingPilotos.size();i++) {
+                Piloto piloto = rankingPilotos.get(i);
+                bw.write(piloto.getNombre() + ";" + piloto.getEscuderia() +";"+ piloto.getPosicionActual());
+                bw.newLine();
             }
+            bw.close();
+        } catch (Throwable t) {}
+    }
 
      public void generarCarrera() {
 

@@ -10,6 +10,7 @@ public class PilotosVisual {
     public JPanel panelMain;
     private JButton iniciarButton;
     private JButton CarreraButton;
+    private int aumento = 1;
 
     public PilotosVisual() {
 
@@ -35,6 +36,9 @@ public class PilotosVisual {
                 rankingPilotos.AnadirPilotos();
                 textAreaCarrera.append("\nNUEVA CARRERA GENERADA:\n\n");
                 rankingPilotos.generarCarrera();
+                String nombreArchivo = "carrera" + aumento;
+                rankingPilotos.generarCSV(nombreArchivo);
+                aumento++;
                 Iterator it = rankingPilotos.obtenerRanking().iterator();
                 while (it.hasNext()) {
                     textAreaCarrera.append(((it.next().toString())));

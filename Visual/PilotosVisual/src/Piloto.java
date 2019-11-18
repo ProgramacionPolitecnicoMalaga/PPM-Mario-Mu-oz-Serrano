@@ -1,9 +1,9 @@
 public class Piloto extends PilotosVisual {
 
-    String nombre;
-    String escuderia;
-    int posicionDeSalida;
-    int posicionActual;
+    private String nombre;
+    private String escuderia;
+    private int posicionDeSalida;
+    private int posicionActual;
 
     public Piloto(String nombre, String escuderia, int posicionDeSalida, int posicionActual){
         this.nombre=nombre;
@@ -16,11 +16,17 @@ public class Piloto extends PilotosVisual {
         return nombre;
     }
 
+    public String getEscuderia(){
+        return escuderia;
+    }
+
+    public int getPosicionActual() {
+        return posicionActual;
+    }
+
     public void setPosicionActual(int posicionActual){
         this.posicionActual=posicionActual;
     }
-
-
 
     @Override
     public String toString() {

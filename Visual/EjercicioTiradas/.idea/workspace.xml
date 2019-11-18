@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdf06aa-1fde-4fe7-a283-7fef5d370970" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EjercicioCarrito/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AeropuertosXML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AeropuertosXML/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AeropuertosXML/out/production/AeropuertosXML/Aeropuertos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AeropuertosXML/out/production/AeropuertosXML/Aeropuertos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/out/production/Ejercicio CSV/csvBuscador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/out/production/Ejercicio CSV/csvBuscador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.form" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjercicioCarrito/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioCarrito/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjercicioCarrito/out/production/EjercicioCarrito/META-INF/EjercicioCarrito.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +28,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="362" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PilotosVisual" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -78,6 +69,7 @@
       <updated>1572426272702</updated>
       <workItem from="1573583024610" duration="9000" />
       <workItem from="1573583417270" duration="4000" />
+      <workItem from="1574096330987" duration="711000" />
     </task>
     <servers />
   </component>
