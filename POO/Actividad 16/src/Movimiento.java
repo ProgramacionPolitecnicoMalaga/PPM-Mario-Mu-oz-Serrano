@@ -26,6 +26,10 @@ public class Movimiento {
         return casillaOriginal;
     }
 
+    public int getCasillaSiguiente() {
+        return casillaSiguiente;
+    }
+
     @Override
     public String toString() {
         if (tipo.equals("avance")) {

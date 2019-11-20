@@ -36,16 +36,9 @@ public class Jugador {
     public void deshacer() {
         Movimiento movimiento = funcionesJuego.undo();
         if (movimiento != null) {
-            if (movimiento.getTipo().equals("avance")) {
-                casillaActual = casillaActual - movimiento.getNumero();
-                System.out.println("El jugador " + nombreJugador + " deshace un movimiento, casilla actual: " + casillaActual);
-            }
-            if (movimiento.getTipo().equals("retroceso")) {
-                casillaActual = movimiento.getCasillaOriginal();
-                System.out.println("El jugador " + nombreJugador + " deshace un movimiento, casilla actual: " + casillaActual);
-            }
-        }
-        else {
+            casillaActual = movimiento.getCasillaOriginal();
+            System.out.println("El jugador " + nombreJugador + " deshace un movimiento, casilla actual: " + casillaActual);
+        } else {
             System.out.println("No se puede deshacer ningún movimiento.");
         }
     }
@@ -53,14 +46,8 @@ public class Jugador {
     public void rehacer() {
         Movimiento movimiento = funcionesJuego.redo();
         if (movimiento != null) {
-            if (movimiento.getTipo().equals("avance")) {
-                casillaActual = casillaActual + movimiento.getNumero();
-                System.out.println("El jugador " + nombreJugador + " rehace un movimiento, casilla actual: " + casillaActual);
-            }
-            if (movimiento.getTipo().equals("retroceso")) {
-                casillaActual = movimiento.getCasillaOriginal();
-                System.out.println("El jugador " + nombreJugador + " rehace un movimiento, casilla actual: " + casillaActual);
-            }
+            casillaActual = movimiento.getCasillaSiguiente();
+            System.out.println("El jugador " + nombreJugador + " rehace un movimiento, casilla actual: " + casillaActual);
         } else {
             System.out.println("No se puede rehacer ningún movimiento.");
             }

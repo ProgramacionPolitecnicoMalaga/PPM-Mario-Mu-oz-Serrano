@@ -14,6 +14,7 @@ public class funcionesJuego {
     public void guardarMovimiento(Movimiento movimiento) {
         historial.add(movimiento);
         rehacer = false;
+        deshechos = new LinkedList<>();
     }
 
     public Movimiento undo(){
@@ -49,7 +50,4 @@ public class funcionesJuego {
             System.out.println((((lIt.next().toString()))));
         }
     }
-
-
-
 }
