@@ -4,8 +4,6 @@
     <list default="true" id="7f48b942-a348-4a59-bd28-be8ca9c4ab98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/out/production/PilotosVisual/RankingPilotos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/out/production/PilotosVisual/RankingPilotos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/src/RankingPilotos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/src/RankingPilotos.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +74,10 @@
       <updated>1574093936357</updated>
       <workItem from="1574093942134" duration="1304000" />
       <workItem from="1574118250677" duration="79000" />
+      <workItem from="1574161320246" duration="9000" />
+      <workItem from="1574164861518" duration="455000" />
+      <workItem from="1574176254599" duration="1075000" />
+      <workItem from="1574235333599" duration="1817000" />
     </task>
     <servers />
   </component>
@@ -87,7 +89,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

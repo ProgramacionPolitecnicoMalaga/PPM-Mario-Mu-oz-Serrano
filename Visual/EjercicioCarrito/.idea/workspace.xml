@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc015dd-57e3-4158-8957-f40d768bf5b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AeropuertosXML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AeropuertosXML/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/out/production/Ejercicio CSV/csvBuscador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/out/production/Ejercicio CSV/csvBuscador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.form" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio CSV/src/csvBuscador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EjercicioCarrito/META-INF/EjercicioCarrito.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MapaMundo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MapaMundo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +28,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ejercicio CSV" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,6 +71,7 @@
       <workItem from="1573496471542" duration="475000" />
       <workItem from="1573551518720" duration="493000" />
       <workItem from="1573552089695" duration="842000" />
+      <workItem from="1574533317806" duration="605000" />
     </task>
     <servers />
   </component>
