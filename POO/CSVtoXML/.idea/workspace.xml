@@ -19,7 +19,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArrayListVSLinkedList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PPM-Mario-Munoz-Serrano/POO/CSVtoXML" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -34,8 +34,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Conversor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Conversor" />
+    <configuration name="ConversorAerolineas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConversorAerolineas" />
       <module name="CSVtoXML" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -51,7 +51,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Conversor" />
+        <item itemvalue="Application.ConversorAerolineas" />
       </list>
     </recent_temporary>
   </component>
@@ -67,6 +67,14 @@
       <updated>1574699151296</updated>
       <workItem from="1574699154969" duration="8739000" />
       <workItem from="1574708046937" duration="791000" />
+      <workItem from="1574709329541" duration="52000" />
+      <workItem from="1574709412965" duration="7000" />
+      <workItem from="1574716715359" duration="204000" />
+      <workItem from="1574760250422" duration="61000" />
+      <workItem from="1574760671723" duration="363000" />
+      <workItem from="1574766764791" duration="634000" />
+      <workItem from="1574768808907" duration="485000" />
+      <workItem from="1574785063725" duration="5796000" />
     </task>
     <servers />
   </component>
