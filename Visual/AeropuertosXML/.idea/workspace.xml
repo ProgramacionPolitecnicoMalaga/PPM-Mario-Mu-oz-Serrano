@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8af6655-02d4-45b2-8e3f-c626d61d8013" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PilotosVisual/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CSVtoXML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/CSVtoXML/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EjercicioTiradas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioTiradas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aeropuertos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aeropuertos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/out/production/PilotosVisual/Piloto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/out/production/PilotosVisual/Piloto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/out/production/PilotosVisual/PilotosVisual$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/out/production/PilotosVisual/PilotosVisual$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/out/production/PilotosVisual/RankingPilotos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/out/production/PilotosVisual/RankingPilotos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/src/Piloto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/src/Piloto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/src/PilotosVisual.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/src/PilotosVisual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/src/RankingPilotos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/src/RankingPilotos.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +75,7 @@
       <workItem from="1573577727497" duration="1596000" />
       <workItem from="1574094053149" duration="674000" />
       <workItem from="1574098806190" duration="383000" />
+      <workItem from="1574799601088" duration="905000" />
     </task>
     <servers />
   </component>

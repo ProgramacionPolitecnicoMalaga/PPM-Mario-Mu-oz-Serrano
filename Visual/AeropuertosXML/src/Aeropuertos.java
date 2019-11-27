@@ -26,7 +26,6 @@ public class Aeropuertos {
                 textAreaResultados.setText("");
                 boolean indicadorPais = false;
                 File inputFile = new File(dir + File.separator + "aeropuertos.xml");
-
                 try {
                     DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
                     DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
