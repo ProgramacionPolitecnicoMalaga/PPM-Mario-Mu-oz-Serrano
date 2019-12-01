@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tareas>
+	<proyecto nombre="Lunar" departamento="Espacial" descripción="Satélite lunar" horas="0"/>
+	<proyecto nombre="Stratos" departamento="I+D" descripción="Investigación" horas="0"/>
+	<proyecto nombre="Leonard" departamento="Becarios" descripción="Proyecto fase beta" horas="5"/>
+	<proyecto nombre="Gforce" departamento="Desarrollo" descripción="Desarollo interactivo" horas="0"/>
+	<proyecto nombre="Alphasec" departamento="Seguridad" descripción="Seguridad empresa" horas="3"/>
+</tareas>

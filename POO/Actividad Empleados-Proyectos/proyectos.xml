@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<proyectos>
+	<proyecto nombre="Alphasec" departamento="Seguridad" fprod="2.5">Seguridad empresa</proyecto>
+	<proyecto nombre="Gforce" departamento="Desarrollo" fprod="1.8">Desarollo interactivo</proyecto>
+	<proyecto nombre="Lunar" departamento="Espacial" fprod="5">Satélite lunar</proyecto>
+	<proyecto nombre="Stratos" departamento="I+D" fprod="4.5">Investigación</proyecto>
+	<proyecto nombre="Leonard" departamento="Becarios" fprod="0.5">Proyecto fase beta</proyecto>
+</proyectos>

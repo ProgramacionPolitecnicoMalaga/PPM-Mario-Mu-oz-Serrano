@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Leonard>
+	<departamento>Leonard</departamento>
+	<descripcion>Proyecto fase beta</descripcion>
+	<empleado nombre="Alonso Gallardo">
+		<horas>5</horas>
+	<empleado nombre="Antonio Perez">
+		<horas>3</horas>
+</Leonard>
