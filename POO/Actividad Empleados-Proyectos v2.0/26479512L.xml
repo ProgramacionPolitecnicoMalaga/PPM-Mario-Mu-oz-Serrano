@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleado categoría="Técnico" dni="26479512L" nombre="Javier Gonzalez">
+    <actividad horas="1" proyecto="Alphasec">Avance fase beta1</actividad>
+    <actividad horas="2" proyecto="Alphasec">Avance fase beta2</actividad>
+    <actividad horas="3" proyecto="Alphasec">Avance fase beta3</actividad>
+    <actividad horas="4" proyecto="Alphasec">Avance fase beta4</actividad>
+</empleado>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<proyecto departamento="Seguridad" fprod="2.5" nombre="Alphasec">
+    <descripcion>Seguridad empresa</descripcion>
+    <actividad horas="1">
+        <descripcion>Avance fase beta1</descripcion>
+        <empleado categoría="Técnico" dni="26479512L" nombre="Javier Gonzalez"/>
+    </actividad>
+    <actividad horas="2">
+        <descripcion>Avance fase beta2</descripcion>
+        <empleado categoría="Técnico" dni="26479512L" nombre="Javier Gonzalez"/>
+    </actividad>
+    <actividad horas="3">
+        <descripcion>Avance fase beta3</descripcion>
+        <empleado categoría="Técnico" dni="26479512L" nombre="Javier Gonzalez"/>
+    </actividad>
+    <actividad horas="4">
+        <descripcion>Avance fase beta4</descripcion>
+        <empleado categoría="Técnico" dni="26479512L" nombre="Javier Gonzalez"/>
+    </actividad>
+</proyecto>

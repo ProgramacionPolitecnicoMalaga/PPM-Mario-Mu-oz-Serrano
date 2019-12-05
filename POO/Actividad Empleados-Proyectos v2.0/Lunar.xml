@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<proyecto departamento="Espacial" fprod="5.0" nombre="Lunar">
+    <descripcion>Satélite lunar</descripcion>
+    <actividad horas="7">
+        <descripcion>Desarrollo de la fase final del proyecto</descripcion>
+        <empleado categoría="Técnico" dni="26479512L" nombre="Javier Gonzalez"/>
+    </actividad>
+    <actividad horas="7">
+        <descripcion>Desarrollo de la fase final del proyecto</descripcion>
+        <empleado categoría="Técnico" dni="26479512L" nombre="Javier Gonzalez"/>
+    </actividad>
+    <actividad horas="7">
+        <descripcion>Desarrollo de la fase final del proyecto</descripcion>
+        <empleado categoría="Técnico" dni="26479512L" nombre="Javier Gonzalez"/>
+    </actividad>
+</proyecto>

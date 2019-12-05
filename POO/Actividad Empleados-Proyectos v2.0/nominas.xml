@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<nominas>
+    <nomina dni="26479512L" nombre="Javier Gonzalez">
+        <sueldo apartado="base" valor="900.0"/>
+        <sueldo apartado="productividad" valor="25.0"/>
+        <sueldo apartado="total" valor="925.0"/>
+    </nomina>
+    <nomina dni="24624135M" nombre="Federico Gutierrez">
+        <sueldo apartado="base" valor="1400.0"/>
+        <sueldo apartado="productividad" valor="0.0"/>
+        <sueldo apartado="total" valor="0.0"/>
+    </nomina>
+    <nomina dni="63424671N" nombre="Alonso Gallardo">
+        <sueldo apartado="base" valor="1800.0"/>
+        <sueldo apartado="productividad" valor="0.0"/>
+        <sueldo apartado="total" valor="0.0"/>
+    </nomina>
+    <nomina dni="57234134B" nombre="Manuel Dominguez">
+        <sueldo apartado="base" valor="2500.0"/>
+        <sueldo apartado="productividad" valor="0.0"/>
+        <sueldo apartado="total" valor="0.0"/>
+    </nomina>
+    <nomina dni="48395713A" nombre="Antonio Perez">
+        <sueldo apartado="base" valor="3500.0"/>
+        <sueldo apartado="productividad" valor="0.0"/>
+        <sueldo apartado="total" valor="0.0"/>
+    </nomina>
+</nominas>
