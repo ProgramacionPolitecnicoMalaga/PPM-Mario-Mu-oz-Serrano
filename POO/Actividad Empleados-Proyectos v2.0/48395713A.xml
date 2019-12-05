@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleado categoría="Jefe de operaciones" dni="48395713A" nombre="Antonio Perez">
+    <actividad horas="3" proyecto="Leonard">Avance fase beta3</actividad>
+    <actividad horas="4" proyecto="Stratos">Avance fase beta4</actividad>
+</empleado>

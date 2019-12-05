@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<proyecto departamento="Becarios" fprod="0.5" nombre="Leonard">
+    <descripcion>Proyecto fase beta</descripcion>
+    <actividad horas="3">
+        <descripcion>Avance fase beta3</descripcion>
+        <empleado categoría="Administrador" dni="24624135M" nombre="Federico Gutierrez"/>
+    </actividad>
+    <actividad horas="3">
+        <descripcion>Avance fase beta3</descripcion>
+        <empleado categoría="Jefe de operaciones" dni="48395713A" nombre="Antonio Perez"/>
+    </actividad>
+</proyecto>

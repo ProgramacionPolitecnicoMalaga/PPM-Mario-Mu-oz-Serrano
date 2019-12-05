@@ -99,8 +99,8 @@ public class GestorEmpleados {
                 System.out.println(actividad);
                 actividadesPorEmpleado.add(actividad);
             }
-            componerXMLActividadesPorEmpleado(actividadesPorEmpleado);
         }
+        componerXMLActividadesPorEmpleado(actividadesPorEmpleado);
     }
 
     public void listadoDeActividadesProyecto(String nombreProyecto) {
@@ -114,8 +114,8 @@ public class GestorEmpleados {
                 System.out.println(actividad);
                 actividadesPorProyecto.add(actividad);
             }
-            componerXMLActividadesPorProyecto(actividadesPorProyecto);
         }
+        componerXMLActividadesPorProyecto(actividadesPorProyecto);
     }
 
     public void listadoDeNominas() {
