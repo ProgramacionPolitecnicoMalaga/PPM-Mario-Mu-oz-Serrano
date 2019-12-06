@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cursos>
+    <curso id="S11AW" nombre="1º Desarrollo de Aplicaciones Web">
+        <asignatura id="prog" nombre="Programación"/>
+        <asignatura id="ed" nombre="Entornos de desarrollo"/>
+    </curso>
+    <curso id="S11ASM" nombre="1º Administración de sistemas informáticos">
+        <asignatura id="bdd" nombre="Bases de datos"/>
+        <asignatura id="sor" nombre="Sistemas operativos en red"/>
+    </curso>
+</cursos>

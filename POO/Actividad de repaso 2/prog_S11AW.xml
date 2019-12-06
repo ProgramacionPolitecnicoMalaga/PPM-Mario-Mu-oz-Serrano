@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<asignatura id="prog" nombre="Programación" curso="S11AW">
+    <alumno nombre="Juan José López López">
+        <indicador tipo="actividad" nombre="Ejercicio 1. Programación estructurada" nota="7.5">
+            El alumno no siguió las indicaciones.
+        </indicador>
+        <indicador tipo="examen" nombre="Examen tema 1" nota="6.75">
+            Errores en el apartado b) del ejercicio 2. Ejercicio 3 sin hacer.
+        </indicador>
+    </alumno>
+    <alumno nombre="Manuel Dominguez">
+        <indicador tipo="practica" nombre="práctica de máquinas virtuales" nota="10">
+            Perfecto
+        </indicador>
+        <indicador tipo="examen" nombre="Examen tema 4" nota="8.75">
+            Error en el último ejercicio
+        </indicador>
+    </alumno>
+</asignatura>
