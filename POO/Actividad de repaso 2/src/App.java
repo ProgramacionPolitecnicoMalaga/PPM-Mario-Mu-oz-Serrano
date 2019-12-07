@@ -2,6 +2,7 @@ public class App {
 
     public static void main(String[] args) {
         GestorXML gestorXML = new GestorXML();
+
         Cursos cursos = new Cursos();
         System.out.println("============================================================");
         System.out.println("           INTRODUCIR NUEVOS CURSOS Y ASIGNATURAS           ");
@@ -15,7 +16,7 @@ public class App {
         Asignatura asignatura2 = new Asignatura("lcl1","Lengua Castellana y literatura", curso1);
 
         System.out.println("============================================================");
-        System.out.println("           INTRODUCIR ALUMNOS Y ASOCIARLOS A UN CURSO       ");
+        System.out.println("         INTRODUCIR ALUMNOS Y ASOCIARLOS A UN CURSO         ");
         System.out.println("============================================================");
 
         Alumno alumno1 = new Alumno("Antonio Sanchez","15495845L", curso1);
@@ -60,9 +61,18 @@ public class App {
         asignatura2.listadoDeAlumnos();
 
         System.out.println("============================================================");
-        System.out.println("               LISTADO DE NOTAS DE CADA ALUMNO              ");
+        System.out.println("                 LISTADO DE NOTAS UN ALUMNO                 ");
         System.out.println("============================================================");
         alumno1.listadoDeNotas();
-        alumno2.listadoDeNotas();
+
+        System.out.println("============================================================");
+        System.out.println("   AÑADIR LOS CURSOS Y ASIGNATURAS DESDE UN DOCUMENTO XML   ");
+        System.out.println("============================================================");
+        gestorXML.IntroducirCursosYAsignaturas();
+
+        System.out.println("============================================================");
+        System.out.println("   AÑADIR LOS ALUMNOS E INDICADORES DESDE UN DOCUMENTO XML  ");
+        System.out.println("============================================================");
+        gestorXML.MatricularAlumnosyAñadirIndicadores();
     }
 }

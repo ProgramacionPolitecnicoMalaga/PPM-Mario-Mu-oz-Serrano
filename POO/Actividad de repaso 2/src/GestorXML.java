@@ -1,91 +1,88 @@
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
+import org.w3c.dom.*;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathFactory;
 import java.io.File;
-import java.io.StringReader;
-import java.util.ArrayList;
 
     public class GestorXML {
 
-        private Cursos cursos = new Cursos();
+        String dir = System.getProperty("user.dir");
 
         public GestorXML() {
 
         }
 
-        public ArrayList<Curso> IntroducirCursosYAsignaturas() {
-            String dir = System.getProperty("user.dir");
-            ArrayList<Curso> listaCursos = new ArrayList<Curso>();
-            ArrayList<Asignatura> listaAsignaturas = new ArrayList<Asignatura>();
-            File inputFile = new File(dir + File.separator + "cursos.xml");
+        public void IntroducirCursosYAsignaturas() {
             try {
+                File inputFile = new File(dir + File.separator + "cursos.xml");
                 DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-                DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-                Document doc = dBuilder.parse(inputFile);
+                DocumentBuilder docBuilder = dbFactory.newDocumentBuilder();
+                Document doc = docBuilder.parse(inputFile);
                 doc.getDocumentElement().normalize();
-                NodeList nodeList = doc.getElementsByTagName("curso");
-                for(int temp = 0; temp < nodeList.getLength(); temp++) {
-                    Node nNode = nodeList.item(temp);
-                    Element eElement = (Element) nNode;
-                    NodeList nodeList3 = nNode.getChildNodes();
-                    System.out.println(nNode.getFirstChild());
-                    Curso curso = new Curso(eElement.getAttribute("id"), eElement.getAttribute("nombre"));
-                    cursos.introducirCurso(curso);
-                    NodeList nodeList2 = doc.getElementsByTagName("asignatura");
-                    for (int i = 0; i < nodeList2.getLength(); i++) {
-                        Node nNode2 = nodeList2.item(i);
-                        Element eLement2 = (Element) nNode2;
-                    }
-                }
-            } catch (Exception ex) {
-                ex.printStackTrace();
-            }
-            return listaCursos;
-        }
-
-        public ArrayList<Curso> MatricularAlumnosyAñadirIndicadores() {
-            String dir = System.getProperty("user.dir");
-            ArrayList<Curso> listaCursos = new ArrayList<Curso>();
-            File inputFile = new File(dir + File.separator + "prog_S11AW.xml");
-            try {
-                DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-                DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-                Document doc = dBuilder.parse(inputFile);
-                doc.getDocumentElement().normalize();
-                NodeList nodeList = doc.getElementsByTagName("asignatura");
-                for(int temp = 0; temp < nodeList.getLength(); temp++) {
-                    Node nNode = nodeList.item(temp);
-                    Element eElement = (Element) nNode;
-                    Curso curso = cursos.getCurso(eElement.getAttribute("curso"));
-                    Asignatura asignatura = curso.getAsignatura(eElement.getAttribute("id"));
-                    NodeList nodeList2 = doc.getElementsByTagName("alumno");
-                    for (int i = 0; i < nodeList2.getLength(); i++) {
-                        Node nNode2 = nodeList2.item(i);
-                        Element eLement2 = (Element) nNode2;
-                        Alumno alumno1 = new Alumno(eLement2.getAttribute("nombre"),
-                                 eLement2.getAttribute("dni"), curso);
-                        asignatura.matricularAlumno(alumno1);
-                        NodeList nodeList3 = doc.getElementsByTagName("indicador");
-                        for (int x = 0; x < nodeList3.getLength(); x++) {
-                            Node nNode3 = nodeList3.item(x);
-                            Element eLement3 = (Element) nNode3;
+                XPath xPath = XPathFactory.newInstance().newXPath();
+                NodeList cursos = (NodeList) xPath.compile("/cursos/curso").evaluate(doc, XPathConstants.NODESET);
+                if (cursos != null) {
+                    for (int i = 0; i < cursos.getLength(); i++) {
+                        Node curso = cursos.item(i);
+                        NamedNodeMap atributosCurso = curso.getAttributes();
+                        Curso nuevoCurso = new Curso(atributosCurso.getNamedItem("id").getTextContent(), atributosCurso.getNamedItem("nombre").getTextContent());
+                        Cursos.introducirCurso(nuevoCurso);
+                        NodeList asignaturas = curso.getChildNodes();
+                        for (int j = 0; j < asignaturas.getLength(); j++) {
+                            Node asignatura = asignaturas.item(j);
+                            if (asignatura.getNodeType() == Node.ELEMENT_NODE) {
+                                NamedNodeMap atributosAsignatura = asignatura.getAttributes();
+                                Asignatura nuevaAsignatura = new Asignatura(atributosAsignatura.getNamedItem("id").getTextContent(), atributosAsignatura.getNamedItem("nombre").getTextContent(), nuevoCurso);
+                            }
                         }
                     }
-
                 }
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
-            return listaCursos;
         }
 
-}
+        public void MatricularAlumnosyAñadirIndicadores() {
+            try {
+                File inputFile = new File(dir + File.separator + "prog_S11AW.xml");
+                DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+                DocumentBuilder docBuilder = dbFactory.newDocumentBuilder();
+                Document doc = docBuilder.parse(inputFile);
+                doc.getDocumentElement().normalize();
+                XPath xPath = XPathFactory.newInstance().newXPath();
+                NodeList elementos = (NodeList) xPath.compile("/asignatura").evaluate(doc, XPathConstants.NODESET);
+                if (elementos != null) {
+                    for (int i = 0; i < elementos.getLength(); i++) {
+                        Node elemento = elementos.item(i);
+                        NamedNodeMap atributosCurso = elemento.getAttributes();
+                        Curso curso = Cursos.getCurso(atributosCurso.getNamedItem("curso").getTextContent());
+                        Asignatura asignatura = curso.getAsignatura(atributosCurso.getNamedItem("id").getTextContent());
+                        NodeList alumnos = elemento.getChildNodes();
+                        for (int j = 0; j < alumnos.getLength(); j++) {
+                            Node alumno = alumnos.item(j);
+                            if (alumno.getNodeType() == Node.ELEMENT_NODE) {
+                                NamedNodeMap atributosAlumno = alumno.getAttributes();
+                                Alumno nuevoAlumno = new Alumno(atributosAlumno.getNamedItem("nombre").getTextContent(), atributosAlumno.getNamedItem("dni").getTextContent(), curso);
+                                asignatura.matricularAlumno(nuevoAlumno);
+                                NodeList indicadores = alumno.getChildNodes();
+                                for (int x = 0; x < indicadores.getLength(); x++) {
+                                    Node indicador = indicadores.item(x);
+                                    if (indicador.getNodeType() == Node.ELEMENT_NODE) {
+                                        NamedNodeMap atributosIndicador = indicador.getAttributes();
+                                        Indicador nuevoIndicador = new Indicador(atributosIndicador.getNamedItem("tipo").getTextContent(), atributosIndicador.getNamedItem("nombre").getTextContent(), asignatura);
+                                        nuevoAlumno.asignarNota(nuevoIndicador, new Nota(Double.parseDouble(atributosIndicador.getNamedItem("nota").getTextContent()), indicador.getTextContent()));
+                                        nuevoAlumno.listadoDeNotas();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
+

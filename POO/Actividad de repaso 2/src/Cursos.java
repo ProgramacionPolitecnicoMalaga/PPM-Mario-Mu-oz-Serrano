@@ -9,11 +9,11 @@ public class Cursos {
 
     }
 
-    public void introducirCurso(Curso curso) {
+    public static void introducirCurso(Curso curso) {
         listaCursos.add(curso);
     }
 
-    public Curso getCurso(String id) {
+    public static Curso getCurso(String id) {
         Iterator<Curso> it = listaCursos.iterator();
         while (it.hasNext()) {
             Curso curso = it.next();
@@ -24,9 +24,14 @@ public class Cursos {
         return null;
     }
 
-    public ArrayList<Curso> getListaAsignaturas() {
-        return listaCursos;
+    public void listadoDeCursos() {
+        Iterator<Curso> iterator = listaCursos.iterator();
+        while (iterator.hasNext()) {
+            Curso curso = iterator.next();
+            System.out.println(curso);
+            curso.listadoDeAsignaturas();
+            System.out.println("==========================================");
+        }
     }
-
 
 }

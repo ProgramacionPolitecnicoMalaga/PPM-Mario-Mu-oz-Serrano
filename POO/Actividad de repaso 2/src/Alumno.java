@@ -13,10 +13,6 @@ public class Alumno {
         this.curso = curso;
     }
 
-    public String getNombreYApellidos() {
-        return nombreYApellidos;
-    }
-
     public void añadirIndicador(Indicador indicador) {
         indicadoresNotas.put(indicador,null);
     }
@@ -36,26 +32,6 @@ public class Alumno {
                 System.out.println(key + "\n" + value);
             }
         }
-    }
-
-    public void setNombreYApellidos(String nombreYApellidos) {
-        this.nombreYApellidos = nombreYApellidos;
-    }
-
-    public String getDni() {
-        return dni;
-    }
-
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
-
-    public Curso getCurso() {
-        return curso;
-    }
-
-    public void setCurso(Curso curso) {
-        this.curso = curso;
     }
 
     @Override

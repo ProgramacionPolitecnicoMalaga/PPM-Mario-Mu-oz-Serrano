@@ -44,10 +44,6 @@ public class Asignatura {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
     @Override
     public boolean equals(Object o) {
         Asignatura that = (Asignatura) o;

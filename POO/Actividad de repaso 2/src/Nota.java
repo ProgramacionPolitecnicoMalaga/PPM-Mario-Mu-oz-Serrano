@@ -8,22 +8,6 @@ public class Nota{
         this.observaciones = observaciones;
     }
 
-    public double getNota() {
-        return nota;
-    }
-
-    public void setNota(double nota) {
-        this.nota = nota;
-    }
-
-    public String getObservaciones() {
-        return observaciones;
-    }
-
-    public void setObservaciones(String observaciones) {
-        this.observaciones = observaciones;
-    }
-
     @Override
     public String toString() {
         return "Nota: " + nota +
