@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<asignatura curso="1bach" id="lcl1" nombre="Lengua Castellana y literatura">
+    <alumno dni="45683245N" nombre="Javier Rodriguez">
+        <indicador nombre="Trabajo sobre la lectura de un libro" nota="3.6" tipo="Lectura">Mal</indicador>
+        <indicador nombre="Actividad 2" nota="9.5" tipo="Actividad">Muy bien</indicador>
+        <indicador nombre="Examen Tema 1" nota="5.1" tipo="Examen">Varios ejercicios sin hacer</indicador>
+    </alumno>
+</asignatura>

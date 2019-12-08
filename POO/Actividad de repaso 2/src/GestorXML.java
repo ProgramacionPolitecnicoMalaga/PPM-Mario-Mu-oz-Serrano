@@ -1,12 +1,20 @@
 import org.w3c.dom.*;
+import org.xml.sax.InputSource;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathFactory;
 import java.io.File;
+import java.io.StringReader;
 
-    public class GestorXML {
+public class GestorXML {
 
         String dir = System.getProperty("user.dir");
 
@@ -84,5 +92,24 @@ import java.io.File;
                 ex.printStackTrace();
             }
         }
+
+    public static void escribirXML(String xmlSerializado, String nombre){
+        try {
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document doc = builder.parse(new InputSource(new StringReader(xmlSerializado)));
+
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
+            transformer.setOutputProperty(OutputKeys.INDENT,"yes");
+            DOMSource source = new DOMSource(doc);
+
+            StreamResult result =  new StreamResult(new File(nombre));
+            transformer.transform(source, result);
+        } catch(Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
     }
 

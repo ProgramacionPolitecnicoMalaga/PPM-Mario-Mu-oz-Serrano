@@ -8,6 +8,14 @@ public class Nota{
         this.observaciones = observaciones;
     }
 
+    public Double getNota() {
+        return nota;
+    }
+
+    public String getObservaciones() {
+        return observaciones;
+    }
+
     @Override
     public String toString() {
         return "Nota: " + nota +

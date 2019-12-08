@@ -34,4 +34,21 @@ public class Cursos {
         }
     }
 
+    public void componerXMLCursosYAsignaturas() {
+        String xmlSerializado = "<cursos>";
+        Iterator<Curso> it = listaCursos.iterator();
+        while (it.hasNext()) {
+            Curso curso = it.next();
+            xmlSerializado += "<curso id=\"" + curso.getId() + "\" nombre=\"" + curso.getNombre() + "\">";
+                    Iterator<Asignatura> it2 = curso.getListaAsignaturas().iterator();
+                    while (it2.hasNext()) {
+                        Asignatura asignatura = it2.next();
+                        xmlSerializado += "<asignatura id=\"" + asignatura.getId() + "\" nombre=\"" + asignatura.getNombre() + "\">" + "</asignatura>";
+                    }
+                    xmlSerializado += "</curso>";
+        }
+        xmlSerializado += "</cursos>";
+        GestorXML.escribirXML(xmlSerializado,"cursos_escritura.xml");
+    }
+
 }

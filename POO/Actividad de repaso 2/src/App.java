@@ -74,5 +74,11 @@ public class App {
         System.out.println("   AÑADIR LOS ALUMNOS E INDICADORES DESDE UN DOCUMENTO XML  ");
         System.out.println("============================================================");
         gestorXML.MatricularAlumnosyAñadirIndicadores();
+
+        System.out.println("============================================================");
+        System.out.println("ESCRITURA DE CURSOS, ASIGNATURAS, ALUMNOS Y INDICADORES EN XML");
+        System.out.println("============================================================");
+        cursos.componerXMLCursosYAsignaturas();
+        asignatura2.componerXMLAlumnosEIndicadores();
     }
 }

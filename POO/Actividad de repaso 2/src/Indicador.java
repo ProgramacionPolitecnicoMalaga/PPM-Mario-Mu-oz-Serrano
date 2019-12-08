@@ -11,6 +11,14 @@ public class Indicador {
         asignatura.nuevoIndicador(this);
     }
 
+    public String getTipo() {
+        return tipo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
     @Override
     public String toString() {
         return "Tipo de indicador: " + tipo +

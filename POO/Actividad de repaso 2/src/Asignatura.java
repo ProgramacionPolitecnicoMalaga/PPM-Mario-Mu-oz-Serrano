@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Objects;
 
 public class Asignatura {
@@ -22,6 +23,7 @@ public class Asignatura {
 
     public void matricularAlumno(Alumno alumno) {
         listaAlumnos.add(alumno);
+        alumno.setAsignatura(this);
     }
 
     public void nuevoIndicador(Indicador indicador) {
@@ -38,6 +40,29 @@ public class Asignatura {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+    }
+
+    public void componerXMLAlumnosEIndicadores() {
+        String xmlSerializado = "<asignatura id=\"" + id + "\" nombre=\"" + nombre + "\" curso=\"" + curso.getId() + "\">";
+        Iterator<Alumno> it = listaAlumnos.iterator();
+        while (it.hasNext()) {
+            Alumno alumno = it.next();
+            xmlSerializado += "<alumno nombre=\"" + alumno.getNombreYApellidos() + "\" dni=\"" + alumno.getDNI() + "\">";
+            Iterator it2 = alumno.getIndicadoresNotas().entrySet().iterator();
+            while (it2.hasNext()) {
+                Map.Entry entry = (Map.Entry) it2.next();
+                Indicador indicador = (Indicador) entry.getKey();
+                Nota nota = (Nota) entry.getValue();
+                if (nota != null) {
+                    xmlSerializado += "<indicador tipo=\"" + indicador.getTipo() + "\" nombre=\"" + indicador.getNombre() + "\" nota=\"" + nota.getNota() + "\">";
+                    xmlSerializado += nota.getObservaciones();
+                    xmlSerializado += "</indicador>";
+                }
+            }
+            xmlSerializado += "</alumno>";
+        }
+        xmlSerializado += "</asignatura>";
+        GestorXML.escribirXML(xmlSerializado, id + "_" + curso.getId() + "_escritura" + ".xml");
     }
 
     public String getNombre() {

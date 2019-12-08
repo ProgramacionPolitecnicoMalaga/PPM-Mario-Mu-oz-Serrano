@@ -5,12 +5,25 @@ public class Alumno {
     private String nombreYApellidos;
     private String dni;
     private Curso curso;
+    private Asignatura asignatura;
     private HashMap<Indicador, Nota> indicadoresNotas = new HashMap<Indicador, Nota>();
 
     public Alumno(String nombreYApellidos, String dni, Curso curso) {
         this.nombreYApellidos = nombreYApellidos;
         this.dni = dni;
         this.curso = curso;
+    }
+
+    public String getNombreYApellidos() {
+        return nombreYApellidos;
+    }
+
+    public String getDNI() {
+        return dni;
+    }
+
+    public HashMap<Indicador, Nota> getIndicadoresNotas() {
+        return indicadoresNotas;
     }
 
     public void añadirIndicador(Indicador indicador) {
@@ -32,6 +45,10 @@ public class Alumno {
                 System.out.println(key + "\n" + value);
             }
         }
+    }
+
+    public void setAsignatura(Asignatura asignatura) {
+        this.asignatura=asignatura;
     }
 
     @Override

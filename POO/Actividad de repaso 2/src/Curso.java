@@ -19,8 +19,8 @@ public class Curso {
         listaAsignaturas.add(asignatura);
     }
 
-    public void añadirAsignatura(Asignatura asignatura) {
-        listaAsignaturas.add(asignatura);
+    public ArrayList<Asignatura> getListaAsignaturas() {
+        return listaAsignaturas;
     }
 
     public Asignatura getAsignatura(String id) {

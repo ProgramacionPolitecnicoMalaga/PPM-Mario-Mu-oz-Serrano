@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cursos>
+    <curso id="1bach" nombre="1º de bachillerato">
+        <asignatura id="fil1" nombre="Filosofía"/>
+        <asignatura id="lcl1" nombre="Lengua Castellana y literatura"/>
+    </curso>
+    <curso id="S11AW" nombre="1º Desarrollo de Aplicaciones Web">
+        <asignatura id="prog" nombre="Programación"/>
+        <asignatura id="ed" nombre="Entornos de desarrollo"/>
+    </curso>
+    <curso id="S14SI" nombre="1º Administración de sistemas informáticos">
+        <asignatura id="bsd" nombre="Bases de datos"/>
+        <asignatura id="ldm" nombre="Lenguaje de marcas"/>
+    </curso>
+</cursos>
