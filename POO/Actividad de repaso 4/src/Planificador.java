@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+﻿import java.util.ArrayList;
 
 public class Planificador {
 
@@ -21,7 +21,7 @@ public class Planificador {
        do {
            Tarea tareaAEjecutar = algoritmo.siguienteTarea();
            int tiempoEjecucion = algoritmo.determinarTiempoDeEjecucion();
-           //Se crea una lista con los procesos en espera para pasarselo al algoritmo.
+           //Se obtienen los datos de la siguiente tarea a realizar y el tiempo de ejecución segun el algoritmo utilizado.
 
            tareasEnEsperaOCompletadas.eliminarTareaEspera(tareaAEjecutar);
            Periodo periodoEjecucion = new Periodo();
