@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 public class PriorityQueue implements Algoritmo{
 
@@ -10,10 +9,9 @@ public class PriorityQueue implements Algoritmo{
 
     @Override
     public Tarea siguienteTarea() {
-        ArrayList<Tarea> tareasAOrdenar = Tareas.getTareasEnEspera();
-        tareasAOrdenar.sort(Tarea.COMPARATOR_PRIORIDAD);
-        tarea = tareasAOrdenar.get(0);
-        return tareasAOrdenar.get(0);
+        Tareas.getTareasEnEspera().sort(Tarea.COMPARATOR_PRIORIDAD);
+        tarea = Tareas.getTareasEnEspera().get(0);
+        return Tareas.getTareasEnEspera().get(0);
         //Se elige el de mayor prioridad.
     }
 

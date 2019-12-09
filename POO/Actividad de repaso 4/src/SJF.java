@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class SJF implements Algoritmo {
 
@@ -10,10 +9,9 @@ public class SJF implements Algoritmo {
 
     @Override
     public Tarea siguienteTarea() {
-        ArrayList<Tarea> tareasAOrdenar = Tareas.getTareasEnEspera();
-        tareasAOrdenar.sort(Tarea.COMPARATOR_DURACION);
-        tarea = tareasAOrdenar.get(0);
-        return tareasAOrdenar.get(0);
+        Tareas.getTareasEnEspera().sort(Tarea.COMPARATOR_DURACION);
+        tarea = Tareas.getTareasEnEspera().get(0);
+        return Tareas.getTareasEnEspera().get(0);
         //Se elige el de menor duración.
     }
 

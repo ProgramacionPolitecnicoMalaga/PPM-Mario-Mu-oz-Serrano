@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 public class Planificador {
 
@@ -35,7 +34,7 @@ public class Planificador {
            long periodoTotal = tareaAEjecutar.getTiempoEjecucion()+periodoEjecucion.getPeriodo();
            tareaAEjecutar.setTiempoEjecucion(periodoTotal);
            tareaAEjecutar.setDuracion(tareaAEjecutar.getDuracion()-tiempoEjecucion);
-           //Se actualizan los tiempos de la tarea.
+           //Se actualizan los tiempos y la duración de la tarea.
 
            if (tareaAEjecutar.getDuracion()!=0) {
                tareasEnEsperaOCompletadas.añadirTareaEnEspera(tareaAEjecutar);
