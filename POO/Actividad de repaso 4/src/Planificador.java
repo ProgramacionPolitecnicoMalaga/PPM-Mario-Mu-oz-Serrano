@@ -1,4 +1,4 @@
-﻿import java.util.ArrayList;
+import java.util.ArrayList;
 
 public class Planificador {
 
@@ -35,14 +35,14 @@ public class Planificador {
            long periodoTotal = tareaAEjecutar.getTiempoEjecucion()+periodoEjecucion.getPeriodo();
            tareaAEjecutar.setTiempoEjecucion(periodoTotal);
            tareaAEjecutar.setDuracion(tareaAEjecutar.getDuracion()-tiempoEjecucion);
-           //Se actualizan los tiempos.
+           //Se actualizan los tiempos de la tarea.
 
            if (tareaAEjecutar.getDuracion()!=0) {
                tareasEnEsperaOCompletadas.añadirTareaEnEspera(tareaAEjecutar);
            } else tareasEnEsperaOCompletadas.añadirTareaCompletada(tareaAEjecutar);
-           //Se devuelve el proceso a la lista de espera o de procesos completados si ha terminado su ejecucion.
+           //Se devuelve el proceso a la lista de espera si no ha terminado o la de procesos completados se ha completado.
 
-       } while (tareasEnEsperaOCompletadas.getTareasCompletadas().size() != 3);
+       } while (Tareas.getTareasEnEspera().size() > 0);
        imprimirEstadisticas();
         //Si todos los procesos se han completado se imprimen las estadisticas
     }
@@ -56,20 +56,20 @@ public class Planificador {
         long tiempoMediaEspera = (a.getTiempoEspera() + b.getTiempoEspera() + c.getTiempoEspera())/3;
 
         System.out.println("Tiempo de ejecución de cada tarea: ");
-        System.out.println("Tarea A: " + a.getTiempoEjecucion() + " nanosegundos.");
-        System.out.println("Tarea B: " + b.getTiempoEjecucion() + " nanosegundos.");
-        System.out.println("Tarea C: " + c.getTiempoEjecucion() + " nanosegundos.");
+        System.out.println("Tarea A: " + a.getTiempoEjecucion()/1000 + " microsegundos.");
+        System.out.println("Tarea B: " + b.getTiempoEjecucion()/1000 + " microsegundos.");
+        System.out.println("Tarea C: " + c.getTiempoEjecucion()/1000 + " microsegundos.");
         System.out.println("=========================================================");
         System.out.println("Tiempo total de ejecución: ");
-        System.out.println(tiempoTotalEjecucion + " nanosegundos.");
+        System.out.println(tiempoTotalEjecucion/1000 + " microsegundos.");
         System.out.println("=========================================================");
         System.out.println("Tiempo de espera de cada tarea: ");
-        System.out.println("Tarea A: " + a.getTiempoEspera() + " nanosegundos.");
-        System.out.println("Tarea B: " + b.getTiempoEspera() + " nanosegundos.");
-        System.out.println("Tarea C: " + c.getTiempoEspera() + " nanosegundos.");
+        System.out.println("Tarea A: " + a.getTiempoEspera()/1000 + " microsegundos.");
+        System.out.println("Tarea B: " + b.getTiempoEspera()/1000 + " microsegundos.");
+        System.out.println("Tarea C: " + c.getTiempoEspera()/1000 + " microsegundos.");
         System.out.println("=========================================================");
         System.out.println("Tiempo de espera medio de las tareas: ");
-        System.out.println(tiempoMediaEspera + " nanosegundos.");
+        System.out.println(tiempoMediaEspera/1000 + " microsegundos.");
     }
 
 }

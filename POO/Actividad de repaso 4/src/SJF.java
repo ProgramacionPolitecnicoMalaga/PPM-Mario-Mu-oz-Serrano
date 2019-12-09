@@ -10,11 +10,11 @@ public class SJF implements Algoritmo {
 
     @Override
     public Tarea siguienteTarea() {
-        ArrayList<Tarea> tareasAOrdenar = Tareas.getListaTareas();
+        ArrayList<Tarea> tareasAOrdenar = Tareas.getTareasEnEspera();
         tareasAOrdenar.sort(Tarea.COMPARATOR_DURACION);
         tarea = tareasAOrdenar.get(0);
         return tareasAOrdenar.get(0);
-        //Se elige el que menos duración tiene.
+        //Se elige el de menor duración.
     }
 
     @Override

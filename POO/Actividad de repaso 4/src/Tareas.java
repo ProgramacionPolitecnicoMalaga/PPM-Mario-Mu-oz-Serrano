@@ -9,7 +9,7 @@ public class Tareas {
         añadirTareas();
     }
 
-    public static ArrayList<Tarea> getListaTareas() {
+    public static ArrayList<Tarea> getTareasEnEspera() {
         return tareasEnEspera;
     }
 
@@ -26,6 +26,7 @@ public class Tareas {
 
         tareasEnEspera.add(new Tarea(1800, 3, 3));
         tareasEnEspera.get(2).getPeriodoEspera().setTiempoInicio(System.nanoTime());
+        //Se añaden todas las tareas y se empieza a contar el tiempo en espera de cada una.
     }
 
     public void añadirTareaCompletada(Tarea tarea) {
@@ -35,6 +36,7 @@ public class Tareas {
     public void añadirTareaEnEspera(Tarea tarea) {
         tareasEnEspera.add(tarea);
         tarea.getPeriodoEspera().setTiempoInicio(System.nanoTime());
+        //Al añadir una nueva tarea se vuelve a cronometrar el tiempo.
     }
 
     public void eliminarTareaEspera(Tarea tarea) {
@@ -42,5 +44,6 @@ public class Tareas {
         tarea.getPeriodoEspera().setTiempoFin(System.nanoTime());
         long periodoTotal = tarea.getTiempoEspera()+tarea.getPeriodoEspera().getPeriodo();
         tarea.setTiempoEspera(periodoTotal);
+        //Al eliminar una tarea de la lista de espera se obtiene el tiempo y se le suma al que ya tenía.
     }
 }

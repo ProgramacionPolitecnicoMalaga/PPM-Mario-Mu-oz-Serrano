@@ -2,16 +2,16 @@
 public class RoundRobin implements Algoritmo {
 
     private Tarea tarea;
-    private int quantum = 3;
+    private int quantum = 0;
 
-    public RoundRobin() {
-
+    public RoundRobin(int quantum) {
+        this.quantum=quantum;
     }
 
     @Override
     public Tarea siguienteTarea() {
-        tarea = Tareas.getListaTareas().get(0);
-        return Tareas.getListaTareas().get(0);
+        tarea = Tareas.getTareasEnEspera().get(0);
+        return Tareas.getTareasEnEspera().get(0);
         //Se elige el primero de la cola de tareas.
     }
 

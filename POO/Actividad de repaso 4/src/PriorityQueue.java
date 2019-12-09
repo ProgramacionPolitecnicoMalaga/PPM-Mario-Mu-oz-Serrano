@@ -10,7 +10,7 @@ public class PriorityQueue implements Algoritmo{
 
     @Override
     public Tarea siguienteTarea() {
-        ArrayList<Tarea> tareasAOrdenar = Tareas.getListaTareas();
+        ArrayList<Tarea> tareasAOrdenar = Tareas.getTareasEnEspera();
         tareasAOrdenar.sort(Tarea.COMPARATOR_PRIORIDAD);
         tarea = tareasAOrdenar.get(0);
         return tareasAOrdenar.get(0);

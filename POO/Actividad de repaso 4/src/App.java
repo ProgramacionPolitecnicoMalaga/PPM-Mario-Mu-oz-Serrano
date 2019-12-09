@@ -15,7 +15,7 @@ public class App {
         System.out.println("============================================================");
         System.out.println("                     ALGORITMO Round Robin                  ");
         System.out.println("============================================================");
-        planificador = new Planificador(new RoundRobin());
+        planificador = new Planificador(new RoundRobin(2));
         planificador.gestionarTareas();
 
         System.out.println("============================================================");
