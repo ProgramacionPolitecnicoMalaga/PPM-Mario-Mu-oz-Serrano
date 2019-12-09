@@ -1,0 +1,8 @@
+<productos>
+    <producto id="P33">
+        <componente id="C130" cantidad="2"/>
+        <componente id="C55" cantidad="1"/>
+        <componente id="C12" cantidad="12"/>
+        <componente id="C7" cantidad="5"/>
+    </producto>
+</productos>

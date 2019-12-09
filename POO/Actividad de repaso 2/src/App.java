@@ -1,4 +1,4 @@
-public class App {
+﻿public class App {
 
     public static void main(String[] args) {
         GestorXML gestorXML = new GestorXML();
@@ -76,7 +76,7 @@ public class App {
         gestorXML.MatricularAlumnosyAñadirIndicadores();
 
         System.out.println("============================================================");
-        System.out.println("ESCRITURA DE CURSOS, ASIGNATURAS, ALUMNOS Y INDICADORES EN XML");
+        System.out.println("ESCRITURA DE CURSOS, ASIGNATURAS, ALUMNOS E INDICADORES EN XML");
         System.out.println("============================================================");
         cursos.componerXMLCursosYAsignaturas();
         asignatura2.componerXMLAlumnosEIndicadores();

@@ -1,0 +1,6 @@
+<inventario>
+    <componente id="C130" existencias="500"/>
+    <componente id="C55" existencias="300"/>
+    <componente id="C12" existencias="2000"/>
+    <componente id="C7" existencias="5000"/>
+</inventario>
