@@ -1,6 +1,6 @@
 public class Asalariado extends Empleado {
 
-    private static final double SUELDO_FIJO= 1400;
+    private static final double SUELDO_FIJO = 1400;
 
     public Asalariado(String nombre, String apellidos, String dni) {
         super(nombre, apellidos, dni);

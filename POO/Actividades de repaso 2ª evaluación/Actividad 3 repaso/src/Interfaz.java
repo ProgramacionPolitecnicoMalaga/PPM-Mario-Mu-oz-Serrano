@@ -47,7 +47,7 @@ public class Interfaz {
         }
 
         public int pedirHorasTrabajadas(){
-            System.out.print("Por favor, indique las horas trabajadas del empleado:");
+            System.out.print("Indique las horas trabajadas del empleado:");
             return lectorTeclado.nextInt();
         }
 

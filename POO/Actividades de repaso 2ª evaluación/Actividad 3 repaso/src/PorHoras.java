@@ -1,7 +1,7 @@
 public class PorHoras extends Empleado {
 
     private int horasTrabajadas;
-    private static final int SUELDO_POR_HORA= 12;
+    private static final int SUELDO_POR_HORA = 12;
 
     public PorHoras(String nombre, String apellidos, String dni, int horasTrabajadas) {
         super(nombre, apellidos, dni);

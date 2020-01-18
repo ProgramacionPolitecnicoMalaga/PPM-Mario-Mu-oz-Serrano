@@ -9,7 +9,6 @@ public abstract class Empleado {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.dni = dni;
-        calcularSueldo();
     }
 
     public abstract void calcularSueldo();
@@ -25,6 +24,6 @@ public abstract class Empleado {
     @Override
     public String toString(){
         return "\n=======================================\n" +
-                "Nombre: " + nombre + "  DNI: " + dni + "\n";
+                "Nombre: " + nombre + apellidos + "  DNI: " + dni + "\n";
     }
 }
