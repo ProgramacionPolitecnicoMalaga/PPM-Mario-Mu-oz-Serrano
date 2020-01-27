@@ -1,58 +1,48 @@
 package Lógica;
 
-import Datos.*;
-
-import java.util.Iterator;
-import java.util.List;
+import Datos.Categoria;
+import Datos.Categorias;
+import Datos.Tarea;
 
 public class Main {
 
     public static void main(String[] args) {
-        GestionDeVehiculos gestorDeVehiculos = new GestionDeVehiculos();
 
-        Vehiculo coche1 = new VehiculoTerrestre("19/04/1990", "11/05/2019", "43242454P", "2435ACF" , "Coche",3.8, 3.0,5);
-        Vehiculo camion1 = new VehiculoTerrestre("12/03/1995", "12/06/2019", "41233454L", "2345HZJ" ,"Camion",3.2, 4,10);
-        Vehiculo barco1 = new VehiculoMaritimo("05/09/1991", "14/08/2019", "543654554T", "Barco" ,"Barco" ,6.5, 2.2,8);
+        Categorias categorias = new Categorias();
+        GestorDeTareas gestorDeTareas = new GestorDeTareas(categorias);
 
-        System.out.println("-----------------------------");
-        System.out.println("Introducir nuevos vehículos en el depósito y listarlos.");
-        System.out.println("-----------------------------");
-        gestorDeVehiculos.añadirVehiculoDeposito(coche1);
-        gestorDeVehiculos.añadirVehiculoDeposito(camion1);
-        gestorDeVehiculos.añadirVehiculoDeposito(barco1);
-        listaVehiculos(gestorDeVehiculos.getDeposito());
+        System.out.println("\n1. Crear una nueva categoría:");
+        Categoria clase = new Categoria("Clase");
+        categorias.añadirCategoria(clase);
 
-        System.out.println("-----------------------------");
-        System.out.println("Poner en subasta algunos vehículos y listarlos.");
-        System.out.println("-----------------------------");
-        gestorDeVehiculos.añadirVehiculoSubasta(coche1);
-        gestorDeVehiculos.añadirVehiculoSubasta(camion1);
-        gestorDeVehiculos.añadirVehiculoSubasta(barco1);
-        listaVehiculos(gestorDeVehiculos.getListaSubasta());
+        System.out.println("\n2. Mostrar las categorías existentes:");
+        categorias.listaCategorias(categorias.getCategorias());
 
-        System.out.println("-----------------------------");
-        System.out.println("Registrar compradores autorizados.");
-        System.out.println("-----------------------------");
-        Comprador comprador1 = new PersonaFisica("Manuel","Dominguez","3423424N","C/blabla 23561","DNI");
-        Comprador comprador2 = new PersonaFisica("Mario","Muñoz","25784845M","C/falsa 123","DNI");
-        Comprador comprador3 = new PersonaJuridica("Persona Juridica 2","4357823L","S.A");
+        System.out.println("\n3. Crear una nueva tarea:");
+        Tarea tarea1 = new Tarea(clase, "02/02/2020", "Estudiar para el examen de programación.");
+        Tarea tarea2 = new Tarea(clase, "05/02/2020", "Realizar práctica de sistemas.");
+        gestorDeTareas.añadirNuevaTarea(tarea1, clase);
+        gestorDeTareas.añadirNuevaTarea(tarea2, clase);
 
-        System.out.println("-----------------------------");
-        System.out.println("Vender vehículos a compradores y listarlos.");
-        System.out.println("-----------------------------");
-        gestorDeVehiculos.venderVehiculo(coche1, comprador1, 20000, "19/04/2016");
-        gestorDeVehiculos.venderVehiculo(camion1, comprador2, 25000, "19/05/2013");
-        gestorDeVehiculos.venderVehiculo(barco1, comprador3, 22000, "19/06/2014");
-        listaVehiculos(gestorDeVehiculos.getDeposito());
-        listaVehiculos(gestorDeVehiculos.getListaSubasta());
-        listaVehiculos(gestorDeVehiculos.getListaVendidos());
-    }
+        System.out.println("\n4. Consultar las tareas pendientes:");
+        gestorDeTareas.listaTareasPendientes();
 
-    public static void listaVehiculos(List list) {
-        Iterator<Vehiculo> it = list.iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
-            System.out.println("======================");
-        }
+        System.out.println("\n5. Eliminar una tarea (completada):");
+        gestorDeTareas.eliminarTareaPendiente(tarea1);
+
+        System.out.println("\n6. Consultar las tareas de una categoría:");
+        System.out.println("Tareas pendientes: ");
+        gestorDeTareas.listaTareasPorCategoria(clase.getTareasPendientes());
+        System.out.println("Tareas completadas: ");
+        gestorDeTareas.listaTareasPorCategoria(clase.getTareasCompletadas());
+
+        System.out.println("\n7. Consultar las tareas en una fecha.");
+        gestorDeTareas.listaTareasPorFecha("05/02/2020", GestorDeTareas.TAREAS_EN_FECHA);
+
+        System.out.println("\n8. Consultar las tareas en tiempo.");
+        gestorDeTareas.listaTareasPorFecha(Fecha.getFechaActual(), GestorDeTareas.TAREAS_EN_TIEMPO);
+
+        System.out.println("\n9. Consultar las tareas retrasadas.");
+        gestorDeTareas.listaTareasPorFecha(Fecha.getFechaActual(), GestorDeTareas.TAREAS_RETRASADAS);
     }
 }

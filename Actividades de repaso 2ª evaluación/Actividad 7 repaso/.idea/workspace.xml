@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2efd441-37c4-446b-9c05-f07996518b21" name="Default Changelist" comment="" />
+    <list default="true" id="a76a66d0-efd1-4093-a194-c4a50194040f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +15,15 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1Wz4zBFqHBFa4DXZ61ZrSVEhMrw" />
+  <component name="ProjectId" id="1WhaK172x0uIn1QpXX3GtZ5pq7J" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FP/Programación/Actividad 7 repaso" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.44252872" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -33,10 +37,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="Actividad 12 repaso" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lógica.Main" />
-      <module name="Actividad 5 repaso" />
+      <module name="Actividad 12 repaso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lógica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -44,6 +61,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -52,12 +70,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a2efd441-37c4-446b-9c05-f07996518b21" name="Default Changelist" comment="" />
-      <created>1580139348591</created>
+      <changelist id="a76a66d0-efd1-4093-a194-c4a50194040f" name="Default Changelist" comment="" />
+      <created>1579604212213</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580139348591</updated>
-      <workItem from="1580139353333" duration="10960000" />
+      <updated>1579604212213</updated>
+      <workItem from="1579604216126" duration="1221000" />
+      <workItem from="1579606079910" duration="3585000" />
+      <workItem from="1579968364546" duration="57000" />
+      <workItem from="1579968543671" duration="2485000" />
     </task>
     <servers />
   </component>
