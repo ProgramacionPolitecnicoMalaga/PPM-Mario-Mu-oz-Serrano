@@ -1,4 +1,4 @@
-package Lógica;
+﻿package Lógica;
 
 import Datos.Categoria;
 import Datos.Categorias;
@@ -64,19 +64,16 @@ public class GestorDeTareas {
         switch (condicion) {
             case TAREAS_EN_FECHA:
                 if (tarea.getFechaLimite().numeroDiasEntreDosFechas(fechaConsultada) == 0) {
-                    System.out.println("Lista de tareas de la fecha " + fecha);
                     System.out.println(tarea);
                 }
                 break;
             case TAREAS_EN_TIEMPO:
                 if (tarea.getFechaLimite().numeroDiasEntreDosFechas(fechaConsultada) <= 0) {
-                    System.out.println("Lista de tareas en tiempo: ");
                     System.out.println(tarea);
                 }
                 break;
             case TAREAS_RETRASADAS:
                 if (tarea.getFechaLimite().numeroDiasEntreDosFechas(fechaConsultada) > 0) {
-                    System.out.println("Lista de tareas retrasadas: ");
                     System.out.println(tarea);
                 }
                 break;
