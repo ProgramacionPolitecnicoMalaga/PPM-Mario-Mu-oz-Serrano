@@ -1,8 +1,8 @@
-package Lógica;
+package Logica;
 
-import Datos.Categoria;
-import Datos.Categorias;
-import Datos.Tarea;
+import Modelo.Categoria;
+import Modelo.Categorias;
+import Modelo.Tarea;
 
 public class Main {
 

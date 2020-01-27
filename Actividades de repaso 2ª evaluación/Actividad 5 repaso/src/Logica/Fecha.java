@@ -1,4 +1,4 @@
-package Lógica;
+package Logica;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -37,8 +37,8 @@ public class Fecha {
     }
 
     public int numeroDiasEntreDosFechas(Calendar fechaAComparar){
-        Date tiempoInicio = fecha.getTime();
-        Date tiempoFinal = fechaAComparar.getTime();
+        Date tiempoFinal = fecha.getTime();
+        Date tiempoInicio = fechaAComparar.getTime();
         long diferencia = tiempoFinal.getTime() - tiempoInicio.getTime();
         long diferenciaDias = diferencia / (1000 * 60 * 60 * 24);
         return (int)diferenciaDias;

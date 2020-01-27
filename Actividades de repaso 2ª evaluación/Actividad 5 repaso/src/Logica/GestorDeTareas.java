@@ -1,13 +1,14 @@
-﻿package Lógica;
+package Logica;
 
-import Datos.Categoria;
-import Datos.Categorias;
-import Datos.Tarea;
+import Modelo.Categoria;
+import Modelo.Categorias;
+import Modelo.Tarea;
+
 import java.util.Calendar;
 import java.util.Iterator;
 import java.util.List;
 
-public class GestorDeTareas {
+public class  GestorDeTareas {
 
     private Categorias categorias;
     public final static int TAREAS_EN_FECHA = 1;
@@ -68,12 +69,12 @@ public class GestorDeTareas {
                 }
                 break;
             case TAREAS_EN_TIEMPO:
-                if (tarea.getFechaLimite().numeroDiasEntreDosFechas(fechaConsultada) <= 0) {
+                if (tarea.getFechaLimite().numeroDiasEntreDosFechas(fechaConsultada) >= 0) {
                     System.out.println(tarea);
                 }
                 break;
             case TAREAS_RETRASADAS:
-                if (tarea.getFechaLimite().numeroDiasEntreDosFechas(fechaConsultada) > 0) {
+                if (tarea.getFechaLimite().numeroDiasEntreDosFechas(fechaConsultada) < 0) {
                     System.out.println(tarea);
                 }
                 break;

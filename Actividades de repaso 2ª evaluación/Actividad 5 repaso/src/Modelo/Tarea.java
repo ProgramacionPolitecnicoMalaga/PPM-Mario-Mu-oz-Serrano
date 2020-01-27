@@ -1,6 +1,6 @@
-package Datos;
+package Modelo;
 
-import Lógica.Fecha;
+import Logica.Fecha;
 
 public class Tarea {
 
@@ -29,3 +29,4 @@ public class Tarea {
                 "\nDescripción: " + descripcion;
     }
 }
+
