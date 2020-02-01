@@ -27,7 +27,6 @@ public class  GestorDeTareas {
         Categoria categoria = tarea.getCategoria();
         categoria.getTareasPendientes().remove(tarea);
         categoria.getTareasCompletadas().add(tarea);
-
     }
 
     public void listaTareasPendientes() {
@@ -61,7 +60,6 @@ public class  GestorDeTareas {
 
     public void consultasPorFecha(Tarea tarea, String fecha, int condicion) {
         Calendar fechaConsultada = new Fecha(fecha).getFecha();
-        Fecha fechaPruebas = new Fecha("01/02/2020");
         switch (condicion) {
             case TAREAS_EN_FECHA:
                 if (tarea.getFechaLimite().numeroDiasEntreDosFechas(fechaConsultada) == 0) {

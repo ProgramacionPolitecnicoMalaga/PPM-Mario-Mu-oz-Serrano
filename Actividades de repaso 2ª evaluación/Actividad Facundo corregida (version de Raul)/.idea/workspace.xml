@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e310a40-7bcc-4824-ae29-66b9638bd0b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logica/GestorDeTareas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logica/GestorDeTareas.java" afterDir="false" />
-    </list>
+    <list default="true" id="64b056ff-13cd-4829-a52d-83771bdaf041" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,15 +15,14 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="ProjectId" id="1WzplyyrxOOQGBM0EpsfOj0aFiW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1X1EESDN8oxMyUnhVWlO3MlOyOJ" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ActividadFacuPlanteada" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580156574826" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,14 +38,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Logica.Main" />
-      <module name="Actividad 5 repaso" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Logica.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ActividadFacuPlanteada" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,34 +55,41 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e310a40-7bcc-4824-ae29-66b9638bd0b7" name="Default Changelist" comment="" />
-      <created>1580162432746</created>
+      <changelist id="64b056ff-13cd-4829-a52d-83771bdaf041" name="Default Changelist" comment="" />
+      <created>1580125460840</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580162432746</updated>
-      <workItem from="1580162437249" duration="302000" />
-      <workItem from="1580162863967" duration="13000" />
-      <workItem from="1580203366948" duration="1919000" />
-      <workItem from="1580208890978" duration="618000" />
-      <workItem from="1580227153267" duration="966000" />
-      <workItem from="1580554530472" duration="816000" />
+      <updated>1580125460840</updated>
+      <workItem from="1580205090460" duration="1557000" />
+      <workItem from="1580208915656" duration="2977000" />
+      <workItem from="1580291106370" duration="1634000" />
+      <workItem from="1580314266477" duration="159000" />
+      <workItem from="1580381781877" duration="1368000" />
+      <workItem from="1580550854904" duration="3007000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
