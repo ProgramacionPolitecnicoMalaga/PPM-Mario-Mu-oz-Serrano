@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e310a40-7bcc-4824-ae29-66b9638bd0b7" name="Default Changelist" comment="" />
+    <list default="true" id="828ddc95-f925-411f-b731-c5326895f9bc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,19 +11,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="ProjectId" id="1WzplyyrxOOQGBM0EpsfOj0aFiW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1XIP6kPRDgSdr5kIv2zzGIO6kjv" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ActividadFacuPlanteada" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PPM-Mario-Munoz-Serrano/Actividades de repaso 2ª evaluación/Actividad Facundo corregida (version de Raul)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,14 +37,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Logica.Main" />
-      <module name="Actividad 5 repaso" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Logica.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Actividad 6 (Alberto)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,35 +54,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e310a40-7bcc-4824-ae29-66b9638bd0b7" name="Default Changelist" comment="" />
-      <created>1580162432746</created>
+      <changelist id="828ddc95-f925-411f-b731-c5326895f9bc" name="Default Changelist" comment="" />
+      <created>1580730461721</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580162432746</updated>
-      <workItem from="1580162437249" duration="302000" />
-      <workItem from="1580162863967" duration="13000" />
-      <workItem from="1580203366948" duration="1919000" />
-      <workItem from="1580208890978" duration="618000" />
-      <workItem from="1580227153267" duration="966000" />
-      <workItem from="1580554530472" duration="816000" />
-      <workItem from="1580727388702" duration="387000" />
+      <updated>1580730461721</updated>
+      <workItem from="1580730464783" duration="6711000" />
+      <workItem from="1580813952777" duration="5638000" />
+      <workItem from="1580823141860" duration="39000" />
+      <workItem from="1580830378319" duration="3981000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
