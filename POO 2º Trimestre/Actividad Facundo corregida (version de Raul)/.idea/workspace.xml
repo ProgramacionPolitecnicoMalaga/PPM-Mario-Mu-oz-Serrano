@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b056ff-13cd-4829-a52d-83771bdaf041" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Actividad 5 repaso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 5 repaso/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/Actividad 12 repaso.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/Comprador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/PersonaFisica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/PersonaJuridica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/Vehiculo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/VehiculoMaritimo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/VehiculoTerrestre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/out/production/Actividad 12 repaso/Lógica/GestionDeVehiculos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/out/production/Actividad 12 repaso/Lógica/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/out/production/Actividad 12 repaso/META-INF/Actividad 12 repaso.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/src/Datos/Comprador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/src/Datos/PersonaFisica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/src/Datos/PersonaJuridica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/src/Datos/Vehiculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/src/Datos/VehiculoMaritimo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/src/Datos/VehiculoTerrestre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/src/Lógica/GestionDeVehiculos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/src/Lógica/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Visual/MapaMundo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/MapaMundo/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -29,7 +50,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580156574826" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Programación/Actividad 6 Concesionario" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -75,7 +96,10 @@
       <workItem from="1580381781877" duration="1368000" />
       <workItem from="1580550854904" duration="3007000" />
       <workItem from="1580732153324" duration="81000" />
-      <workItem from="1580831277864" duration="997000" />
+      <workItem from="1580831277864" duration="1594000" />
+      <workItem from="1580888254466" duration="241000" />
+      <workItem from="1581014166069" duration="59000" />
+      <workItem from="1581162660122" duration="57000" />
     </task>
     <servers />
   </component>

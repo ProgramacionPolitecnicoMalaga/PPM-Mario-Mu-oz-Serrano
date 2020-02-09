@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vista.TPVCafeteria">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="547" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="4ac88" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <toolTipText value=""/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="d44" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="TPV"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="2f8e0" class="javax.swing.JButton" binding="buttonPinta">
+                <constraints>
+                  <grid row="2" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="80" height="80"/>
+                    <preferred-size width="80" height="80"/>
+                    <maximum-size width="80" height="80"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Pinta"/>
+                </properties>
+              </component>
+              <component id="6629f" class="javax.swing.JButton" binding="buttonMixto">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="80" height="80"/>
+                    <preferred-size width="80" height="80"/>
+                    <maximum-size width="80" height="80"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Mixto"/>
+                </properties>
+              </component>
+              <component id="773ec" class="javax.swing.JButton" binding="buttonColacao">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="80" height="80"/>
+                    <preferred-size width="80" height="80"/>
+                    <maximum-size width="80" height="80"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Colacao"/>
+                </properties>
+              </component>
+              <component id="8fd77" class="javax.swing.JButton" binding="buttonCaña">
+                <constraints>
+                  <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="80" height="80"/>
+                    <preferred-size width="80" height="80"/>
+                    <maximum-size width="80" height="80"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Caña"/>
+                </properties>
+              </component>
+              <component id="764c3" class="javax.swing.JButton" binding="buttonCarajillo">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="80" height="80"/>
+                    <preferred-size width="80" height="80"/>
+                    <maximum-size width="80" height="80"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Carajillo"/>
+                </properties>
+              </component>
+              <component id="cd468" class="javax.swing.JButton" binding="buttonCatalana">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="80" height="80"/>
+                    <preferred-size width="80" height="80"/>
+                    <maximum-size width="80" height="80"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="Catalana"/>
+                </properties>
+              </component>
+              <component id="4d120" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <text value="SELECCIONAR MESA"/>
+                </properties>
+              </component>
+              <component id="82c48" class="javax.swing.JComboBox" binding="comboBoxMesas">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="89690" class="javax.swing.JLabel" binding="mesaLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <text value="SELECCIONA UNA MESA"/>
+                </properties>
+              </component>
+              <component id="403c5" class="javax.swing.JTextArea" binding="textAreaProducto">
+                <constraints>
+                  <grid row="2" column="2" row-span="4" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="e4073" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <text value="PRODUCTO"/>
+                </properties>
+              </component>
+              <component id="9b82" class="javax.swing.JTextArea" binding="textAreaPrecio">
+                <constraints>
+                  <grid row="2" column="3" row-span="4" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="30a1a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <text value="PRECIO"/>
+                </properties>
+              </component>
+              <component id="66e23" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <text value="PRODUCTOS"/>
+                </properties>
+              </component>
+              <component id="fdb20" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <text value="TOTAL:"/>
+                </properties>
+              </component>
+              <component id="37113" class="javax.swing.JTextField" binding="textFieldTotal">
+                <constraints>
+                  <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                </properties>
+              </component>
+              <component id="1b3c2" class="javax.swing.JButton" binding="buttonCerrarMesa">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Cerrar mesa"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="4ad8c" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Cuentas"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="61e19" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <text value="SELECCIONAR CUENTA"/>
+                </properties>
+              </component>
+              <component id="8587c" class="javax.swing.JComboBox" binding="comboBoxCuentas">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <vspacer id="cc7f1">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <scrollpane id="c0b3b">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a4cab" class="javax.swing.JTextArea" binding="textAreaCuenta">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="a1784" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Consultas"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c9cbf" class="javax.swing.JButton" binding="recuentoCajaButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Recuento caja"/>
+                </properties>
+              </component>
+              <component id="93f7c" class="javax.swing.JButton" binding="mesasAbiertasButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Mesas abiertas"/>
+                </properties>
+              </component>
+              <component id="97c4b" class="javax.swing.JButton" binding="mesasCerradasButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Mesas cerradas"/>
+                </properties>
+              </component>
+              <scrollpane id="c21a6">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="b5f41" class="javax.swing.JTextArea" binding="textAreaConsultas">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f48b942-a348-4a59-bd28-be8ca9c4ab98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 5 repaso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 5 repaso/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad Facundo corregida (version de Raul)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad Facundo corregida (version de Raul)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +79,7 @@
       <workItem from="1574164861518" duration="455000" />
       <workItem from="1574176254599" duration="1075000" />
       <workItem from="1574235333599" duration="1817000" />
+      <workItem from="1580729577522" duration="986000" />
     </task>
     <servers />
   </component>
