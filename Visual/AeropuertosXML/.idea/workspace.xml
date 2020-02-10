@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8af6655-02d4-45b2-8e3f-c626d61d8013" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/Actividad 12 repaso.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/Comprador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/PersonaFisica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/PersonaJuridica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/Vehiculo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/VehiculoMaritimo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/out/production/Actividad 12 repaso/Datos/VehiculoTerrestre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/out/production/Actividad 12 repaso/Lógica/GestionDeVehiculos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/out/production/Actividad 12 repaso/Lógica/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/out/production/Actividad 12 repaso/META-INF/Actividad 12 repaso.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/src/Datos/Comprador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/src/Datos/PersonaFisica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/src/Datos/PersonaJuridica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/src/Datos/Vehiculo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/src/Datos/VehiculoMaritimo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/src/Datos/VehiculoTerrestre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/src/Lógica/GestionDeVehiculos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad 7 repaso/src/Lógica/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad Facundo corregida (version de Raul)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividades de repaso 2ª evaluación/Actividad Facundo corregida (version de Raul)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aditivos Json/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aditivos Json/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MapaMundo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MapaMundo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/carrera1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/carrera1.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Programación/Actividad 7 repaso" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,7 +76,8 @@
       <workItem from="1575984763616" duration="236000" />
       <workItem from="1575991949812" duration="10000" />
       <workItem from="1581187580251" duration="1236000" />
-      <workItem from="1581246238318" duration="643000" />
+      <workItem from="1581246238318" duration="644000" />
+      <workItem from="1581319529935" duration="319000" />
     </task>
     <servers />
   </component>

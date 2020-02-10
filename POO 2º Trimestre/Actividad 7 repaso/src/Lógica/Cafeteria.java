@@ -39,6 +39,7 @@ public class Cafeteria {
         Producto producto = carta.get(nombreProducto);
         if ((mesa != null) && (producto != null))
             mesa.addProducto(producto);
+            mesa.setCerrada(false);
     }
 
     public ArrayList<Mesa> getMesasAbiertas(){

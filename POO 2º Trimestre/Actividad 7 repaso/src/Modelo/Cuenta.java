@@ -31,6 +31,6 @@ public class Cuenta {
         return "\nNúmero de cuenta: " + numeroCuenta +
                 "\nNúmero de mesa: " + numeroMesa +
                 "\nProductos: " + productos +
-                "\n\nTotal: " + total + "€";
+                "\n\nTotal: " + total + "€" + "\n";
     }
 }

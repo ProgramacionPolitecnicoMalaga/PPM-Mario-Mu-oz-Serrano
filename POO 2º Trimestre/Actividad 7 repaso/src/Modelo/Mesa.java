@@ -15,7 +15,6 @@ public class Mesa {
 
     public void addProducto(Producto producto){
         productos.add(producto);
-        cerrada = false;
     }
 
     public void setCerrada(boolean cerrada) {

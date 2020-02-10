@@ -156,17 +156,15 @@ public class TPVCafeteria {
         return panelMain;
     }
 
-    public void init(){
-        comboBoxCuentas.addItem("Seleccionar");
-        comboBoxMesas.addItem("Seleccionar");
-        for (int i=1; i<17; i++) {
-            cafeteria.addMesa(i);
-            comboBoxMesas.addItem("Mesa " + i);
-        }
-        // -------------------
-        String[] nombresProducto = {"Caña","Pinta","Carajillo","Mixto","Catalana","Colacao"};
-        double[] preciosProducto = {1.00,3.00,1.20,1.50,1.20,1.50};
-        for (int i=0; i<nombresProducto.length; i++)
-            cafeteria.addProducto(nombresProducto[i],preciosProducto[i]);
+    public JComboBox getComboBoxMesas() {
+        return comboBoxMesas;
+    }
+
+    public JComboBox getComboBoxCuentas() {
+        return comboBoxCuentas;
+    }
+
+    public Cafeteria getCafeteria() {
+        return cafeteria;
     }
 }
