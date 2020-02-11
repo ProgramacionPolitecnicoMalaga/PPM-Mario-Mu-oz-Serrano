@@ -2,11 +2,13 @@ package Vista;
 
 import Lógica.Cafeteria;
 import Modelo.Cuenta;
+import Modelo.Mesa;
 import Modelo.Producto;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Iterator;
 
 public class TPVCafeteria {
     private JPanel panelMain;
@@ -37,8 +39,22 @@ public class TPVCafeteria {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 if (!comboBoxMesas.getSelectedItem().equals("Seleccionar")) {
-                    mesaLabel.setText("MESA SELECCIONADA: " + comboBoxMesas.getSelectedIndex());
+                    textAreaProducto.setText("");
+                    textAreaPrecio.setText("");
+                    textFieldTotal.setText("");
+                    Mesa mesa = cafeteria.getMesa(comboBoxMesas.getSelectedIndex());
+                    mesaLabel.setText("MESA SELECCIONADA: " + mesa.getNumeroMesa());
                     mesaSeleccionada = true;
+                    if (mesa.getProductos().size()>0) {
+                    Iterator<Producto> it = mesa.getProductos().iterator();
+                    while (it.hasNext()) {
+                        Producto producto = it.next();
+                        textAreaProducto.append("\n" + producto.getNombre());
+                        textAreaPrecio.append("\n" + producto.getPrecio() + "€");
+                    }
+
+                    }
+
                 }
             }
         });

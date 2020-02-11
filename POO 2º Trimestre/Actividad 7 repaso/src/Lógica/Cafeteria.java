@@ -29,6 +29,10 @@ public class Cafeteria {
         return carta.get(nombreProducto);
     }
 
+    public Mesa getMesa(int numeroMesa) {
+        return mesas.get(numeroMesa);
+    }
+
     public void addProducto(String nombreProducto, double precio){
         Producto producto = new Producto(nombreProducto,precio);
         carta.put(nombreProducto,producto);

@@ -14,16 +14,17 @@ public class Main {
         tpv = new TPVCafeteria();
         vistaTexto = new ControladorVistaTexto();
         init();
+        initVisual();
 
-        vistaTexto.inicializarVista();
+        //vistaTexto.inicializarVista();
 
-        /*JFrame frame = new JFrame("TPV");
+        JFrame frame = new JFrame("TPV");
         frame.setContentPane(tpv.getPanel());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setPreferredSize(new Dimension(800, 600));
         frame.pack();
         frame.setLocationRelativeTo(null);
-        frame.setVisible(true);*/
+        frame.setVisible(true);
 
 
     }
@@ -39,7 +40,7 @@ public class Main {
             vistaTexto.cafeteria.addProducto(nombresProducto[i],preciosProducto[i]);
     }
 
-    /*public static void init(){
+    public static void initVisual(){
         tpv.getComboBoxCuentas().addItem("Seleccionar");
         tpv.getComboBoxMesas().addItem("Seleccionar");
         for (int i=1; i<17; i++) {
@@ -51,5 +52,5 @@ public class Main {
         double[] preciosProducto = {1.00,3.00,1.20,1.50,1.20,1.50};
         for (int i=0; i<nombresProducto.length; i++)
             tpv.getCafeteria().addProducto(nombresProducto[i],preciosProducto[i]);
-    }*/
+    }
 }

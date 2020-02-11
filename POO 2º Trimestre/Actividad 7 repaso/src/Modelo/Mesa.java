@@ -17,6 +17,10 @@ public class Mesa {
         productos.add(producto);
     }
 
+    public int getNumeroMesa() {
+        return numeroMesa;
+    }
+
     public void setCerrada(boolean cerrada) {
         this.cerrada = cerrada;
     }
