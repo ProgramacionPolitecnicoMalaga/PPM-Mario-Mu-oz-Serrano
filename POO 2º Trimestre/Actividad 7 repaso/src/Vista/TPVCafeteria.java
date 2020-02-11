@@ -39,103 +39,21 @@ public class TPVCafeteria {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 if (!comboBoxMesas.getSelectedItem().equals("Seleccionar")) {
-                    textAreaProducto.setText("");
-                    textAreaPrecio.setText("");
-                    textFieldTotal.setText("");
                     Mesa mesa = cafeteria.getMesa(comboBoxMesas.getSelectedIndex());
                     mesaLabel.setText("MESA SELECCIONADA: " + mesa.getNumeroMesa());
                     mesaSeleccionada = true;
-                    if (mesa.getProductos().size()>0) {
-                    Iterator<Producto> it = mesa.getProductos().iterator();
-                    while (it.hasNext()) {
-                        Producto producto = it.next();
-                        textAreaProducto.append("\n" + producto.getNombre());
-                        textAreaPrecio.append("\n" + producto.getPrecio() + "€");
-                    }
-
-                    }
-
+                    actualizarDatos();
                 }
             }
         });
-            buttonCaña.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (mesaSeleccionada) {
-                    Producto producto = cafeteria.getProducto("Caña");
-                    cafeteria.addProductoAMesa(comboBoxMesas.getSelectedIndex(), producto.getNombre());
-                    textAreaProducto.append("\n" + producto.getNombre());
-                    textAreaPrecio.append("\n" + producto.getPrecio() + "€");
-                    actualizarTotal(comboBoxMesas.getSelectedIndex());
-                }
-            }
-        }); buttonPinta.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (mesaSeleccionada) {
-                    Producto producto = cafeteria.getProducto("Pinta");
-                    cafeteria.addProductoAMesa(comboBoxMesas.getSelectedIndex(), producto.getNombre());
-                    textAreaProducto.append("\n" + producto.getNombre());
-                    textAreaPrecio.append("\n" + producto.getPrecio() + "€");
-                    actualizarTotal(comboBoxMesas.getSelectedIndex());
-                }
-            }
-        }); buttonCarajillo.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (mesaSeleccionada) {
-                    Producto producto = cafeteria.getProducto("Carajillo");
-                    cafeteria.addProductoAMesa(comboBoxMesas.getSelectedIndex(), producto.getNombre());
-                    textAreaProducto.append("\n" + producto.getNombre());
-                    textAreaPrecio.append("\n" + producto.getPrecio() + "€");
-                    actualizarTotal(comboBoxMesas.getSelectedIndex());
-                }
-            }
-        }); buttonMixto.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (mesaSeleccionada) {
-                    Producto producto = cafeteria.getProducto("Mixto");
-                    cafeteria.addProductoAMesa(comboBoxMesas.getSelectedIndex(), producto.getNombre());
-                    textAreaProducto.append("\n" + producto.getNombre());
-                    textAreaPrecio.append("\n" + producto.getPrecio() + "€");
-                    actualizarTotal(comboBoxMesas.getSelectedIndex());
-                }
-            }
-        }); buttonCatalana.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (mesaSeleccionada) {
-                    Producto producto = cafeteria.getProducto("Catalana");
-                    cafeteria.addProductoAMesa(comboBoxMesas.getSelectedIndex(), producto.getNombre());
-                    textAreaProducto.append("\n" + producto.getNombre());
-                    textAreaPrecio.append("\n" + producto.getPrecio() + "€");
-                    actualizarTotal(comboBoxMesas.getSelectedIndex());
-                }
-            }
-        }); buttonColacao.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (mesaSeleccionada) {
-                    Producto producto = cafeteria.getProducto("Colacao");
-                    cafeteria.addProductoAMesa(comboBoxMesas.getSelectedIndex(), producto.getNombre());
-                    textAreaProducto.append("\n" + producto.getNombre());
-                    textAreaPrecio.append("\n" + producto.getPrecio() + "€");
-                    actualizarTotal(comboBoxMesas.getSelectedIndex());
-                }
-            }
-        }); buttonCerrarMesa.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                if (mesaSeleccionada) {
-                    Cuenta cuenta = cafeteria.cerrarMesa(comboBoxMesas.getSelectedIndex());
-                    comboBoxCuentas.addItem("Cuenta Nº" + cuenta.getNumeroCuenta() + " (Mesa " + cuenta.getNumeroMesa() + ")");
-                    textAreaProducto.setText("");
-                    textAreaPrecio.setText("");
-                    textFieldTotal.setText("");
-                }
-            }
-        }); comboBoxCuentas.addActionListener(new ActionListener() {
+            buttonCaña.addActionListener(getActionListenerButton("Caña"));
+            buttonPinta.addActionListener(getActionListenerButton("Pinta"));
+            buttonCarajillo.addActionListener(getActionListenerButton("Carajillo"));
+            buttonMixto.addActionListener(getActionListenerButton("Mixto"));
+            buttonCatalana.addActionListener(getActionListenerButton("Catalana"));
+            buttonColacao.addActionListener(getActionListenerButton("Colacao"));
+
+            comboBoxCuentas.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 if (!comboBoxCuentas.getSelectedItem().equals("Seleccionar")) {
@@ -143,7 +61,20 @@ public class TPVCafeteria {
                     textAreaCuenta.append(cafeteria.getCuenta(comboBoxCuentas.getSelectedIndex()).toString());
                 }
             }
-        }); recuentoCajaButton.addActionListener(new ActionListener() {
+        }); buttonCerrarMesa.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                if (mesaSeleccionada) {
+                    Mesa mesa = cafeteria.getMesa(comboBoxMesas.getSelectedIndex());
+                    if (!mesa.isCerrada()) {
+                        Cuenta cuenta = cafeteria.cerrarMesa(comboBoxMesas.getSelectedIndex());
+                        comboBoxCuentas.addItem("Cuenta Nº" + cuenta.getNumeroCuenta() + " (Mesa " + cuenta.getNumeroMesa() + ")");
+                        actualizarDatos();
+                    }
+                }
+            }
+        });
+            recuentoCajaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 textAreaConsultas.setText("");
@@ -164,8 +95,38 @@ public class TPVCafeteria {
         });
     }
 
-    private void actualizarTotal(int numeroMesa) {
-        textFieldTotal.setText(cafeteria.getTotalMesa(numeroMesa) + "€");
+    public ActionListener getActionListenerButton(String nombreProducto) {
+        ActionListener actionListener = new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (mesaSeleccionada) {
+                    Producto producto = cafeteria.getProducto(nombreProducto);
+                    cafeteria.addProductoAMesa(comboBoxMesas.getSelectedIndex(), producto.getNombre());
+                    actualizarDatos();
+                }
+            }
+        };
+        return actionListener;
+    }
+
+    public void actualizarDatos() {
+        borrarDatos();
+        Mesa mesa = cafeteria.getMesa(comboBoxMesas.getSelectedIndex());
+        if (mesa.getProductos().size()>0) {
+            Iterator<Producto> it = mesa.getProductos().iterator();
+            while (it.hasNext()) {
+                Producto producto = it.next();
+                textAreaProducto.append("\n" + producto.getNombre());
+                textAreaPrecio.append("\n" + producto.getPrecio() + "€");
+                textFieldTotal.setText(cafeteria.getTotalMesa(mesa.getNumeroMesa()) + "€");
+            }
+        }
+    }
+
+    public void borrarDatos() {
+        textAreaProducto.setText("");
+        textAreaPrecio.setText("");
+        textFieldTotal.setText("");
     }
 
     public JPanel getPanel() {
