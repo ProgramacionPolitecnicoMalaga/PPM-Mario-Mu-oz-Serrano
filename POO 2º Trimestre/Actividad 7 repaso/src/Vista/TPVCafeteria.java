@@ -4,7 +4,6 @@ import Lógica.Cafeteria;
 import Modelo.Cuenta;
 import Modelo.Mesa;
 import Modelo.Producto;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -46,12 +45,12 @@ public class TPVCafeteria {
                 }
             }
         });
-            buttonCaña.addActionListener(getActionListenerButton("Caña"));
-            buttonPinta.addActionListener(getActionListenerButton("Pinta"));
-            buttonCarajillo.addActionListener(getActionListenerButton("Carajillo"));
-            buttonMixto.addActionListener(getActionListenerButton("Mixto"));
-            buttonCatalana.addActionListener(getActionListenerButton("Catalana"));
-            buttonColacao.addActionListener(getActionListenerButton("Colacao"));
+            buttonCaña.addActionListener(getActionListenerAddProducto("Caña"));
+            buttonPinta.addActionListener(getActionListenerAddProducto("Pinta"));
+            buttonCarajillo.addActionListener(getActionListenerAddProducto("Carajillo"));
+            buttonMixto.addActionListener(getActionListenerAddProducto("Mixto"));
+            buttonCatalana.addActionListener(getActionListenerAddProducto("Catalana"));
+            buttonColacao.addActionListener(getActionListenerAddProducto("Colacao"));
 
             comboBoxCuentas.addActionListener(new ActionListener() {
             @Override
@@ -95,7 +94,7 @@ public class TPVCafeteria {
         });
     }
 
-    public ActionListener getActionListenerButton(String nombreProducto) {
+    public ActionListener getActionListenerAddProducto(String nombreProducto) {
         ActionListener actionListener = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio formulario</title>
+    <script src="js/jquery-3.4.1.js"></script>
+    <meta charset="utf-8">
+</head>
+<body>
+<form name="frmDatos" id="frmDatos" action="/src/receptor.jsp">
+    Nombre:<input type="text" id="txtNombre" name="txtNombre"> <br>
+    Apellidos:<input type="text" id="txtApellidos" name="txtApellidos"> <br>
+    Selecciona tu edad:<br>
+    <select id="setEdad" name="setEdad">
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+    </select><br>
+    Selecciona sexo:<br>
+    <input type="radio" id="setSexo" name="setSexo">Hombre<br>
+    <input type="radio" id="setSexo" name="setSexo">Mujer<br>
+    Observaciones<br>
+    <textarea id="txtObservaciones" name="txtObservaciones">
+			</textarea>
+    <input type="submit" value="Enviar">
+</form>
+</body>
+</html>

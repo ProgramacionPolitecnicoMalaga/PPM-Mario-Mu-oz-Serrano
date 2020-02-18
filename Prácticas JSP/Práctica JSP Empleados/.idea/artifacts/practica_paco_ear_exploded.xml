@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="practica paco:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/practica_paco_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Práctica JSP/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="practica paco:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="com.google.code.gson:gson:2.8.6" />
+      </element>
+    </root>
+  </artifact>
+</component>
