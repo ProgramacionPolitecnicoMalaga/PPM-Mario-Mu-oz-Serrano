@@ -6,16 +6,19 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="http://vps456458.ovh.net/dwes/resources/jquery-3.3.1.min.js"></script>
     <script src="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/js/bootstrap.min.js"></script>
-
     <style>
+        #txtNombre {
+            left: 5px;
+            position: relative;
+        }
     </style>
 </head>
 <body>
 <form>
     <div class="form-row align-items-center">
         <div class="col-auto">
-            <label class="sr-only" for="txtNombre">Name</label>
-            <input type="text" class="form-control mb-2" id="txtNombre" placeholder="Nombre empleado">
+            <label class="sr-only" id="txtNombre" for="txtNombre">Name</label>
+            <input type="text" class="form-control mb-2" placeholder="Nombre empleado">
         </div>
         <div class="col-auto">
             <button type="button" class="btn btn-dark" id="butEnviar" onclick="Enviar()">Consultar</button>
@@ -34,6 +37,7 @@
                 </button>
             </div>
             <div class="modal-body">
+                <div id="response"></div>
                 <form>
                     <div class="form-group">
                         <label for="txtNombreInsert" class="col-form-label">Nombre:</label>
@@ -58,12 +62,6 @@
 </div>
 </body>
 <script>
-    function desactivarBotonModal() {
-        $("#buttonInsert").on("click", function(event){ if ($(this).is("[disabled]")) { event.preventDefault(); } });
-        $("#buttonInsert").attr("disabled", 'disabled');
-        $('#buttonInsert').html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>Cargando...');
-    }
-
     function Update(idEmpleado) {
         $('#updateModal').modal('show');
         document.getElementById('buttonInsert').onclick = function() {
@@ -71,25 +69,34 @@
             var name = $("#txtNombreInsert").val();
             var lastName = $("#txtApellidosInsert").val();
             var date = $("#txtDateInsert").val();
-            desactivarBotonModal();
             $.ajax({
                 type: "POST",
                 url: "empleados.jsp",
                 data: {"str": str, "accion": "update", "idEmpleado": idEmpleado, "name": name, "lastName": lastName, "date": date}
-            }).done(function (response) {
-                var result = JSON.parse(response);
-                if (result.status == 'ok') {
-                    $("#divResult").html(result.html);
-                } else {
-                    $("#divResult").html(result.mensaje);
-                }
-                $('#updateModal').modal('hide')
-                $("#buttonInsert").removeAttr("disabled");
-                $('#buttonInsert').replaceWith('<button type="button" class="btn btn-dark" id="buttonInsert" onclick="Update()">Introducir datos</button>');
             });
+            $('#buttonInsert').replaceWith('<button type="button" class="btn btn-dark" id="buttonInsert" onclick="Add()">Introducir datos</button>');
+            $("#response").animate({
+                height: '+=72px'
+            }, 300);
+            $('<div class="alert alert-success">' +
+                '<button type="button" class="close" data-dismiss="alert">' +
+                '&times;</button>Empleado modificado</div>').hide().appendTo('#response').fadeIn(1000);
+            $(".alert").delay(3000).fadeOut(
+                "normal",
+                function(){
+                    $(this).remove();
+                });
+            $("#response").delay(4000).animate({
+                height: '-=72px'
+            }, 300);
+            jQuery('#' + idEmpleado).find("td:eq(1)").text(idEmpleado);
+            jQuery('#' + idEmpleado).find("td:eq(2)").text(name);
+            jQuery('#' + idEmpleado).find("td:eq(3)").text(lastName);
+            jQuery('#' + idEmpleado).find("td:eq(4)").text(date);
         }
     }
     function Enviar() {
+        $('.alert').alert();
         var str = $("#txtNombre").val();
         $("#butEnviar").on("click", function(event){ if ($(this).is("[disabled]")) { event.preventDefault(); } });
         $("#butEnviar").attr("disabled", 'disabled');
@@ -114,39 +121,35 @@
         var name = $("#txtNombreInsert").val();
         var lastName = $("#txtApellidosInsert").val();
         var date = $("#txtDateInsert").val();
-        desactivarBotonModal()
         $.ajax({
             type: "POST",
             url: "empleados.jsp",
             data: {"str": str, "accion": "add", "name": name, "lastName": lastName, "date": date}
-        }).done(function (response) {
-            var result = JSON.parse(response);
-            if (result.status == 'ok') {
-                $("#divResult").html(result.html);
-            } else {
-                $("#divResult").html(result.mensaje);
-            }
-            $('#updateModal').modal('hide')
-            $("#buttonInsert").removeAttr("disabled");
-            $('#buttonInsert').replaceWith('<button type="button" class="btn btn-dark" id="buttonInsert" onclick="Add()">Introducir datos</button>');
         });
+            $("#response").animate({
+                    height: '+=72px'
+                }, 300);
+                $('<div class="alert alert-success">' +
+                    '<button type="button" class="close" data-dismiss="alert">' +
+                    '&times;</button>Empleado añadido</div>').hide().appendTo('#response').fadeIn(1000);
+                $(".alert").delay(3000).fadeOut(
+                    "normal",
+                    function(){
+                        $(this).remove();
+                    });
+            $("#response").delay(4000).animate({
+                height: '-=72px'
+            }, 300);
     }
     function Delete(idEmpleado) {
         var str = $("#txtNombre").val();
-        var button = "";
         $('#buttonDelete' + idEmpleado).html('<span class="spinner-border spinner-border-sm text-dark" role="status" aria-hidden="true"></span>');
         $.ajax({
             type: "POST",
             url: "empleados.jsp",
             data: {"str": str, "accion": "delete", "idEmpleado": idEmpleado}
-        }).done(function (response) {
-            var result = JSON.parse(response);
-            if (result.status == 'ok') {
-                $("#divResult").html(result.html);
-            } else {
-                $("#divResult").html(result.mensaje);
-            }
         });
+            $('#' + idEmpleado).remove();
     }
 </script>
 </html>

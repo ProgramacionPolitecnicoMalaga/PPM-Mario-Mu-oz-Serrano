@@ -49,17 +49,19 @@
             case "delete":
                 stmt.execute("DELETE FROM EMPLEADOS WHERE ID_EMPLEADO = " + idParseado);
                 break;
+            case "read":
+                ResultSet rs = stmt.executeQuery("SELECT ID_EMPLEADO,NOMBRE,APELLIDOS,FECHA_NACIMIENTO FROM EMPLEADOS WHERE NOMBRE LIKE '%" + str + "%'");
+                while (rs.next()) {
+                    items++;
+                    html += "<tr id='" + rs.getString("ID_EMPLEADO") + "'><td><a href='javascript:Update(" + rs.getString("ID_EMPLEADO") + ")'><img src='icons/update.svg'></a>";
+                    html += "<a href='javascript:Delete(" + rs.getString("ID_EMPLEADO") + ")' id='buttonDelete" + rs.getString("ID_EMPLEADO") + "'><img src='icons/delete.svg'></a></td>";
+                    html += "<td>" + rs.getString("ID_EMPLEADO") + "</td>";
+                    html += "<td>" + rs.getString("NOMBRE") + "</td>";
+                    html += "<td>" + rs.getString("APELLIDOS") + "</td>";
+                    html += "<td>" + rs.getString("FECHA_NACIMIENTO") + "</td></tr>";
+                }
+                break;
         }
-            ResultSet rs = stmt.executeQuery("SELECT ID_EMPLEADO,NOMBRE,APELLIDOS,FECHA_NACIMIENTO FROM EMPLEADOS WHERE NOMBRE LIKE '%" + str + "%'");
-            while (rs.next()) {
-                items++;
-                html += "<tr><td><a href='javascript:Update(" + rs.getString("ID_EMPLEADO") + ")'><img src='icons/update.svg'></a>";
-                html += "<a href='javascript:Delete(" + rs.getString("ID_EMPLEADO") + ")' id='buttonDelete" + rs.getString("ID_EMPLEADO") + "'><img src='icons/delete.svg'></a></td>";
-                html += "<td>" + rs.getString("ID_EMPLEADO") + "</td>";
-                html += "<td>" + rs.getString("NOMBRE") + "</td>";
-                html += "<td>" + rs.getString("APELLIDOS") + "</td>";
-                html += "<td>" + rs.getString("FECHA_NACIMIENTO") + "</td></tr>";
-            }
 
         html += "</tboby></table>";
         result = "{\"status\":\"ok\",\"html\" : \"" + html + "\",\"items\":" + items + "}";

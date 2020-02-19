@@ -65,7 +65,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.empleados.jsp">
+  <component name="RunManager" selected="JavaScript Debug.empleados.html">
+    <configuration name="empleados.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://192.168.1.135/src/empleados.html">
+      <method v="2" />
+    </configuration>
     <configuration name="empleados.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://192.168.1.135/src/empleados.jsp">
       <method v="2" />
     </configuration>
@@ -104,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.empleados.html" />
         <item itemvalue="JavaScript Debug.empleados.jsp" />
         <item itemvalue="JavaScript Debug.formulario.html" />
       </list>
@@ -144,6 +148,8 @@
       <workItem from="1582017885670" duration="10376000" />
       <workItem from="1582042348620" duration="1103000" />
       <workItem from="1582043610153" duration="5297000" />
+      <workItem from="1582097049479" duration="7969000" />
+      <workItem from="1582125666880" duration="8283000" />
     </task>
     <servers />
   </component>
