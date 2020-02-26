@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Votos</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="http://vps456458.ovh.net/dwes/resources/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://vps456458.ovh.net/dwes/resources/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet"
+          href="http://vps456458.ovh.net/dwes/resources/open-iconic-master/font/css/open-iconic-bootstrap.min.css">
+    <script src="http://vps456458.ovh.net/dwes/resources/fontawesome.min.js"></script>
+    <script src="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <script src="http://vps456458.ovh.net/dwes/resources/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="http://vps456458.ovh.net/dwes/resources/cookies.js"></script>
+    <style>
+        .ui-autocomplete-loading {
+            background: white right center no-repeat;
+        }
+
+        * {
+            margin-left: 10px
+        }
+    </style>
+</head>
+<body>
+<p><span id="nombre"></span><span id="ap"></span></p>
+<div>
+    <label> Usuario: </label> <input type="text" id="txtUsuario" name="txtUsuario" maxlength="10"/>
+    <button id="send" type="button" class="btn-success" onclick="enviar()">Votar</button>
+    <br>
+    <span>Voto: </span><br>
+    <form>
+        <label class="radio-inline">
+            <input type="radio" name="voto" value="1" checked>1
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="voto" value="2">2
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="voto" value="3">3
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="voto" value="4">4
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="voto" value="5">5
+        </label>
+    </form>
+    <br>
+    <div id="txtInfo"></div>
+</div>
+</body>
+<script>
+    var id = 0;
+    $(function () {
+        $("#txtUsuario").autocomplete({
+            source: "search.jsp",
+            minLength: 2,
+            select: function (event, ui) {
+                id = ui.item.id;
+            }
+        });
+    });
+
+    function enviar() {
+        var nomApe = $("#txtUsuario").val();
+        var voto = $('input[name=voto]:checked').val();
+        var div = $("#txtInfo");
+        var idVotado = id;
+        $.ajax({
+            dataType: "json",
+            type: "POST",
+            url: "votos.jsp",
+            data: {"voto": voto, "idVotado": idVotado}
+        }).done(function (response) {
+            var data = JSON.parse(response);
+            div.html("Has votado a " + nomApe + " con " + voto + " puntos, actualmente lleva en total " + data.total + " puntos.");
+        });
+    }
+</script>
+</html>
