@@ -42,8 +42,8 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44252872" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -150,6 +150,24 @@
       <workItem from="1582043610153" duration="5297000" />
       <workItem from="1582097049479" duration="7969000" />
       <workItem from="1582125666880" duration="8283000" />
+      <workItem from="1582151142246" duration="1137000" />
+      <workItem from="1582190881180" duration="1747000" />
+      <workItem from="1582214119263" duration="938000" />
+      <workItem from="1582218042033" duration="2256000" />
+      <workItem from="1582312755380" duration="1516000" />
+      <workItem from="1582366327022" duration="6270000" />
+      <workItem from="1582393797592" duration="171000" />
+      <workItem from="1582458260375" duration="1544000" />
+      <workItem from="1582540055934" duration="2982000" />
+      <workItem from="1582564350451" duration="4261000" />
+      <workItem from="1582624647004" duration="10669000" />
+      <workItem from="1582642848749" duration="12000" />
+      <workItem from="1582733920011" duration="566000" />
+      <workItem from="1582737944032" duration="1290000" />
+      <workItem from="1582753391417" duration="291000" />
+      <workItem from="1582805711318" duration="233000" />
+      <workItem from="1582813336750" duration="324000" />
+      <workItem from="1582817000331" duration="30000" />
     </task>
     <servers />
   </component>

@@ -1,14 +1,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Actividad Empleados</title>
     <link href="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="http://vps456458.ovh.net/dwes/resources/jquery-3.3.1.min.js"></script>
     <script src="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/js/bootstrap.min.js"></script>
     <style>
         #txtNombre {
-            left: 5px;
+            top: 4px;
             position: relative;
         }
     </style>
@@ -17,8 +17,7 @@
 <form>
     <div class="form-row align-items-center">
         <div class="col-auto">
-            <label class="sr-only" id="txtNombre" for="txtNombre">Name</label>
-            <input type="text" class="form-control mb-2" placeholder="Nombre empleado">
+            <input type="text" class="form-control mb-2" id="txtNombre" placeholder="Nombre empleado">
         </div>
         <div class="col-auto">
             <button type="button" class="btn btn-dark" id="butEnviar" onclick="Enviar()">Consultar</button>
@@ -31,7 +30,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Introduzca los datos del empleado</h5>
+                <h5 class="modal-title" id="modalLabel">Introduzca los datos del empleado</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -65,14 +64,13 @@
     function Update(idEmpleado) {
         $('#updateModal').modal('show');
         document.getElementById('buttonInsert').onclick = function() {
-            var str = $("#txtNombre").val();
             var name = $("#txtNombreInsert").val();
             var lastName = $("#txtApellidosInsert").val();
             var date = $("#txtDateInsert").val();
             $.ajax({
                 type: "POST",
                 url: "empleados.jsp",
-                data: {"str": str, "accion": "update", "idEmpleado": idEmpleado, "name": name, "lastName": lastName, "date": date}
+                data: {"accion": "update", "idEmpleado": idEmpleado, "name": name, "lastName": lastName, "date": date}
             });
             $('#buttonInsert').replaceWith('<button type="button" class="btn btn-dark" id="buttonInsert" onclick="Add()">Introducir datos</button>');
             $("#response").animate({
@@ -89,18 +87,22 @@
             $("#response").delay(4000).animate({
                 height: '-=72px'
             }, 300);
-            jQuery('#' + idEmpleado).find("td:eq(1)").text(idEmpleado);
-            jQuery('#' + idEmpleado).find("td:eq(2)").text(name);
-            jQuery('#' + idEmpleado).find("td:eq(3)").text(lastName);
-            jQuery('#' + idEmpleado).find("td:eq(4)").text(date);
+            if (name!="") {
+                jQuery('#' + idEmpleado).find("td:eq(2)").text(name);
+            }
+            if (lastName!="") {
+                jQuery('#' + idEmpleado).find("td:eq(3)").text(lastName);
+            }
+            if (date!="") {
+                jQuery('#' + idEmpleado).find("td:eq(4)").text(date);
+            }
         }
     }
     function Enviar() {
-        $('.alert').alert();
         var str = $("#txtNombre").val();
         $("#butEnviar").on("click", function(event){ if ($(this).is("[disabled]")) { event.preventDefault(); } });
         $("#butEnviar").attr("disabled", 'disabled');
-        $('#butEnviar').html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>Cargando...');
+        $('#butEnviar').html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Cargando...');
         $.ajax({
             type: "POST",
             url: "empleados.jsp",
@@ -117,14 +119,13 @@
         });
     }
     function Add() {
-        var str = $("#txtNombre").val();
         var name = $("#txtNombreInsert").val();
         var lastName = $("#txtApellidosInsert").val();
         var date = $("#txtDateInsert").val();
         $.ajax({
             type: "POST",
             url: "empleados.jsp",
-            data: {"str": str, "accion": "add", "name": name, "lastName": lastName, "date": date}
+            data: {"accion": "add", "name": name, "lastName": lastName, "date": date}
         });
             $("#response").animate({
                     height: '+=72px'
@@ -142,12 +143,11 @@
             }, 300);
     }
     function Delete(idEmpleado) {
-        var str = $("#txtNombre").val();
         $('#buttonDelete' + idEmpleado).html('<span class="spinner-border spinner-border-sm text-dark" role="status" aria-hidden="true"></span>');
         $.ajax({
             type: "POST",
             url: "empleados.jsp",
-            data: {"str": str, "accion": "delete", "idEmpleado": idEmpleado}
+            data: {"accion": "delete", "idEmpleado": idEmpleado}
         });
             $('#' + idEmpleado).remove();
     }

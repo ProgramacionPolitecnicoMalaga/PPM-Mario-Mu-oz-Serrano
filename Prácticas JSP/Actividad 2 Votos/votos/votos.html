@@ -72,8 +72,7 @@
             type: "POST",
             url: "votos.jsp",
             data: {"voto": voto, "idVotado": idVotado}
-        }).done(function (response) {
-            var data = JSON.parse(response);
+        }).done(function (data) {
             div.html("Has votado a " + nomApe + " con " + voto + " puntos, actualmente lleva en total " + data.total + " puntos.");
         });
     }

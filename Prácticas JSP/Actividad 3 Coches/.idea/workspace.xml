@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14333543-8105-4401-9da6-22ca49982548" name="Default Changelist" comment="" />
+    <list default="true" id="d33a55cf-ad3d-434e-adf4-b7fb3d9a02ce" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,15 +15,14 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1YFZ2MhJLLq57jEzZCp9xY46Tyk" />
+  <component name="ProjectId" id="1YM2ECz48BfhoiojzanHoxDYIMc" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FP/Programación/Pruebas" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jsoup-1.12.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15234375" />
-    <property name="project.structure.side.proportion" value="0.32142857" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -37,35 +36,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="Actividad 2 JSP Votos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14333543-8105-4401-9da6-22ca49982548" name="Default Changelist" comment="" />
-      <created>1582540094259</created>
+      <changelist id="d33a55cf-ad3d-434e-adf4-b7fb3d9a02ce" name="Default Changelist" comment="" />
+      <created>1582738028522</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582540094259</updated>
-      <workItem from="1582540097324" duration="7312000" />
-      <workItem from="1582564386892" duration="5895000" />
-      <workItem from="1582624731415" duration="14995000" />
-      <workItem from="1582642875779" duration="20000" />
-      <workItem from="1582710723491" duration="358000" />
+      <updated>1582738028522</updated>
+      <workItem from="1582738031861" duration="5451000" />
+      <workItem from="1582753410551" duration="3037000" />
+      <workItem from="1582795428672" duration="6387000" />
+      <workItem from="1582807913221" duration="31000" />
+      <workItem from="1582813122657" duration="3756000" />
     </task>
     <servers />
   </component>

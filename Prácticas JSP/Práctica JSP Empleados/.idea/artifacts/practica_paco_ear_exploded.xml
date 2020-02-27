@@ -7,7 +7,8 @@
         <element id="artifact" artifact-name="practica paco:war exploded" />
       </element>
       <element id="directory" name="lib">
-        <element id="library" level="project" name="com.google.code.gson:gson:2.8.6" />
+        <element id="library" level="application" name="com.google.code.gson:gson:2.8.6" />
+        <element id="library" level="application" name="mysql:mysql-connector-java:8.0.16" />
       </element>
     </root>
   </artifact>
