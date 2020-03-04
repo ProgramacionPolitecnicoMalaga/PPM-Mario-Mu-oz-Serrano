@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14333543-8105-4401-9da6-22ca49982548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/votos/votos.html" beforeDir="false" afterPath="$PROJECT_DIR$/votos/votos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/votos/votos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/votos/votos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 3 Coches/coches/coches.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 3 Coches/coches/coches.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +79,8 @@
       <workItem from="1582642875779" duration="20000" />
       <workItem from="1582710723491" duration="358000" />
       <workItem from="1582739938861" duration="225000" />
+      <workItem from="1583135000944" duration="3335000" />
+      <workItem from="1583147691001" duration="223000" />
     </task>
     <servers />
   </component>
@@ -87,7 +92,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

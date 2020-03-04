@@ -7,7 +7,7 @@
     String idVotado = request.getParameter("idVotado");
 
     String result = "";
-    String total = "";
+    int total = 0;
 
     //Conexión a la base de datos
     try {
@@ -23,7 +23,7 @@
             ResultSet rs = stmt.executeQuery("SELECT SUM(VOTO) AS TOTAL_VOTOS FROM VOTOS WHERE IDVOTADO LIKE '%" + idVotado + "%' GROUP BY IDVOTADO");
 
         while (rs.next()) {
-            total = rs.getString("TOTAL_VOTOS");
+            total = rs.getInt("TOTAL_VOTOS");
         }
 
         result = "{\"status\":\"ok\", \"total\":\"" + total + "\"}";

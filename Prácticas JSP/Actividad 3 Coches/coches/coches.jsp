@@ -14,7 +14,6 @@
 <%@ page import="java.io.StringWriter" %>
 <%@ page import="javax.xml.transform.*" %>
 
-
 <%
     //Recepción de parámetros
     String numeroPagina = request.getParameter("numero");
