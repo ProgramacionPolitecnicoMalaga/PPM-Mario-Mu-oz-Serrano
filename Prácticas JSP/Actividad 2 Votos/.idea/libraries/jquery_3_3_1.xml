@@ -2,9 +2,6 @@
   <library name="jquery-3.3.1" type="javaScript">
     <properties>
       <option name="frameworkName" value="jQuery" />
-      <sourceFilesUrls>
-        <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_vps456458.ovh.net_dwes_resources_jquery-3.3.1.min.js" />
-      </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/lib/http_vps456458.ovh.net_dwes_resources_jquery-3.3.1.min.js" />

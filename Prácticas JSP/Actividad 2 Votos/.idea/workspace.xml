@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14333543-8105-4401-9da6-22ca49982548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/PruebaTelefono.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/Telefono.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/TelefonoNokia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/Telefono.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/TelefonoNokia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jquery_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jquery_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actividad 2 JSP Votos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Actividad 2 JSP Votos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/votos/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/votos/search.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/votos/votos.html" beforeDir="false" afterPath="$PROJECT_DIR$/votos/votos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/votos/votos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/votos/votos.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" afterDir="false" />
@@ -26,12 +41,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1YFZ2MhJLLq57jEzZCp9xY46Tyk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Programación/Aditivos Json" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15234375" />
@@ -81,6 +103,10 @@
       <workItem from="1582739938861" duration="225000" />
       <workItem from="1583135000944" duration="3335000" />
       <workItem from="1583147691001" duration="223000" />
+      <workItem from="1583772875771" duration="6656000" />
+      <workItem from="1583780042491" duration="7793000" />
+      <workItem from="1583792509055" duration="65000" />
+      <workItem from="1583832214840" duration="1546000" />
     </task>
     <servers />
   </component>

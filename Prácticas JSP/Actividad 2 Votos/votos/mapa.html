@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa</title>
+    <script src="http://vps456458.ovh.net/dwes/resources/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://vps456458.ovh.net/dwes/resources/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet"
+          href="http://vps456458.ovh.net/dwes/resources/open-iconic-master/font/css/open-iconic-bootstrap.min.css">
+    <script src="http://vps456458.ovh.net/dwes/resources/fontawesome.min.js"></script>
+    <script src="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <script src="http://vps456458.ovh.net/dwes/resources/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="http://vps456458.ovh.net/dwes/resources/cookies.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin=""/>
+    <style>
+        #map {
+            height: 100vh;
+            width: 100vw
+        }
+
+        .popup {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<div id="voto" style='display:none'>
+    <span>Voto: </span><br>
+    <form>
+        <div id="votosTotales"></div>
+        <label class="radio-inline">
+            <input type="radio" name="voto" value="1" checked>1
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="voto" value="2">2
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="voto" value="3">3
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="voto" value="4">4
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="voto" value="5">5
+        </label>
+        <br>
+        <span style="float:right">
+        <button id="send-${usuario.id}" type="button" class="btn-success" onclick="enviar()">Votar</button>
+        </span>
+    </form>
+    <br>
+    <div id="txtInfo"></div>
+    <div id="txtError"></div>
+</div>
+</body>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
+<script>
+    var votoHTML = $('#voto').html();
+    //Establecer el mapa
+    const map = L.map('map').setView([36.717557, -4.424010], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+
+    function anclarUsuarioEnMapa(usuario) {
+        const contenidoHTML = $.parseHTML(`<div data-idUsuario='${usuario.id}' data-nickUsuario='${usuario.nick}'>` + votoHTML + `</div>`)[0];
+        L.marker([usuario.lat, usuario.lon]).addTo(map)
+            .on('click', cargarFoto)
+            .bindPopup(contenidoHTML);
+    }
+    function cargarFoto() {
+        return "";
+    }
+    $(function () {
+        $.getJSON("mapa.jsp", function (usuarios) {
+            $.each(usuarios, function (i) {
+                var usuario = new Object();
+                usuario.id = usuarios[i].id;
+                usuario.nick = usuarios[i].nick;
+                usuario.lat = usuarios[i].lat;
+                usuario.lon = usuarios[i].lon;
+                anclarUsuarioEnMapa(usuario);
+            });
+        });
+    });
+</script>
+</html>

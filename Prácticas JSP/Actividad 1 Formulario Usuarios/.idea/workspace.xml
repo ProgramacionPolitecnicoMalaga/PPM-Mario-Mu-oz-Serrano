@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f22c124-2216-467f-8e66-f1712034f0e1" name="Default Changelist" comment="" />
+    <list default="true" id="8f22c124-2216-467f-8e66-f1712034f0e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/PruebaTelefono.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/Telefono.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/TelefonoNokia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/Telefono.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/TelefonoNokia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/libraries/jquery_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/libraries/jquery_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/Actividad 2 JSP Votos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/Actividad 2 JSP Votos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/votos/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/votos/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 3 Coches/coches/coches.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 3 Coches/coches/coches.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +37,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1Y9xTglojSww1wAZlXqyEc1UaP5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -70,10 +98,26 @@
       <workItem from="1582543076093" duration="1357000" />
       <workItem from="1582571235059" duration="699000" />
       <workItem from="1582642862102" duration="12000" />
+      <workItem from="1583752181280" duration="802000" />
+      <workItem from="1583790505825" duration="1629000" />
+      <workItem from="1583792478633" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

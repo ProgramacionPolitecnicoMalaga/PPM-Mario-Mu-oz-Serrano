@@ -1,0 +1,79 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad registro usuarios</title>
+    <link href="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="http://vps456458.ovh.net/dwes/resources/jquery-3.3.1.min.js"></script>
+    <script src="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        .form-control {
+            width:15%;
+        }
+        #response {
+            width:15%;
+        }
+    </style>
+</head>
+<body>
+<div class="float-right"><img id="prevFoto"></div>
+<form id="frmDatos" action="usuariosForm.jsp" enctype="multipart/form-data" method="post">
+    <h3>Registro de usuarios</h3>
+    <div id="response"></div>
+    <div class="form-group">
+        <label for="txtNick">Nick</label>
+        <input type="text" class="form-control" id="txtNick" name="txtNick" placeholder="Introducir nick">
+    </div>
+    <div class="form-group">
+        <label for="txtEmail">Email</label>
+        <input type="email" class="form-control" id="txtEmail" name="txtEmail" placeholder="Introducir email">
+    </div>
+    <div class="form-group">
+        <label for="txtPasswd">Clave</label>
+        <input type="password" class="form-control" id="txtPasswd" name="txtPasswd" placeholder="Introducir clave">
+    </div>
+    <div class="form-group">
+        <label for="txtNomApe">Nombre y apellidos</label>
+        <input type="text" class="form-control" id="txtNomApe" name="txtNomApe" placeholder="Introducir nombre y apellidos">
+    </div>
+    <div class="form-group">
+        <label for="fechaNac">Fecha de nacimiento</label>
+        <input type="date" class="form-control" id="fechaNac" name="fechaNac" placeholder="Introducir fecha">
+    </div>
+    <div class="form-group">
+        <label for="ficFoto">Foto</label>
+        <input type="file" class="form-control" id="ficFoto" name="ficFoto" placeholder="Foto">
+    </div>
+    <button type="submit" id="butEnviar" class="btn btn-primary">Registrar usuario</button>
+</form>
+</body>
+<script>
+    $("#ficFoto").change(function () {
+            $("#prevFoto")[0].src=window.URL.createObjectURL(this.files[0]);
+        }
+    );
+    var form=$("#frmDatos");
+    form.submit(function (event) {
+        var md5 = $.md5($("#txtPasswd").val());
+        alert(md5)
+        event.preventDefault();
+        var formData = new FormData($(this)[0]);
+        $.ajax({
+            type: "POST",
+            url: form.attr('action'),
+            data: formData,
+            async: false,
+            cache: false,
+            contentType: false,
+            processData: false
+        }).done(function (response) {
+            var result = JSON.parse(response);
+            if (result.status == 'ok') {
+                //
+            } else {
+                //
+            }
+        });
+    });
+</script>
+</html>
