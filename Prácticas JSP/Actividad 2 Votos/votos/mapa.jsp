@@ -12,11 +12,10 @@
     try {
         Class.forName(driver);
         oConni = DriverManager.getConnection(url, usuario, clave);
-        PreparedStatement stmtNOM = oConni.prepareStatement("SELECT ID, NICK, LAT, LON FROM USUARIOS WHERE GRUPO LIKE '%" + grupo + "%'");
+        PreparedStatement stmtNOM = oConni.prepareStatement("SELECT U.ID, U.NICK, U.LAT, U.LON, IFNULL(SUM(V.VOTO), 0) TOTAL FROM USUARIOS U LEFT JOIN VOTOS V ON U.ID = V.IDVOTADO WHERE U.GRUPO LIKE '%" + grupo + "%' GROUP BY U.ID");
         ResultSet rs = stmtNOM.executeQuery();
         while (rs.next()) {
-            result += "{\"id\":\"" + rs.getString("ID") + "\", \"nick\":\"" + rs.getString("NICK") + "\", \"lat\":\"" + rs.getString("LAT") + "\", \"lon\":\"" + rs.getString("LON") + "\"},";
-            //ResultSet rs2 = stmtNOM.executeQuery("SELECT SUM(VOTO) AS TOTAL_VOTOS FROM VOTOS WHERE IDVOTADO LIKE" + id + "GROUP BY IDVOTADO");
+            result += "{\"id\":\"" + rs.getString("ID") + "\", \"nick\":\"" + rs.getString("NICK") + "\", \"lat\":\"" + rs.getString("LAT") + "\", \"lon\":\"" + rs.getString("LON") + "\", \"total\":\"" + rs.getString("TOTAL") + "\"},";
         }
         json = result.substring(0,result.length()-1);
         json += "]";

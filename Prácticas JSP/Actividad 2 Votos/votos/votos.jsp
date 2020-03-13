@@ -2,9 +2,10 @@
 <%@ page import="java.sql.*" %>
 <%@ page import="java.text.ParseException" %>
 <%
-    String mensaje;
     String voto = request.getParameter("voto");
+    int votoParseado = Integer.parseInt(voto);
     String id = request.getParameter("id");
+    int idVotadoParseado = Integer.parseInt(id);
     String result = "";
     String driver = "com.mysql.cj.jdbc.Driver";
     String url = "jdbc:mysql://vps456458.ovh.net:3306/LOGINS?serverTimezone=Europe/Madrid&useUnicode=yes&characterEncoding=UTF-8";
@@ -13,32 +14,18 @@
     Connection oConni = null;
     try {
         Class.forName(driver);
-        oConni = DriverManager.getConnection(url, usuario, clave);
-        PreparedStatement stmtTOT = oConni.prepareStatement("SELECT SUM(VOTO) FROM VOTOS WHERE IDVOTADO = ?;");
-        PreparedStatement stmtVOTAR = oConni.prepareStatement("INSERT INTO VOTOS (IDVOTANTE, IDVOTADO, IP, VOTO) VALUES (?, ?, null, ?);");
-        stmtVOTAR.setInt(1, 86);
-        stmtVOTAR.setInt(2, Integer.parseInt(id));
-        stmtVOTAR.setInt(3, Integer.parseInt(voto));
-        stmtVOTAR.executeUpdate();
-        stmtTOT.setInt(1, Integer.parseInt(id));
-        ResultSet rs = stmtTOT.executeQuery();
-        result = String.valueOf(rs);
-        if (rs.next()) {
-            String total = rs.getString("SUM(VOTO)");
+        Connection conexion = DriverManager.getConnection(url, usuario, clave);
+        Statement stmt = conexion.createStatement();
+        stmt.executeUpdate("INSERT INTO VOTOS (IDVOTANTE, IDVOTADO, VOTO) VALUES (" + 462 + "," + idVotadoParseado + "," + votoParseado + ")");
+        ResultSet rs = stmt.executeQuery("SELECT IFNULL(SUM(VOTO), 0) TOTAL FROM VOTOS WHERE IDVOTADO =" + idVotadoParseado);
+
+        while (rs.next()) {
+            String total = rs.getString("TOTAL");
             result = "{\"total\" : \"" + total + "\"}";
-        } else {
-            result = "{\"mensaje\" : \"No hay dato para ese nombre\"}";
         }
-    } catch (Exception ex) {
-        mensaje = ex.toString();
-    } finally {
+    } catch (Exception ignored) {
+    }
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
         response.getWriter().write(result);
-        try {
-            oConni.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
 %>

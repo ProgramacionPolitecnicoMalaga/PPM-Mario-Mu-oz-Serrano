@@ -72,7 +72,7 @@
             dataType: "json",
             type: "POST",
             url: "votos.jsp",
-            data: {"nomApe": nomApe, "voto": voto, "id": idV},
+            data: {"voto": voto, "id": idV},
         });
         request.done(function (data) {
             div.html("Has votado a " + nomApe + " con " + voto + " puntos, actualmente lleva en total " + data.total + " puntos.");

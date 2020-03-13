@@ -28,55 +28,38 @@
 </head>
 <body>
 <div id="map"></div>
-<div id="voto" style='display:none'>
-    <span>Voto: </span><br>
-    <form>
-        <div id="votosTotales"></div>
-        <label class="radio-inline">
-            <input type="radio" name="voto" value="1" checked>1
-        </label>
-        <label class="radio-inline">
-            <input type="radio" name="voto" value="2">2
-        </label>
-        <label class="radio-inline">
-            <input type="radio" name="voto" value="3">3
-        </label>
-        <label class="radio-inline">
-            <input type="radio" name="voto" value="4">4
-        </label>
-        <label class="radio-inline">
-            <input type="radio" name="voto" value="5">5
-        </label>
-        <br>
-        <span style="float:right">
-        <button id="send-${usuario.id}" type="button" class="btn-success" onclick="enviar()">Votar</button>
-        </span>
-    </form>
-    <br>
-    <div id="txtInfo"></div>
-    <div id="txtError"></div>
-</div>
 </body>
 <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
         integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
         crossorigin=""></script>
 <script>
-    var votoHTML = $('#voto').html();
     //Establecer el mapa
     const map = L.map('map').setView([36.717557, -4.424010], 13);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
-
-
     function anclarUsuarioEnMapa(usuario) {
-        const contenidoHTML = $.parseHTML(`<div data-idUsuario='${usuario.id}' data-nickUsuario='${usuario.nick}'>` + votoHTML + `</div>`)[0];
+        const contenidoHTML = $.parseHTML(`<div data-idusuario='${usuario.id}' data-nickusuario='${usuario.nick}'>` + votosHTML(usuario) + `</div>`)[0];
         L.marker([usuario.lat, usuario.lon]).addTo(map)
             .on('click', cargarFoto)
             .bindPopup(contenidoHTML);
     }
     function cargarFoto() {
         return "";
+    }
+    function votar(idUsuario) {
+        const voto = $('input[name=voto' + idUsuario + ']:checked').val();
+        var request = $.ajax({
+            dataType: "json",
+            type: "POST",
+            url: "votos.jsp",
+            data: {"voto": voto, "id": idUsuario},
+        });
+        request.done(function (data) {
+            alert("Has votado a " + idUsuario + " con " + voto + " puntos, actualmente lleva en total " + data.total + " puntos.");
+            $('#votosTotales' + idUsuario).text('Votos totales: ' + data.total);
+        });
+
     }
     $(function () {
         $.getJSON("mapa.jsp", function (usuarios) {
@@ -86,9 +69,52 @@
                 usuario.nick = usuarios[i].nick;
                 usuario.lat = usuarios[i].lat;
                 usuario.lon = usuarios[i].lon;
+                usuario.total = usuarios[i].total;
                 anclarUsuarioEnMapa(usuario);
             });
         });
     });
+    function votosHTML(usuario) {
+        var nameVoto = '"voto' + usuario.id + '"';
+        var idVotosTotales = '"votosTotales' + usuario.id + '"';
+        return '<div id="voto">' +
+            '    <table>\n' +
+            '        <tr>\n' +
+            '            <td>\n' +
+            '                <img src="#">\n' +
+            '                <p id="nick">' + usuario.nick + '</p>\n' +
+            '            </td>\n' +
+            '            <td>\n' +
+            '                <form>\n' +
+            '                    <span id=' + idVotosTotales + ' style="float:right">Votos totales: ' + usuario.total +
+            '                        </span><br>\n' +
+            '                    <label class="radio-inline">\n' +
+            '                        <input type="radio" name=' + nameVoto + ' value="1" checked>1\n' +
+            '                    </label>\n' +
+            '                    <label class="radio-inline">\n' +
+            '                        <input type="radio" name=' + nameVoto + ' value="2">2\n' +
+            '                    </label>\n' +
+            '                    <label class="radio-inline">\n' +
+            '                        <input type="radio" name=' + nameVoto + ' value="3">3\n' +
+            '                    </label>\n' +
+            '                    <label class="radio-inline">\n' +
+            '                        <input type="radio" name=' + nameVoto + ' value="4">4\n' +
+            '                    </label>\n' +
+            '                    <label class="radio-inline">\n' +
+            '                        <input type="radio" name=' + nameVoto + ' value="5">5\n' +
+            '                    </label>\n' +
+            '                    <br>\n' +
+            '                    <span style="float:right">\n' +
+            '                        <button id="votarButton" type="button" class="btn-success" onclick="votar(' + usuario.id + ')">Votar</button>\n' +
+            '                    </span>\n' +
+            '                </form>\n' +
+            '            </td>\n' +
+            '        </tr>\n' +
+            '    </table>\n' +
+            '    <br>\n' +
+            '    <div id="txtInfo"></div>\n' +
+            '    <div id="txtError"></div>\n' +
+            '</div>';
+    }
 </script>
 </html>

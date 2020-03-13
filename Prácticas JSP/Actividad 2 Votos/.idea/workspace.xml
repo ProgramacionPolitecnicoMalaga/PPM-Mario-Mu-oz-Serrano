@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14333543-8105-4401-9da6-22ca49982548" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/PruebaTelefono.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/Telefono.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/TelefonoNokia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/Telefono.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/TelefonoNokia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jquery_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jquery_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividad 2 JSP Votos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Actividad 2 JSP Votos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/votos/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/votos/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/votos/mapa.html" beforeDir="false" afterPath="$PROJECT_DIR$/votos/mapa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/votos/mapa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/votos/mapa.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/votos/votos.html" beforeDir="false" afterPath="$PROJECT_DIR$/votos/votos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/votos/votos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/votos/votos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 3 Coches/coches/coches.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 3 Coches/coches/coches.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +91,9 @@
       <workItem from="1583780042491" duration="7793000" />
       <workItem from="1583792509055" duration="65000" />
       <workItem from="1583832214840" duration="1546000" />
+      <workItem from="1584032734920" duration="7023000" />
+      <workItem from="1584102644971" duration="6518000" />
+      <workItem from="1584119101713" duration="7387000" />
     </task>
     <servers />
   </component>
