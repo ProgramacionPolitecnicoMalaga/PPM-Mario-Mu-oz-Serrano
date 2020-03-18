@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b239254-3695-4f48-8db6-99f6558c054c" name="Default Changelist" comment="" />
+    <list default="true" id="0b239254-3695-4f48-8db6-99f6558c054c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Práctica JSP Empleados/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Práctica JSP Empleados/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1XzLAZ0ZibNvoLIaChAjX37YDzg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -41,10 +53,27 @@
       <option name="presentableId" value="Default" />
       <updated>1582043833506</updated>
       <workItem from="1582043836306" duration="25000" />
+      <workItem from="1584188859737" duration="607000" />
+      <workItem from="1584213420380" duration="1359000" />
+      <workItem from="1584225947377" duration="31000" />
+      <workItem from="1584226951320" duration="1000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

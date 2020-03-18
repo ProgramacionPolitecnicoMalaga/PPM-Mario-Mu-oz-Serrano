@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6704d28-a048-446c-8a22-462336b4980c" name="Default Changelist" comment="" />
+    <list default="true" id="a6704d28-a048-446c-8a22-462336b4980c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +33,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1WkAIV4BEL3f58uxMzJrjeAcoXq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -42,7 +50,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Práctica JSP Formulario" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44252872" />
@@ -168,10 +176,22 @@
       <workItem from="1582805711318" duration="233000" />
       <workItem from="1582813336750" duration="324000" />
       <workItem from="1582817000331" duration="30000" />
+      <workItem from="1584188834026" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

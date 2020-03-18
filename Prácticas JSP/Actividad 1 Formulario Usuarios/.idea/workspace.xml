@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f22c124-2216-467f-8e66-f1712034f0e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/PruebaTelefono.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/Telefono.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/TelefonoNokia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/Telefono.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/TelefonoNokia.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/libraries/jquery_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/libraries/jquery_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actividad 1 Formulario Usuarios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Actividad 1 Formulario Usuarios.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usuariosForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuariosForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usuariosForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuariosForm.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/Actividad 2 JSP Votos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/Actividad 2 JSP Votos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/votos/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/votos/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/votos/mapa.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/votos/mapa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/votos/mapa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/votos/mapa.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 3 Coches/coches/coches.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 3 Coches/coches/coches.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Práctica JSP Empleados/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Práctica JSP Empleados/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Práctica JSP Formulario/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Práctica JSP Formulario/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,10 +41,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/libraries/javaxt-core.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15136719" />
+    <property name="project.structure.side.proportion" value="0.44252872" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
@@ -69,7 +59,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.usuarios.jsp">
+  <component name="RunManager" selected="Application.prueba">
+    <configuration name="prueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prueba" />
+      <module name="Actividad 1 Formulario Usuarios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="usuarios.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://51.91.100.55/src/usuarios.html">
       <method v="2" />
     </configuration>
@@ -78,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.prueba" />
         <item itemvalue="JavaScript Debug.usuarios.jsp" />
         <item itemvalue="JavaScript Debug.usuarios.html" />
       </list>
@@ -101,11 +99,26 @@
       <workItem from="1583752181280" duration="802000" />
       <workItem from="1583790505825" duration="1629000" />
       <workItem from="1583792478633" duration="28000" />
+      <workItem from="1584126650263" duration="649000" />
+      <workItem from="1584185748779" duration="11596000" />
+      <workItem from="1584225981691" duration="2694000" />
+      <workItem from="1584268532698" duration="9164000" />
+      <workItem from="1584278837992" duration="12761000" />
+      <workItem from="1584372548562" duration="11927000" />
+      <workItem from="1584388441252" duration="266000" />
+      <workItem from="1584390218810" duration="648000" />
+      <workItem from="1584394258802" duration="2518000" />
+      <workItem from="1584446230059" duration="199000" />
+      <workItem from="1584466092250" duration="4928000" />
+      <workItem from="1584489060068" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

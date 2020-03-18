@@ -1,8 +1,10 @@
 package UserInterface;
 
+import Factory.OperacionVenta;
+
 import java.util.Scanner;
 
-public class Vista {
+public class Vista extends OperacionVenta{
 
     private Scanner lectorTeclado;
 

@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="828ddc95-f925-411f-b731-c5326895f9bc" name="Default Changelist" comment="" />
+    <list default="true" id="828ddc95-f925-411f-b731-c5326895f9bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface/Vista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/Vista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/Actividad 1 Formulario Usuarios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/Actividad 1 Formulario Usuarios.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/usuariosForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/usuariosForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/usuariosForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/usuariosForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/votos/mapa.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/votos/mapa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/votos/mapa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/votos/mapa.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Formulario/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Formulario/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +33,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1XIP6kPRDgSdr5kIv2zzGIO6kjv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PPM-Mario-Munoz-Serrano/Actividades de repaso 2ª evaluación/Actividad Facundo corregida (version de Raul)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,10 +84,22 @@
       <workItem from="1580813952777" duration="5638000" />
       <workItem from="1580823141860" duration="39000" />
       <workItem from="1580830378319" duration="3981000" />
+      <workItem from="1584489326155" duration="2359000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14333543-8105-4401-9da6-22ca49982548" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/Actividad 1 Formulario Usuarios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/Actividad 1 Formulario Usuarios.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/votos/mapa.html" beforeDir="false" afterPath="$PROJECT_DIR$/votos/mapa.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/votos/mapa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/votos/mapa.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/votos/votos.html" beforeDir="false" afterPath="$PROJECT_DIR$/votos/votos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/votos/votos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/votos/votos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 3 Coches/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Práctica JSP Empleados/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Práctica JSP Empleados/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Práctica JSP Formulario/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Práctica JSP Formulario/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +100,10 @@
       <workItem from="1584032734920" duration="7023000" />
       <workItem from="1584102644971" duration="6518000" />
       <workItem from="1584119101713" duration="7387000" />
+      <workItem from="1584211843370" duration="1350000" />
+      <workItem from="1584226989923" duration="112000" />
+      <workItem from="1584388709056" duration="938000" />
+      <workItem from="1584389697642" duration="517000" />
     </task>
     <servers />
   </component>

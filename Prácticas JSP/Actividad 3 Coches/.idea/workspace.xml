@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33a55cf-ad3d-434e-adf4-b7fb3d9a02ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/PruebaTelefono.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/Telefono.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/out/production/PruebaTelefono/TelefonoNokia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/Telefono.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PruebaTelefono/src/TelefonoNokia.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/libraries/jquery_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/libraries/jquery_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/Actividad 1 Formulario Usuarios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/Actividad 1 Formulario Usuarios.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios/src/usuariosForm.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/Actividad 2 JSP Votos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/Actividad 2 JSP Votos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/votos/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/votos/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Votos/votos/votos.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coches/coches.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/coches/coches.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Práctica JSP Empleados/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Práctica JSP Empleados/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Práctica JSP Formulario/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Práctica JSP Formulario/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Actividad 1 Formulario Usuarios" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -88,6 +75,9 @@
       <workItem from="1583774826327" duration="2579000" />
       <workItem from="1583781164648" duration="617000" />
       <workItem from="1583790456351" duration="47000" />
+      <workItem from="1584291107624" duration="57000" />
+      <workItem from="1584291555933" duration="857000" />
+      <workItem from="1584383943970" duration="617000" />
     </task>
     <servers />
   </component>

@@ -70,6 +70,7 @@
                 usuario.lat = usuarios[i].lat;
                 usuario.lon = usuarios[i].lon;
                 usuario.total = usuarios[i].total;
+                usuario.foto = usuarios[i].foto;
                 anclarUsuarioEnMapa(usuario);
             });
         });
@@ -77,11 +78,13 @@
     function votosHTML(usuario) {
         var nameVoto = '"voto' + usuario.id + '"';
         var idVotosTotales = '"votosTotales' + usuario.id + '"';
+        var fotoUsuario = new Image();
+        fotoUsuario.src = usuario.foto;
         return '<div id="voto">' +
             '    <table>\n' +
             '        <tr>\n' +
             '            <td>\n' +
-            '                <img src="#">\n' +
+            '                <img src=' + fotoUsuario.src + '>\n' +
             '                <p id="nick">' + usuario.nick + '</p>\n' +
             '            </td>\n' +
             '            <td>\n' +
