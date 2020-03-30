@@ -9,6 +9,10 @@ public class Credenciales {
         this.listaCredenciales = listaCredenciales;
     }
 
+    public void addCredencial(Credencial credencial) {
+        listaCredenciales.add(credencial);
+    }
+
     public void borrarCredencial(Credencial credencial) {
         listaCredenciales.remove(credencial);
     }

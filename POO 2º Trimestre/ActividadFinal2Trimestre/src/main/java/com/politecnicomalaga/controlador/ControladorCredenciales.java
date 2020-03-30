@@ -45,7 +45,7 @@ public class ControladorCredenciales {
             Credencial credencial = encriptarContraseña(password, algoritmo);
             credencial.setNombre(nombre);
             credencialesDAO.crear(credencial);
-            actualizarListaCredenciales();
+            credenciales.addCredencial(credencial);
         } catch (SQLException e) {
             e.printStackTrace();
         }

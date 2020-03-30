@@ -37,8 +37,8 @@ public class UIPrincipal {
                 if (resultado.equals("correcto")) {
                     if (!controlador.existeUsuario((String) datos.get("nombre"))) {
                         controlador.crearCredencial((String) datos.get("nombre"), (String) datos.get("contraseña"), (String) datos.get("algoritmo"));
-                        actualizarListaNombres();
                         mostrarMensajeDialogo(DIALOGO_REGISTRO_CORRECTO, e);
+                        actualizarListaNombres();
                     }
                     else mostrarMensajeDialogo(DIALOGO_USUARIO_REPETIDO, e);
                 }

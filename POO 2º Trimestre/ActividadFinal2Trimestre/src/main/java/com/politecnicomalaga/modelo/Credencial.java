@@ -54,19 +54,4 @@ public class Credencial {
         return nombre.equals(that.nombre);
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(nombre);
-    }
-
-    @Override
-    public String toString() {
-        return "Credencial{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", hash='" + hash + '\'' +
-                ", algoritmo='" + algoritmo + '\'' +
-                ", salt='" + salt + '\'' +
-                '}';
-    }
 }

@@ -20,10 +20,6 @@ public class Validacion {
         return contraseña;
     }
 
-    public void setContraseña(String contraseña) {
-        this.contraseña = contraseña;
-    }
-
     public boolean isValidado() {
         return validado;
     }
