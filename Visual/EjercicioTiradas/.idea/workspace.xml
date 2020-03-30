@@ -2,6 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdf06aa-1fde-4fe7-a283-7fef5d370970" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../POO 2º Trimestre/Actividad 6 Concesionario/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO 2º Trimestre/Actividad 6 Concesionario/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO 2º Trimestre/Actividad 6 Concesionario/src/Factory/CreadorDeOperaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO 2º Trimestre/Actividad 6 Concesionario/src/Factory/CreadorDeOperaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/libraries/com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/libraries/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/libraries/commons-io-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/libraries/http_cdnjs.cloudflare.com_ajax_libs_exif-js_2.3.0_exif.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/libraries/javax_servlet_jsp_jsp_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/libraries/javaxt-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/libraries/mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/imagen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/out/production/Actividad 1 Formulario Usuarios/prueba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/out/production/Actividad 1 Formulario Usuarios/usuarios.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/out/production/Actividad 1 Formulario Usuarios/usuarios.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/out/production/Actividad 1 Formulario Usuarios/usuariosForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/out/production/Actividad 1 Formulario Usuarios/usuariosForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/prueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/usuarios.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/usuarios.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/usuariosForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/usuariosForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/libraries/com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/libraries/javax_servlet_jsp_jsp_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/libraries/jquery_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/libraries/mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/lib/http_vps456458.ovh.net_dwes_resources_jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/lib/jsp-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/lib/mysql-connector-java-8.0.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/out/production/Actividad 2 JSP Votos/search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/out/production/Actividad 2 JSP Votos/votos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/out/production/Actividad 2 JSP Votos/votos.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/votos/mapa.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/votos/mapa.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/votos/search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/votos/votos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 2 Votos/votos/votos.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/.idea/libraries/jsoup_1_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/coches/coches.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/coches/coches.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/coches/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 3 Coches/lib/jsoup-1.12.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/.idea/artifacts/practica_paco_ear_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/.idea/artifacts/practica_paco_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/.idea/httpRequests/http-requests-log.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/META-INF/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/META-INF/sun-application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/lib/jsp-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/lib/mysql-connector-java-8.0.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/src/empleados.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/src/empleados.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/src/icons/add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/src/icons/delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/src/icons/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Empleados/src/icons/update.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Formulario/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Formulario/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Formulario/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Formulario/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Formulario/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Formulario/src/formulario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Práctica JSP Formulario/src/receptor.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +118,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="362" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PilotosVisual" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -70,6 +160,7 @@
       <workItem from="1573583024610" duration="9000" />
       <workItem from="1573583417270" duration="4000" />
       <workItem from="1574096330987" duration="711000" />
+      <workItem from="1585517643049" duration="644000" />
     </task>
     <servers />
   </component>

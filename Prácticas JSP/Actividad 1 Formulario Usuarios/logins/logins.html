@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Logins</title>
+    <script src="http://vps456458.ovh.net/dwes/resources/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://vps456458.ovh.net/dwes/resources/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="http://vps456458.ovh.net/dwes/resources/open-iconic-master/font/css/open-iconic-bootstrap.min.css">
+    <script src="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <script src="http://vps456458.ovh.net/dwes/resources/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="http://vps456458.ovh.net/dwes/resources/cookies.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-login">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="#" class="list-group-item list-group-item-action active"  id="login-form-link">Iniciar Sesión</a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#" class="list-group-item list-group-item-action" id="register-form-link">Regístrate ahora</a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="#" class="list-group-item list-group-item-action" id="password-form-link">Recordar contraseña</a>
+                        </div>
+                    </div>
+                    <div id="alertForm"></div>
+                    <hr>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form id="password-form" role="form" style="display: none;">
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" tabindex="2"
+                                           class="form-control" placeholder="Correo electrónico">
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3">
+                                            <input name="login-submit" id="password-submit" tabindex="4"
+                                                   class="form-control btn btn-primary" value="Recuperar Contraseña">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <form id="login-form" role="form" style="display: block;">
+                                <div class="form-group">
+                                    <input type="text" name="username" id="username" tabindex="1" class="form-control"
+                                           placeholder="Usuario" value="">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="password" id="password" tabindex="2"
+                                           class="form-control" placeholder="Contraseña">
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3">
+                                            <input type="button" name="login-submit" id="login-submit" tabindex="4"
+                                                   class="form-control btn btn-primary" value="Iniciar sesión">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <form id="register-form" role="form" style="display: none;">
+                                <div class="form-group">
+                                    <input type="text" name="nick" id="txtNick" tabindex="1" class="form-control"
+                                           placeholder="Nick" value="" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" id="txtEmail" tabindex="1" class="form-control"
+                                           placeholder="Correo electronico" value="" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="nombre" id="txtNombre" tabindex="1" class="form-control"
+                                           placeholder="Nombre" value="" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="apellidos" id="txtApellidos" tabindex="1"
+                                           class="form-control" placeholder="Apellidos" value="" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="txtPassword" id="txtPassword" tabindex="2"
+                                           class="form-control" placeholder="Contraseña" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="txtConfirm-password" id="txtConfirm-password"
+                                           tabindex="2" class="form-control" placeholder="Confirmar contraseña"
+                                           required>
+                                </div>
+                                <div class="form-group">
+                                    <img id="imgSeleccionada">
+                                    <input type="file" name="txtFile" id="txtFile" tabindex="1" class="form-control"
+                                           required>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3">
+                                            <input type="submit" name="register-submit"
+                                                   id="register-submit" tabindex="4"
+                                                   class="form-control btn btn-primary"
+                                                   value="Crear cuenta">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    const alertForm = document.getElementById("alertForm");
+    $(function () {
+        $('#login-form-link').click(function (e) {
+            $("#login-form").delay(100).fadeIn(100);
+            $("#register-form").fadeOut(100);
+            $('#register-form-link').removeClass('active');
+            $("#password-form").fadeOut(100);
+            $('#password-form-link').removeClass('active');
+            $(this).addClass('active');
+            e.preventDefault();
+        });
+        $('#register-form-link').click(function (e) {
+            $("#register-form").delay(100).fadeIn(100);
+            $("#login-form").fadeOut(100);
+            $('#login-form-link').removeClass('active');
+            $("#password-form").fadeOut(100);
+            $('#password-form-link').removeClass('active');
+            $(this).addClass('active');
+            e.preventDefault();
+        });
+        $('#password-form-link').click(function (e) {
+            $("#password-form").delay(100).fadeIn(100);
+            $("#login-form").fadeOut(100);
+            $('#login-form-link').removeClass('active');
+            $("#register-form").fadeOut(100);
+            $('#register-form-link').removeClass('active');
+            $(this).addClass('active');
+            e.preventDefault();
+        });
+    });
+</script>
+<script src="loginsRestaurarClave.js"></script>
+<script src="loginsRegistro.js"></script>
+<script src="loginsLogin.js"></script>
+</html>
