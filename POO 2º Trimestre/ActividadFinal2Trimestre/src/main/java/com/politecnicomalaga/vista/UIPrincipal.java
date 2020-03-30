@@ -111,7 +111,7 @@ public class UIPrincipal {
     }
 
     public void actualizarListaNombres() {
-        actualizar(controlador.getCredenciales().getListaCredenciales());
+        actualizar(controlador.getListaCredenciales());
     }
 
     public void actualizar(ArrayList<Credencial> listaCredenciales) {

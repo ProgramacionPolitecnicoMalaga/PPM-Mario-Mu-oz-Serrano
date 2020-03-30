@@ -1,7 +1,5 @@
 package com.politecnicomalaga.modelo;
 
-import java.util.Objects;
-
 public class Credencial {
 
     private int id;
@@ -53,5 +51,4 @@ public class Credencial {
         Credencial that = (Credencial) o;
         return nombre.equals(that.nombre);
     }
-
 }

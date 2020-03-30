@@ -45,7 +45,7 @@ public class ControladorCredenciales {
             Credencial credencial = encriptarContraseña(password, algoritmo);
             credencial.setNombre(nombre);
             credencialesDAO.crear(credencial);
-            credenciales.addCredencial(credencial);
+            actualizarListaCredenciales();
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -62,8 +62,8 @@ public class ControladorCredenciales {
         return encriptador.comprobarContraseñaEncriptada(password, credencial);
     }
 
-    public Credenciales getCredenciales() {
-        return credenciales;
+    public ArrayList<Credencial> getListaCredenciales() {
+        return credenciales.getListaCredenciales();
     }
 
     public Credencial getCredencialPorNombre(String nombre) {
