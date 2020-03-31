@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09981d67-00e8-4b90-8d04-094ca535593c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadFinal2Trimestre.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/controlador/ControladorCredenciales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/controlador/ControladorCredenciales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/Credencial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/Credencial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/UIPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/UIPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ActividadFinal2Trimestre.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/controlador/ControladorCredenciales.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/controlador/ControladorCredenciales.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/vista/UIPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/vista/UIPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/modelo/Credencial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/modelo/Credencial.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,6 +164,12 @@
       <workItem from="1585563481338" duration="8338000" />
       <workItem from="1585597365203" duration="379000" />
       <workItem from="1585598035846" duration="1051000" />
+      <workItem from="1585599148791" duration="115000" />
+      <workItem from="1585599304549" duration="21000" />
+      <workItem from="1585599348742" duration="1279000" />
+      <workItem from="1585601617954" duration="297000" />
+      <workItem from="1585601963864" duration="33000" />
+      <workItem from="1585652552982" duration="464000" />
     </task>
     <servers />
   </component>
@@ -185,7 +184,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
