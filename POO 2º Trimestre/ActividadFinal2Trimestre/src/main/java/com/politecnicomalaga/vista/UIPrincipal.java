@@ -51,9 +51,12 @@ public class UIPrincipal {
                 lanzarDialogo(new DialogoValidar(datos), e);
                 String resultado = (String) datos.get("resultado");
                 if (resultado.equals("correcto")) {
-                    datos.put("controlador", controlador);
-                    Validacion validacion = DataTransferAValidacion.transformar(datos);
-                    modeloValidacion.addElement(validacion);
+                    if (controlador.existeUsuario((String) datos.get("nombre"))) {
+                        datos.put("controlador", controlador);
+                        Validacion validacion = DataTransferAValidacion.transformar(datos);
+                        modeloValidacion.addElement(validacion);
+                    }
+                    else mostrarMensajeDialogo(DIALOGO_DATOS_INCORRECTOS, e);
                 }
                 else if (resultado.equals("incorrecto")) mostrarMensajeDialogo(DIALOGO_DATOS_INCORRECTOS, e);
             }
@@ -93,7 +96,7 @@ public class UIPrincipal {
                 mensajeDialogo("El usuario ya existe, elige otro nombre.", e);
                 break;
             case DIALOGO_DATOS_INCORRECTOS:
-                mensajeDialogo("No has introducido todos los datos.", e);
+                mensajeDialogo("Has introducido datos incorrectos o incompletos.", e);
                 break;
             case DIALOGO_SELECCIONA_USUARIO:
                 mensajeDialogo("Selecciona uno o más usuarios.", e);

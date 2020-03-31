@@ -2,41 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09981d67-00e8-4b90-8d04-094ca535593c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f42c8933-a2bb-4c71-9b05-7ec280f073e3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f42c8933-a2bb-4c71-9b05-7ec280f073e3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/algoritmos/Bcrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/algoritmos/Bcrypt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/algoritmos/Encriptador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/algoritmos/Encriptador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/algoritmos/EncriptadorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/algoritmos/EncriptadorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/algoritmos/SHA512.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/algoritmos/SHA512.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/controlador/ControladorCredenciales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/controlador/ControladorCredenciales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/dao/CredencialesDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/dao/DBConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/dao/DBConn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/Credencial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/Credencial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/Credenciales.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/Validacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/Validacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DataTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DataTransfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DataTransferAValidacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DataTransferAValidacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DialogoRegistrar.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DialogoRegistrar.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DialogoRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DialogoRegistrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DialogoValidar.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DialogoValidar.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DialogoValidar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/DialogoValidar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/UIPrincipal.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/UIPrincipal.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/UIPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/UIPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/ValidacionRender.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/ValidacionRender.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/ValidacionRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/vista/ValidacionRender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.env" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/modelo/Credencial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/modelo/Credencial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ActividadFinal2Trimestre.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/vista/UIPrincipal$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/vista/UIPrincipal$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/vista/UIPrincipal$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/vista/UIPrincipal$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/vista/UIPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/politecnicomalaga/vista/UIPrincipal.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +72,11 @@
   </component>
   <component name="ProjectId" id="1ZnYE7Fan8QLekwmJ4g6h8A3WNT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -108,7 +88,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ProyectoContraseñas" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -118,18 +98,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mario\Desktop\FP\Programación\ActividadFinal2Trimestre\src\main\resources" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -150,26 +118,6 @@
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@19ab5c1a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@19ab5c1a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5cb9518f" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -196,6 +144,9 @@
       <workItem from="1585601963864" duration="33000" />
       <workItem from="1585652552982" duration="464000" />
       <workItem from="1585676815090" duration="2132000" />
+      <workItem from="1585679167471" duration="22000" />
+      <workItem from="1585686936465" duration="180000" />
+      <workItem from="1585687308874" duration="1304000" />
     </task>
     <servers />
   </component>
@@ -217,5 +168,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1585688619130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585688619130" />
+    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1585688619130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585688619130" />
+    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1585688619130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585688619130" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1585688619130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585688619130" />
   </component>
 </project>
