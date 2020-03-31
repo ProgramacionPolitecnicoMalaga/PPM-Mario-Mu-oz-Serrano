@@ -6,33 +6,42 @@ import java.util.ArrayList;
 
 public class CredencialesDAO {
     private DBConn conn;
+    private ArrayList<Credencial> listaCredenciales;
 
-    public CredencialesDAO() {
+    public CredencialesDAO() throws SQLException {
         conn = new DBConn();
+        listaCredenciales = getCredencialesDB();
     }
 
-    public ArrayList<Credencial> obtenerLista (ResultSet result) throws SQLException {
+    public ArrayList<Credencial> getListaCredenciales() {
+        return listaCredenciales;
+    }
+
+    public Credencial getCredencialPorNombre(String nombre) {
+        for (Credencial credencial: listaCredenciales) {
+            if (credencial.getNombre().toUpperCase().equals(nombre.toUpperCase())) {
+                return credencial;
+            }
+        }
+        return null;
+    }
+
+    public ArrayList<Credencial> getCredencialesDB() throws SQLException {
+        ResultSet result = conn.read("SELECT nombre, hash, algoritmo, salt FROM credencial");
         ArrayList<Credencial> listaCredenciales = new ArrayList<>();
         while (result.next()) {
-            listaCredenciales.add(new Credencial (result.getInt("id"), result.getString("nombre"), result.getString("hash"), result.getString("algoritmo"), result.getString("salt")));
+            listaCredenciales.add(new Credencial (result.getString("nombre"), result.getString("hash"), result.getString("algoritmo"), result.getString("salt")));
         }
         return listaCredenciales;
     }
 
-    public ArrayList<Credencial> getItems() throws SQLException {
-        ResultSet result = conn.read("SELECT id, nombre, hash, algoritmo, salt FROM credencial");
-        return obtenerLista(result);
+    public void crear (Credencial credencial) throws SQLException {
+        conn.create("INSERT INTO credencial(nombre, hash, algoritmo, salt) VALUES ('" + credencial.getNombre() + "','" + credencial.getHash() + "','" + credencial.getAlgoritmo() + "','" + credencial.getSalt() + "')");
+        listaCredenciales.add(credencial);
     }
 
-    private int insertar (String nombre, String hash, String algoritmo, String salt) throws SQLException {
-        return conn.create("INSERT INTO credencial(nombre, hash, algoritmo, salt) VALUES ('" + nombre + "','" + hash + "','" + algoritmo + "','" + salt + "')");
-    }
-
-    public int crear (Credencial credencial) throws SQLException {
-        return insertar(credencial.getNombre(), credencial.getHash(), credencial.getAlgoritmo(), credencial.getSalt());
-    }
-
-    public int borrar (int idCredencial) throws SQLException {
-        return conn.delete("DELETE FROM credencial WHERE id = " + idCredencial);
+    public void borrar (Credencial credencial) throws SQLException {
+        conn.delete("DELETE FROM credencial WHERE nombre = '" + credencial.getNombre() + "'");
+        listaCredenciales.remove(credencial);
     }
 }

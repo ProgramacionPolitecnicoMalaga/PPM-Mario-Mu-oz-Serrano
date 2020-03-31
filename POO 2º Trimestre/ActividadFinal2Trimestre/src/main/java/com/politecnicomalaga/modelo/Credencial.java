@@ -2,14 +2,12 @@ package com.politecnicomalaga.modelo;
 
 public class Credencial {
 
-    private int id;
     private String nombre;
     private String hash;
     private String algoritmo;
     private String salt;
 
-    public Credencial(int id, String nombre, String hash, String algoritmo, String salt) {
-        this.id = id;
+    public Credencial(String nombre, String hash, String algoritmo, String salt) {
         this.nombre = nombre;
         this.hash = hash;
         this.algoritmo = algoritmo;
@@ -20,10 +18,6 @@ public class Credencial {
         this.hash = hash;
         this.algoritmo = algoritmo;
         this.salt = salt;
-    }
-
-    public int getId() {
-        return id;
     }
 
     public String getNombre() {

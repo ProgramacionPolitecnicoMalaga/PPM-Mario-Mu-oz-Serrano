@@ -26,7 +26,6 @@ public class UIPrincipal {
 
     public UIPrincipal(ControladorCredenciales controlador) {
         this.controlador = controlador;
-        controlador.actualizarListaCredenciales();
         actualizarListaNombres();
         registrarButton.addActionListener(new ActionListener() {
             @Override
