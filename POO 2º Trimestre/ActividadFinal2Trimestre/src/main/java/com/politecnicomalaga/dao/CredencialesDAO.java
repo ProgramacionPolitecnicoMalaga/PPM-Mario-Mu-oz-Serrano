@@ -35,12 +35,12 @@ public class CredencialesDAO {
         return listaCredenciales;
     }
 
-    public void crear (Credencial credencial) throws SQLException {
+    public void crear(Credencial credencial) throws SQLException {
         conn.create("INSERT INTO credencial(nombre, hash, algoritmo, salt) VALUES ('" + credencial.getNombre() + "','" + credencial.getHash() + "','" + credencial.getAlgoritmo() + "','" + credencial.getSalt() + "')");
         listaCredenciales.add(credencial);
     }
 
-    public void borrar (Credencial credencial) throws SQLException {
+    public void borrar(Credencial credencial) throws SQLException {
         conn.delete("DELETE FROM credencial WHERE nombre = '" + credencial.getNombre() + "'");
         listaCredenciales.remove(credencial);
     }
