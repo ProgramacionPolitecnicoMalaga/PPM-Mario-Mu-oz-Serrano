@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09981d67-00e8-4b90-8d04-094ca535593c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Actividad 1 (patrones)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 (patrones)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1 (patrones)/Actividad 1 (patrones).iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 (patrones)/Actividad 1 (patrones).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1 (patrones)/out/production/Actividad 1 (patrones)/META-INF/Actividad 1 (patrones).kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1 (patrones)/out/production/Actividad 1 (patrones)/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 (patrones)/out/production/Actividad 1 (patrones)/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1 (patrones)/out/production/Actividad 1 (patrones)/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 (patrones)/out/production/Actividad 1 (patrones)/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1 (patrones)/out/production/Actividad 1 (patrones)/com/politecnicomalaga/vista/VistaEmpleados$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 (patrones)/out/production/Actividad 1 (patrones)/com/politecnicomalaga/vista/VistaEmpleados$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1 (patrones)/out/production/Actividad 1 (patrones)/com/politecnicomalaga/vista/VistaEmpleados.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 (patrones)/out/production/Actividad 1 (patrones)/com/politecnicomalaga/vista/VistaEmpleados.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 1 (patrones)/src/com/politecnicomalaga/vista/VistaEmpleados.form" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 1 (patrones)/src/com/politecnicomalaga/vista/VistaEmpleados.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 7 repaso/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestorDeItems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GestorDeItems/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/politecnicomalaga/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/politecnicomalaga/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +118,8 @@
       <workItem from="1587495625336" duration="1209000" />
       <workItem from="1587501119061" duration="95000" />
       <workItem from="1587548265077" duration="1922000" />
+      <workItem from="1587567694455" duration="60000" />
+      <workItem from="1587576633723" duration="6000" />
     </task>
     <servers />
   </component>
@@ -190,11 +175,11 @@
     <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585740696693" />
     <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587404948833" />
     <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585688619130" />
-    <state x="2262" y="140" key="new project wizard" timestamp="1587061408969">
+    <state x="2262" y="140" key="new project wizard" timestamp="1587567753185">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586946866726" />
-    <state x="2262" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587061408969" />
+    <state x="2262" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587567753185" />
     <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585693907739" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1586778656331">
       <screen x="0" y="0" width="1920" height="1040" />
