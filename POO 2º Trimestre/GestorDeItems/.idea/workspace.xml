@@ -1,49 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b0b2bc4-b166-4f0d-aeba-804612d59def" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6b0b2bc4-b166-4f0d-aeba-804612d59def" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 7 repaso/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ActividadFinal2Trimestre/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ActividadFinal2Trimestre/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ActividadFinal2Trimestre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadFinal2Trimestre/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ActividadFinal2Trimestre/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadFinal2Trimestre/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ActividadFinal2Trimestre/target/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadFinal2Trimestre/target/classes/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Mi VPS" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Mi VPS" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Mi VPS" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Items: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Mi VPS" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Items: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="item: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,7 +21,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1ZIZ3SmBruJx8WZ48kmmTKB9thy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -61,7 +38,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Actividad 1 (patrones)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.44252872" />
@@ -72,18 +49,6 @@
       <recent name="C:\Users\mario\Desktop\FP\Programación\CustomRenderer\src\com\politecnicomalaga\vista" />
       <recent name="C:\Users\mario\Desktop\FP\Programación\CustomRenderer\src\com\politecnicomalaga" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.App (1)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -139,10 +104,33 @@
       <workItem from="1584528371175" duration="5713000" />
       <workItem from="1584534401340" duration="12045000" />
       <workItem from="1584548531652" duration="151000" />
+      <workItem from="1587408797970" duration="104000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587408898077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587408898077" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1587408901725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587408901725" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1587408901725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587408901725" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1587408901725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587408901725" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1587408901725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587408901725" />
   </component>
 </project>
