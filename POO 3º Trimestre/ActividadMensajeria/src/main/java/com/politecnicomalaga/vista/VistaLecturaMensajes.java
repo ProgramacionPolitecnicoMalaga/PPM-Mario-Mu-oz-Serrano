@@ -58,7 +58,7 @@ public class VistaLecturaMensajes {
                         cargarMensajes();
                     }
                 }
-                else JOptionPane.showMessageDialog(SwingUtilities.getRoot((Component) e.getSource()), "Seleccione uno o mas mensajes.");
+                else JOptionPane.showMessageDialog(SwingUtilities.getRoot((Component) e.getSource()), "Selecciona uno o mas mensajes.");
             }
         });
     }

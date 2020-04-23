@@ -73,6 +73,9 @@ public class VistaPrincipal implements Multipanel{
         return panelMain;
     }
 
+    public JButton getAceptarButton() {
+        return vistaLogin.getAceptarButton();
+    }
 
     @Override
     public void notificarCambio(int vista) {
@@ -82,7 +85,7 @@ public class VistaPrincipal implements Multipanel{
                 break;
             case Multipanel.VISTA_LECTURA:
                 layout.show(panelIntercambio, "lectura");
-                labelBienvenido.setText("Bienvenid@ de nuevo " + controladorMensajeria.getNombreUsuarioLogeado());
+                labelBienvenido.setText("Bienvenid@ " + controladorMensajeria.getNombreUsuarioLogeado());
                 break;
             case Multipanel.VISTA_ENVIO:
                 layout.show(panelIntercambio, "envio");

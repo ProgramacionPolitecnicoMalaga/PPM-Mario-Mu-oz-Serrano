@@ -38,6 +38,10 @@ public class VistaLogin {
         });
     }
 
+    public JButton getAceptarButton() {
+        return aceptarButton;
+    }
+
     public void mostrarMensajeDialogo(ActionEvent e, String mensaje) {
         JOptionPane.showMessageDialog(SwingUtilities.getRoot((Component)e.getSource()), mensaje);
     }

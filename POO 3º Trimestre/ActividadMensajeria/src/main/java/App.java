@@ -9,6 +9,7 @@ public class App {
         VistaPrincipal uiPrincipal = new VistaPrincipal();
         JFrame frame = new JFrame("Mensajería");
         frame.setContentPane(uiPrincipal.getpanelMain());
+        frame.getRootPane().setDefaultButton(uiPrincipal.getAceptarButton());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setPreferredSize(new Dimension(800, 600));
         frame.pack();

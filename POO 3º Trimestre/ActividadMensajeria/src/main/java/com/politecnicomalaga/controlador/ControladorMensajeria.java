@@ -51,7 +51,6 @@ public class ControladorMensajeria {
     }
 
     public boolean existeUsuario(String nombre) {
-        System.out.println(controladorCredenciales.existeUsuario(nombre));
         return controladorCredenciales.existeUsuario(nombre);
     }
 
