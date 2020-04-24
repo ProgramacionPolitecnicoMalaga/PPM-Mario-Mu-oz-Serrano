@@ -42,64 +42,64 @@ public class CarreraTest {
 
     @Test
     public void insertarParticipanteRepetido() {
-        // given hay cuatro participantes en la lista
+        // given
         carrera.addParticipante("Mario");
         carrera.addParticipante("Pepe");
         carrera.addParticipante("Fran");
         carrera.addParticipante("Jose");
 
-        // when se intenta insertar un participante repetido
+        // when
         boolean resultado = carrera.addParticipante("Jose");
 
-        // then el método addParticipante() devuelve false y el número de participantes sigue siendo 4
+        // then
         assertFalse(resultado);
         assertEquals(4, carrera.getTotalParticipantes());
     }
 
     @Test
     public void testSetPosicionYGetParticipantePorPosicion() {
-        // given el objeto wick se encuentra en segundo lugar
+        // given
         String wick = "John Wick";
         carrera.addParticipante("Pepe");
         carrera.addParticipante(wick);
 
-        // when se cambia la posicion del objeto wick a la posición 1
+        // when
         carrera.setPosicion("John Wick", 1);
 
-        // then el objeto obtenido mediante la llamada getParticipantePorPosicion(1) es el mismo que wick
+        // then
         assertEquals(wick, carrera.getParticipantePorPosicion(1));
     }
 
     @Test
     public void clonarListadoParticipantes() {
-        // given listas obtenidas por getListadoParticipantes() y por cloneCarrera()
+        // given
         List listadoParticipantes = carrera.getListadoParticipantes();
         List listadoParticipantesClonado = carrera.cloneCarrera();
 
-        // then los objetos no son los mismos
+        // then
         assertNotEquals(listadoParticipantes, listadoParticipantesClonado);
     }
 
     @Test
     public void comprobarSetPosicion() {
-        // given una carrera con 4 participantes
+        // given
         carrera.addParticipante("Mario");
         carrera.addParticipante("Pepe");
         carrera.addParticipante("Fran");
         carrera.addParticipante("Jose");
 
-        //when se obtiene la lista al principio de la carrera
+        // when
         List listadoParticipantesInicial = carrera.getListadoParticipantes();
 
-        //and se cambian varios participantes de posición
+        // and
         carrera.setPosicion("Mario", 1);
         carrera.setPosicion("Fran", 3);
         carrera.setPosicion("Pepe", 2);
 
-        //when se obtiene la lista después de cambiar las posiciones
+        // when
         List listadoParticipantesFinal = carrera.getListadoParticipantes();
 
-        // then las listas contienen los mismos elementos
+        // then
         assertArrayEquals(listadoParticipantesInicial.toArray(), listadoParticipantesFinal.toArray());
     }
 }
