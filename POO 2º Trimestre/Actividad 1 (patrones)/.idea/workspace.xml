@@ -3,23 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e8587d0a-e31b-40ec-848c-6f53a712cded" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actividad 1 (patrones).iml" beforeDir="false" afterPath="$PROJECT_DIR$/Actividad 1 (patrones).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Actividad 1 (patrones)/META-INF/Actividad 1 (patrones).kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Actividad 1 (patrones)/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Actividad 1 (patrones)/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Actividad 1 (patrones)/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Actividad 1 (patrones)/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Actividad 1 (patrones)/com/politecnicomalaga/vista/VistaEmpleados$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Actividad 1 (patrones)/com/politecnicomalaga/vista/VistaEmpleados$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Actividad 1 (patrones)/com/politecnicomalaga/vista/VistaEmpleados.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Actividad 1 (patrones)/com/politecnicomalaga/vista/VistaEmpleados.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/politecnicomalaga/vista/VistaEmpleados.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/politecnicomalaga/vista/VistaEmpleados.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 7 repaso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 7 repaso/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadFinal2Trimestre/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadFinal2Trimestre/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadFinal2Trimestre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadFinal2Trimestre/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadFinal2Trimestre/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadFinal2Trimestre/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActividadFinal2Trimestre/target/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadFinal2Trimestre/target/classes/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestorDeItems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GestorDeItems/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/politecnicomalaga/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GestorDeItems/out/production/GestorDeItems/com/politecnicomalaga/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO 3º Trimestre/ActividadMensajeria/src/main/java/com/politecnicomalaga/vista/VistaLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO 3º Trimestre/ActividadMensajeria/src/main/java/com/politecnicomalaga/vista/VistaLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/Actividad 1 Formulario Usuarios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/Actividad 1 Formulario Usuarios.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/usuarios.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prácticas JSP/Actividad 1 Formulario Usuarios/src/usuarios.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visual/EjercicioTiradas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/EjercicioTiradas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visual/EjercicioTiradas/out/production/EjercicioTiradas/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/EjercicioTiradas/out/production/EjercicioTiradas/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visual/EjercicioTiradas/out/production/EjercicioTiradas/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/EjercicioTiradas/out/production/EjercicioTiradas/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +90,8 @@
       <workItem from="1587493283110" duration="722000" />
       <workItem from="1587501086508" duration="31000" />
       <workItem from="1587548004881" duration="2326000" />
+      <workItem from="1587999419748" duration="2125000" />
+      <workItem from="1588005273861" duration="413000" />
     </task>
     <servers />
   </component>
@@ -115,26 +107,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587408962753" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1587489986599">
+    <state width="1877" height="76" key="GridCell.Tab.0.bottom" timestamp="1588005687711">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587411184025" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587489986599" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1587489986599">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587999902987" />
+    <state width="1877" height="76" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588005687711" />
+    <state width="1877" height="76" key="GridCell.Tab.0.center" timestamp="1588005687711">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587411184025" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587489986599" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1587489986599">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587999902987" />
+    <state width="1877" height="76" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588005687711" />
+    <state width="1877" height="76" key="GridCell.Tab.0.left" timestamp="1588005687711">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587411184025" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587489986599" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1587489986599">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587999902987" />
+    <state width="1877" height="76" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588005687711" />
+    <state width="1877" height="76" key="GridCell.Tab.0.right" timestamp="1588005687711">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587411184025" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587489986599" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587999902987" />
+    <state width="1877" height="76" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588005687711" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1587408967368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

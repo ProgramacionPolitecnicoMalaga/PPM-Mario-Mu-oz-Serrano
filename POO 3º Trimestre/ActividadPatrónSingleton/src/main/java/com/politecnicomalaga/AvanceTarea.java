@@ -11,5 +11,4 @@ public class AvanceTarea {
     public String mostrarÚltimaTareaRealizada() {
         return tareas.getÚltimaTareaRealizada();
     }
-
 }

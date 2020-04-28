@@ -11,6 +11,7 @@ public class Tareas {
 
     public Tareas(){
         tareas = new ArrayList<>();
+        ultimaRealizada = -1;
     }
 
     public static Tareas getInstance(){
@@ -21,7 +22,6 @@ public class Tareas {
 
     public void addTarea(String tarea) {
         tareas.add(tarea);
-        ultimaRealizada = tareas.size()-1;
     }
 
     public String getÚltimaTareaRealizada() {

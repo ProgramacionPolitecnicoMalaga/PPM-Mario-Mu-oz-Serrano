@@ -28,8 +28,11 @@ public class VistaLogin {
                         if (controladorMensajeria.comprobarCredenciales(usuario, contraseña)) {
                             controladorMensajeria.logearUsuario(usuario);
                             multipanel.notificarCambio(Multipanel.VISTA_LECTURA);
+                            textFieldNombre.setText("");
+                            passwordFieldContraseña.setText("");
                         }
                         else mostrarMensajeDialogo(e, "Contraseña incorrecta.");
+                        passwordFieldContraseña.setText("");
                     }
                     else mostrarMensajeDialogo(e, "No existe el usuario.");
                 }

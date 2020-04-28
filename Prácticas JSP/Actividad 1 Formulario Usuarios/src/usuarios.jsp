@@ -6,7 +6,6 @@
     String nick = request.getParameter("nick");
     String email = request.getParameter("email");
     String nomApe = request.getParameter("nomApe");
-
     String result = "";
 
     //Conexión a la base de datos

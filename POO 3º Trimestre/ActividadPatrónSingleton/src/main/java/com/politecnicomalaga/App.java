@@ -14,15 +14,16 @@ public class App {
         tareas.addTarea("Tarea 4");
 
         // Realizar varios avances y retrocesos en las tareas y comprobar que es coherente.
+        avanceTarea.avanzar(2);
         System.out.println(tareas.getÚltimaTareaRealizada());
 
         retrocesoTarea.retroceder(1);
         System.out.println(tareas.getÚltimaTareaRealizada());
 
-        retrocesoTarea.retroceder(2);
+        avanceTarea.avanzar(3);
         System.out.println(tareas.getÚltimaTareaRealizada());
 
-        avanceTarea.avanzar(2);
+        retrocesoTarea.retroceder(3);
         System.out.println(tareas.getÚltimaTareaRealizada());
 
         avanceTarea.avanzar(1);

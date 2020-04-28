@@ -41,5 +41,4 @@ public class Mensaje {
     public String getRemitente() {
         return nombreRemitente;
     }
-
 }
