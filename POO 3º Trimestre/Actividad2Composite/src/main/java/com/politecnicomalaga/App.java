@@ -7,43 +7,36 @@ import com.politecnicomalaga.composite.Servicio;
 public class App {
 
     public static void main(String[] args) {
-        ServicioBuilder builder = new ServicioBuilder("iLink1", Servicio.PRECIO_ILINK);
+        Paquete paqueteRaiz = new Paquete("iLink1", Servicio.PRECIO_ILINK);
+        ServicioBuilder builder = new ServicioBuilder(paqueteRaiz);
         builder.iniciarPaquete("iLink1.1", Servicio.PRECIO_ILINK)
             .iniciarPaquete("Rack1", Servicio.PRECIO_RACK)
                  .addProducto("Servidor1", Servicio.PRECIO_SERVIDOR)
                  .addProducto("Servidor2", Servicio.PRECIO_SERVIDOR)
-            .finalizarPaquete()
+            .getPadre()
             .iniciarPaquete("Rack2", Servicio.PRECIO_RACK)
                  .addProducto("Servidor3", Servicio.PRECIO_SERVIDOR)
-            .finalizarPaquete()
-        .finalizarPaquete()
+            .getPadre()
+        .getPadre()
         .iniciarPaquete("Cloud1", Servicio.PRECIO_CLOUD)
              .addProducto("VPS1", Servicio.PRECIO_VPS)
              .iniciarPaquete("Rack3", Servicio.PRECIO_RACK)
                 .addProducto("VPS2", Servicio.PRECIO_VPS)
-                .addProducto("VPS3", Servicio.PRECIO_VPS)
-             .finalizarPaquete()
-        .finalizarPaquete()
-        .finalizarPaquete();
+                .addProducto("VPS3", Servicio.PRECIO_VPS);
 
-        Servicio servicio = builder.getResultado();
+        Servicio servicioPrincipal = builder.getResultado();
         System.out.println("Paquete iLink1 construido:");
-        System.out.println(servicio.toString() + "\n");
+        System.out.println(servicioPrincipal.toString() + "\n");
 
-        System.out.println("Calcular precio de Rack1:");
-        Servicio paqueteRack1 = ((Paquete) servicio).getServicioPorNombre("Rack1");
-        System.out.println("El precio del paquete es de " + paqueteRack1.obtenerPrecio() + "€");
+        Servicio paqueteRack1 = ((Paquete) servicioPrincipal).getServicioPorNombre("Rack1");
+        System.out.println("El precio del paquete Rack1 es de " + paqueteRack1.obtenerPrecio() + "€" + "\n");
 
-        System.out.println("Calcular precio de iLink1.1:");
-        Servicio paqueteiLink11 = ((Paquete) servicio).getServicioPorNombre("iLink1.1");
-        System.out.println("El precio del paquete es de " + paqueteiLink11.obtenerPrecio() + "€");
+        Servicio paqueteiLink11 = ((Paquete) servicioPrincipal).getServicioPorNombre("iLink1.1");
+        System.out.println("El precio del paquete iLink1.1 es de " + paqueteiLink11.obtenerPrecio() + "€" + "\n");
 
-        System.out.println("Calcular precio de iLink1:");
-        Servicio paqueteiLink1 = ((Paquete) servicio).getServicioPorNombre("iLink1");
-        System.out.println("El precio del paquete es de " + paqueteiLink1.obtenerPrecio() + "€");
-
-        System.out.println("Calcular precio de Cloud1:");
-        Servicio paqueteCloud1 = ((Paquete) servicio).getServicioPorNombre("Cloud1");
-        System.out.println("El precio del paquete es de " + paqueteCloud1.obtenerPrecio() + "€");
+        System.out.println("El precio del paquete iLink1 es de " + servicioPrincipal.obtenerPrecio() + "€" + "\n");
+        
+        Servicio paqueteCloud1 = ((Paquete) servicioPrincipal).getServicioPorNombre("Cloud1");
+        System.out.println("El precio del paquete Cloud1 es de " + paqueteCloud1.obtenerPrecio() + "€");
     }
 }

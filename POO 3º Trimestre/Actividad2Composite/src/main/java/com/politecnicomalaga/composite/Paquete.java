@@ -2,7 +2,7 @@ package com.politecnicomalaga.composite;
 
 import java.util.ArrayList;
 
-public class Paquete implements Servicio{
+public class Paquete implements Servicio {
 
     private String nombre;
     private double tasa;
@@ -45,13 +45,13 @@ public class Paquete implements Servicio{
         return 0;
     }
 
-    public Servicio getServicioPorNombre(String nombre){
+    public Servicio getServicioPorNombre(String nombre) {
         if (this.nombre.equals(nombre))
             return this;
         for (Servicio servicio : listaServicios) {
             if (servicio.getTipo() == Servicio.PAQUETE){
                 Servicio paquete = ((Paquete) servicio).getServicioPorNombre(nombre);
-                if (paquete!=null&&((Paquete) paquete).getNombre().equals(nombre))
+                if (paquete!=null && ((Paquete) paquete).getNombre().equals(nombre))
                     return paquete;
             } else if (((Producto) servicio).getNombre().equals(nombre))
                 return servicio;

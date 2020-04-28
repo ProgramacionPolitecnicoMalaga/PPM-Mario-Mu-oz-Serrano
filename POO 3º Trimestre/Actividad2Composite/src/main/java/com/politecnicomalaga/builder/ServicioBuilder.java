@@ -8,8 +8,8 @@ public class ServicioBuilder {
     private ServicioBuilder builderPadre;
     private Paquete paquete;
 
-    public ServicioBuilder(String nombrePaquete, double tasa){
-        this.paquete = new Paquete(nombrePaquete, tasa);
+    public ServicioBuilder(Paquete paquete){
+        this.paquete = paquete;
         builderPadre = null;
     }
 
@@ -24,7 +24,7 @@ public class ServicioBuilder {
         return new ServicioBuilder(nuevoPaquete,this);
     }
 
-    public ServicioBuilder finalizarPaquete(){
+    public ServicioBuilder getPadre(){
         return builderPadre;
     }
 
