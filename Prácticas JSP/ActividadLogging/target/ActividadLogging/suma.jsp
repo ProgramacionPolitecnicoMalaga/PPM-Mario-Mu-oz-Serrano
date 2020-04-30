@@ -18,7 +18,7 @@
     PrintWriter printer = response.getWriter();
     printer.print("El resultado de la suma " + request.getParameter("num1") + " + " + request.getParameter("num2") + " es: ");
     printer.print(request.getAttribute("resultado"));
-    Logger.getLogger(Suma.class.getName()).log(Level.INFO, "Esta aplicación es de Mario Muñoz Serrano");
+    Logger.getLogger(this.getClass().getName()).log(Level.INFO, "Esta aplicación es de Mario Muñoz Serrano");
 %>
 </body>
 </html>

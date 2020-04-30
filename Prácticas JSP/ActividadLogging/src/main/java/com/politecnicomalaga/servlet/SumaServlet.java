@@ -22,9 +22,9 @@ public class SumaServlet extends HttpServlet {
         int num1 = Integer.parseInt(req.getParameter("num1"));
         int num2 = Integer.parseInt(req.getParameter("num2"));
         //LoggingSuma.inicializar();
-        Logger.getLogger(Suma.class.getName()).log(Level.INFO, "Los operandos recibidos son " + num1 + " y " + num2);
+        Logger.getLogger(this.getClass().getName()).log(Level.INFO, "Los operandos recibidos son " + num1 + " y " + num2);
         int resultado = suma.sumar(num1, num2);
-        Logger.getLogger(Suma.class.getName()).log(Level.INFO, "El resultado es " + resultado);
+        Logger.getLogger(this.getClass().getName()).log(Level.INFO, "El resultado es " + resultado);
         req.setAttribute("resultado", resultado);
         RequestDispatcher vista = req.getRequestDispatcher("suma.jsp");
         vista.forward(req, resp);
