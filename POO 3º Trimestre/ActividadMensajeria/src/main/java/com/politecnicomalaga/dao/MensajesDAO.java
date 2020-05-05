@@ -17,11 +17,10 @@ public class MensajesDAO {
 
     public ArrayList<Mensaje> getMensajes(int idReceptor) throws SQLException {
         ResultSet result = this.conn.read("SELECT m.id, m.titulo, m.cuerpo, m.id_receptor, c.nombre as nombre_remitente FROM mensaje m join credencial c on m.id_remitente = c.id where id_receptor =" + idReceptor);
-        ArrayList<Mensaje> mensajes = new ArrayList<>();
+        listaMensajes = new ArrayList<>();
         while(result.next()) {
-            mensajes.add(new Mensaje(result.getInt("id"), result.getString("titulo"), result.getString("cuerpo"), result.getInt("id_receptor"), result.getString("nombre_remitente")));
+            listaMensajes.add(new Mensaje(result.getInt("id"), result.getString("titulo"), result.getString("cuerpo"), result.getInt("id_receptor"), result.getString("nombre_remitente")));
         }
-        listaMensajes = mensajes;
         return listaMensajes;
     }
 
