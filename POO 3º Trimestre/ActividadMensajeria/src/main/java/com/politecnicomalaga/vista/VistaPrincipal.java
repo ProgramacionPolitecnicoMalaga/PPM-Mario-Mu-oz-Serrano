@@ -33,7 +33,7 @@ public class VistaPrincipal implements Multipanel{
         if (controladorMensajeria.usuarioGuardado()) {
             controladorMensajeria.logearUsuarioGuardado();
             notificarCambio(Multipanel.VISTA_LECTURA);
-        }
+        } else notificarCambio(Multipanel.VISTA_LOGIN);
 
         itemVerMensajes.addActionListener(new ActionListener() {
             @Override
@@ -82,10 +82,14 @@ public class VistaPrincipal implements Multipanel{
         switch (vista) {
             case Multipanel.VISTA_LOGIN:
                 layout.show(panelIntercambio, "login");
+                menuAcciones.setEnabled(false);
+                salirButton.setEnabled(false);
                 break;
             case Multipanel.VISTA_LECTURA:
                 layout.show(panelIntercambio, "lectura");
                 labelBienvenido.setText("Bienvenid@ " + controladorMensajeria.getNombreUsuarioLogeado());
+                menuAcciones.setEnabled(true);
+                salirButton.setEnabled(true);
                 break;
             case Multipanel.VISTA_ENVIO:
                 layout.show(panelIntercambio, "envio");

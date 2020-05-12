@@ -4,8 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.mockito.ArgumentMatchers.intThat;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 public class AccionSensorTest {
 
@@ -26,7 +25,7 @@ public class AccionSensorTest {
         when(matrizSensores.getEstadoSensor(intThat(gruposSensoresMitad))).thenReturn(Sensor.ESTADO_MITAD);
         when(matrizSensores.getEstadoSensor(intThat(grupoSensoresCasiLlenos))).thenReturn(Sensor.ESTADO_CASI_LLENO);
         when(matrizSensores.getEstadoSensor(intThat(grupoSensoresLlenos))).thenReturn(Sensor.ESTADO_LLENO);
-        when(matrizSensores.getEstadoSensor(intThat(grupoSensoresNoIniciados))).thenThrow(IllegalStateException.class);
+        doThrow(IllegalStateException.class).when(matrizSensores).getEstadoSensor(intThat(grupoSensoresNoIniciados));
     }
 
     @Test
