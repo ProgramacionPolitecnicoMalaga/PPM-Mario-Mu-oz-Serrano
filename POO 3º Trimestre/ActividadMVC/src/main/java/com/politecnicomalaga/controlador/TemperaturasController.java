@@ -35,13 +35,11 @@ public class TemperaturasController {
         frameVistaPrincipal.setLocationRelativeTo(null);
         frameVistaPrincipal.setVisible(true);
 
-        Point location = frameVistaPrincipal.getLocationOnScreen();
         frameVistaPromedio = new JFrame("Vista promedio de temperaturas");
         frameVistaPromedio.setContentPane(vistaPromedioTemperaturas.getPanelMain());
         frameVistaPromedio.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         frameVistaPromedio.setPreferredSize(new Dimension(500, 200));
         frameVistaPromedio.setLocationRelativeTo(frameVistaPrincipal);
-        frameVistaPromedio.setLocation(location.x - frameVistaPrincipal.getWidth(), location.y);
         frameVistaPromedio.pack();
         frameVistaPromedio.setVisible(false);
 
@@ -50,16 +48,19 @@ public class TemperaturasController {
         frameVistaCriticas.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         frameVistaCriticas.setPreferredSize(new Dimension(500, 350));
         frameVistaCriticas.setLocationRelativeTo(frameVistaPrincipal);
-        frameVistaCriticas.setLocation(location.x + frameVistaPrincipal.getWidth(), location.y);
         frameVistaCriticas.pack();
         frameVistaCriticas.setVisible(false);
     }
 
     public void mostrarVistaPromedio() {
         frameVistaPromedio.setVisible(true);
+        Point location = frameVistaPrincipal.getLocationOnScreen();
+        frameVistaPromedio.setLocation(location.x - frameVistaPrincipal.getWidth(), location.y);
     }
 
     public void mostrarVistaCriticas() {
         frameVistaCriticas.setVisible(true);
+        Point location = frameVistaPrincipal.getLocationOnScreen();
+        frameVistaCriticas.setLocation(location.x + frameVistaPrincipal.getWidth(), location.y);
     }
 }

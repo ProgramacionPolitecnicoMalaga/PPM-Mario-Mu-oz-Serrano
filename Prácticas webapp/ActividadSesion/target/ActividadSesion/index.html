@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sesión</title>
+    </head>
+    <body>
+        Nombre <input type="text" id="txtNombre" name="nombre"/><br>
+        Edad <input type="number" id="txtEdad" name="edad"/><br>
+        <button id="btnEnviar">Enviar</button>
+        <div id="resultado"></div>
+    </body>
+    <script type="text/javascript">
+        var btnEnviar = document.getElementById("btnEnviar");
+        var txtNombre = document.getElementById("txtNombre");
+        var txtEdad = document.getElementById("txtEdad");
+        var resultado = document.getElementById("resultado");
+
+        btnEnviar.addEventListener("click",function(e){
+            let xhr = new XMLHttpRequest();
+            xhr.open("POST","persona_servlet",true);
+            xhr.onreadystatechange = function(){
+                if ((xhr.readyState == 4) && (xhr.status == 200)) {
+                    resultado.innerHTML = xhr.response;
+                }
+            }
+            xhr.setRequestHeader('Content-type',"application/json; charset=utf-8");
+            xhr.send(JSON.stringify({nombre:txtNombre.value,edad:txtEdad.value}));
+        })
+
+        window.addEventListener("load",function(){
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET","persona_servlet",true);
+            xhr.onreadystatechange = function(){
+                if ((xhr.readyState == 4) && (xhr.status == 200)) {
+                    resultado.innerHTML = xhr.response;
+                }
+            }
+            xhr.send();
+        })
+    </script>
+</html>

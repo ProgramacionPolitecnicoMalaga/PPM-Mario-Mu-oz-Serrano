@@ -13,7 +13,7 @@ public class SensorTemperatura extends SensorTimerTask implements FuenteDeTemper
     private TreeMap<LocalTime, Integer> registroDeTemperaturas;
     private TreeMap<LocalTime, Integer> temperaturasCriticas;
     private int promedioTemperaturas;
-    private final static int UMBRAL_CRITICO = 120;
+    private final static int UMBRAL_CRITICO = 150;
 
     public SensorTemperatura(){
         consumidores = new ArrayList<>();
