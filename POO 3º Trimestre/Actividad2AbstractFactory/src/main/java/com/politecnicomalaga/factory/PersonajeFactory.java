@@ -5,7 +5,7 @@ import com.politecnicomalaga.modelo.villano.Villano;
 import com.politecnicomalaga.modelo.obstáculo.Obstáculo;
 
 public interface PersonajeFactory {
-    public Jugador crearJugador();
-    public Villano crearVillano();
-    public Obstáculo crearObstáculo();
+    Jugador crearJugador();
+    Villano crearVillano();
+    Obstáculo crearObstáculo();
 }

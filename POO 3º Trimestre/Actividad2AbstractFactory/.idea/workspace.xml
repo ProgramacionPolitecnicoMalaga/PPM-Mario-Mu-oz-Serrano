@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="810f3a5a-68c8-4fe0-a713-e427c9183a4c" name="Default Changelist" comment="" />
+    <list default="true" id="810f3a5a-68c8-4fe0-a713-e427c9183a4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/PPM-Mario-Munoz-Serrano.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad1FactoryMethod/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad1FactoryMethod/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1FactoryMethod/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1FactoryMethod/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1FactoryMethod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1FactoryMethod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1FactoryMethod/src/main/java/com/politecnicomalaga/factory_method/ViewerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1FactoryMethod/src/main/java/com/politecnicomalaga/factory_method/ViewerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1FactoryMethod/src/main/resources/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1FactoryMethod/src/main/resources/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Actividad1FactoryMethod/target/classes/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad1FactoryMethod/target/classes/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/factory/PersonajeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/factory/PersonajeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/jugador/Indiana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/jugador/Indiana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/jugador/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/jugador/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/jugador/Patton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/jugador/Patton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/jugador/USSEnterprise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/jugador/USSEnterprise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/villano/Villano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/politecnicomalaga/modelo/villano/Villano.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,26 +34,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="11" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1aWfBt7ldRIlxWK62NJ1QVuvEuJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -72,11 +94,13 @@
       <updated>1586856137206</updated>
       <workItem from="1586856140635" duration="2717000" />
       <workItem from="1586859360724" duration="241000" />
+      <workItem from="1589469463343" duration="810000" />
+      <workItem from="1589475096306" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1586858000886">
@@ -87,22 +111,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586858526699" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586859601795">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1589470273023">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586859601795" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586859601795">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589470273023" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1589470273022">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586859601795" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586859601795">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589470273022" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1589470273022">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586859601795" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586859601795">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589470273022" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1589470273022">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586859601795" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589470273022" />
     <state x="2381" y="162" key="SettingsEditor" timestamp="1586859486038">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
